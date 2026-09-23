@@ -1,0 +1,62 @@
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Source = GSC,Branded,,,,,,,,,
+Last 30 Days,Top 10 KWs,Clicks,Impression,Rank,,,,,,
+,fortinet,"40,100","210,069",1.3,,,,,,
+,fortinet vpn,"5,959","11,019",2,,,,,,
+,fortigate,"5,583","52,155",3.2,,,,,,
+,fortinet careers,"3,869","4,836",1.4,,,,,,
+,fortinet product matrix,"3,391","4,146",2.4,,,,,,
+,fortinet vpn client download,"2,808","3,546",1.3,,,,,,
+,fortinet vpn client,"2,081","3,275",1.5,,,,,,
+,fortigate matrix,"1,914","2,398",1.9,,,,,,
+,fortigate 120g,"1,901","6,232",1.2,,,,,,
+,fortigate 90g,"1,742","6,567",1.3,,,,,,
+,,,,,,,,,,
+Source = GSC,Non-Branded,,,,,,,,,
+Last 30 Days,Top 10 KWs,Clicks,Impression,Rank,,,,,,
+,proxy server,"24,320","1,068,871",4.1,,,,,,
+,proxy,"13,733","7,902,066",6.2,,,,,,
+,hacking,"4,843","61,277",2.4,,,,,,
+,ip address,"2,465","409,950",5.4,,,,,,
+,ai cybersecurity,"1,895","11,278",3.3,,,,,,
+,firewall,"1,663","140,871",3.8,,,,,,
+,proxy server vpn,"1,344","29,853",3.8,,,,,,
+,vpn,"1,097","887,435",9.7,,,,,,
+,spyware,"1,061","60,093",4.4,,,,,,
+,cia triad,909,"24,187",1.6,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Source = SEMrush,Source - SEMrush,,,AIO Overall Traffic,,169.9K,216.6K,46702,27%,
+Time Line = As on Date,Fortinet (Gain),,,17 Aug 2026,24 Aug 2026,17 Aug 2026,24 Aug 2026,change,change %,
+,Keywords,SV,KD,Position,Position,Traffic,Traffic,,,URL
+,what is 5g,673000,76,-,1,0,41590,41590,41590%,https://www.fortinet.com/resources/cyberglossary/what-is-5g
+,what is a dns,550000,77,-,1,0,19096,19096,19096%,https://www.fortinet.com/resources/cyberglossary/what-is-dns
+,radius,90500,78,-,1,0,10439,10439,10439%,https://www.fortinet.com/resources/cyberglossary/radius-protocol
+,what is a data breach,110000,61,-,1,0,6797,6797,6797%,https://www.fortinet.com/resources/cyberglossary/data-breach
+,dns,74000,83,-,1,0,2645,2645,2645%,https://www.fortinet.com/resources/cyberglossary/what-is-dns
+,doxing meaning,27100,59,1,1,28,1674,1646,5879%,https://www.fortinet.com/resources/cyberglossary/doxing
+,fortinet news today,4400,68,1,1,52,1455,1403,2698%,https://www.fortinet.com/corporate/about-us/newsroom
+,what does doxxed mean,22200,42,-,1,0,1371,1371,1371%,https://www.fortinet.com/resources/cyberglossary/doxing
+,eavesdropping,33100,56,1,1,203,1149,946,466%,https://www.fortinet.com/resources/cyberglossary/eavesdropping
+,latency,33100,78,1,1,1183,2045,862,73%,https://www.fortinet.com/resources/cyberglossary/latency
+,Total,,,,,1466,88261,86795,5921%,
+,,,,,,,,,,
+,,,,,,,,,,
+Source = SEMrush,Source - SEMrush,,,AIO Overall Traffic,,239.4K,284.1K,44694,19%,
+Time Line = As on Date,Cisco (Gain),,,17 Aug 2026,24 Aug 2026,17 Aug 2026,24 Aug 2026,change,change %,
+,Keywords,SV,KD,Position,Position,Traffic,Traffic,,,URL
+,virtual private networks,1830000,85,1,1,63537,111190,47653,75%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-virtual-private-network-vpn.html
+,data center,60500,88,-,1,0,2100,2100,2100%,https://www.cisco.com/site/us/en/learn/topics/computing/what-is-a-data-center.html
+,ccna certification,14800,56,-,1,0,1503,1503,1503%,https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html
+,wifi router,1220000,57,1,1,329,1500,1171,356%,https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-wireless-router-wi-fi.html
+,application virtual switch,22200,13,1,1,1249,2118,869,70%,https://blogs.cisco.com/datacenter/introducing-cisco-application-virtual-switch-extending-virtual-networking-to-applications
+,mobility services engine,12100,10,-,1,0,840,840,840%,https://www.cisco.com/c/en/us/support/wireless/mobility-services-engine/series.html
+,cisco certified network administrator,9900,66,1,1,1108,1940,832,75%,https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html
+,cloud connected audio,27100,15,1,1,175,975,800,457%,https://www.cisco.com/c/en/us/products/conferencing/webex-cloud-connected-audio/index.html
+,zettabyte,22200,34,-,1,0,770,770,770%,https://blogs.cisco.com/sp/the-zettabyte-era-officially-begins-how-much-is-that
+,what is cyber security,12100,78,-,1,0,735,735,735%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html
+,Total,,,,,66398,123671,57273,86%,

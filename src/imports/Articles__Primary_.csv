@@ -1,0 +1,90 @@
+,,,,,2026 Wk33,AIO
+,,,,,57,
+,,,,,1,
+,,,,,1,
+,,,,,0,
+,,,,,21,
+,,,,,2,
+,,,,,2,
+,,,,,14,
+,,,,,9,
+,,,,,,
+,,,,,13,
+,,,,,29,
+,,,,,17,
+,,,,,73,
+,,,,,,
+Sno,URLs,Keywords ,SV,KD,2026 Wk33,AIO
+1,https://www.fortinet.com/resources/articles/kinsing-dark-iot-botnet,Kinsing And Dark Iot Botnet,,,1,No
+2,https://www.fortinet.com/resources/articles/sysrv-hello,Sysrv - Hello,0,,1,No
+3,https://www.fortinet.com/resources/articles/top-cloud-security-solutions,Cloud Security Solutions,5400,53,7,No
+4,https://www.fortinet.com/resources/articles/carbine-loader-cryptojacking,Carbine Cryptojacking CampAIgn,,,7,No
+5,https://www.fortinet.com/resources/articles/androxgh0st-the-python-malware-exploiting-your-aws-keys,Androxgh0St – The Python Malware Exploiting Your Aws Keys,,,1,No
+6,https://www.fortinet.com/resources/articles/cybersecurity-incident-management,Cybersecurity Incident Management,20,,1,No
+7,https://www.fortinet.com/resources/articles/dlp-security-checklist,Dlp Security Checklist,,,1,No
+8,https://www.fortinet.com/resources/articles/new-data-breach-rules-for-nonbanking-financial-institutions,New Data Breach Rules For Nonbanking Financial Institutions,,,2,No
+9,https://www.fortinet.com/resources/articles/penalties-for-hipaa-violations-and-noncompliance,Penalties For Hipaa Violations And Noncompliance,,,3,No
+10,https://www.fortinet.com/resources/articles/changes-to-iso-27001-2022,Changes To Iso 27001 2022,,,8,No
+11,https://www.fortinet.com/resources/articles/how-to-conduct-a-hipaa-compliance-audit,How To Conduct A Hipaa Compliance Audit,,,2,No
+12,https://www.fortinet.com/resources/articles/how-to-implement-a-dlp-strategy,How To Implement A Dlp Strategy,,,2,No
+13,https://www.fortinet.com/resources/articles/addressing-bias-insider-risk-monitoring,Addressing Bias Insider Risk Monitoring,,,1,No
+14,https://www.fortinet.com/resources/articles/dlp-software-solution-considerations,Dlp Software Solution Considerations,,,1,No
+15,https://www.fortinet.com/resources/articles/hipaa-compliance-checklist,Hipaa Compliance Checklist,1300,28,3,No
+16,https://www.fortinet.com/resources/articles/hipaa-compliant-telehealth-platforms,Hipaa Compliant Telehealth Platforms,720,36,2,Yes
+17,https://www.fortinet.com/resources/articles/hipaa-compliant-video-conferencing-platforms,Hipaa Compliant Video Conferencing,590,36,1,Yes
+18,https://www.fortinet.com/resources/articles/is-aws-hipaa-compliant,Aws Hipaa Compliance,480,40,2,No
+19,https://www.fortinet.com/resources/articles/is-dropbox-hipaa-compliant,Is Dropbox Hipaa Compliant,590,20,9,No
+20,https://www.fortinet.com/resources/articles/is-google-drive-hipaa-compliant,Is Google Drive Hipaa Compliant,590,30,8,No
+21,https://www.fortinet.com/resources/articles/is-whatsapp-hipaa-compliant,Is Whatsapp Hipaa Compliant,480,11,2,Yes
+22,https://www.fortinet.com/resources/articles/key-benefits-of-effective-endpoint-dlp,Key Benefits Of Effective Endpoint Dlp,,,2,No
+23,https://www.fortinet.com/resources/articles/strategies-to-defend-against-insider-threats,Strategies To Defend AgAInst Insider Threats,,,4,Yes
+24,https://www.fortinet.com/resources/articles/credential-compromise-attacks,Credential Compromise Attacks,,,2,No
+25,https://www.fortinet.com/resources/articles/how-do-i-achieve-cyber-security-compliance,How Do I Achieve Cyber Security Compliance,,,1,No
+26,https://www.fortinet.com/resources/articles/is-microsoft-teams-hipaa-compliant,Is Microsoft Teams Hipaa Compliant,480,15,5,No
+27,https://www.fortinet.com/resources/articles/common-hipaa-violations,Common Hipaa Violations,170,22,3,No
+28,https://www.fortinet.com/resources/articles/cloud-identity-attacks-are-gaining-traction,Cloud Identity Attacks Are GAIning Traction,,,1,No
+29,https://www.fortinet.com/resources/articles/is-gmail-hipaa-compliant,Is GmAIl Hipaa Compliant,720,19,4,No
+30,https://www.fortinet.com/resources/articles/is-google-voice-hipaa-compliant,Is Google Voice Hipaa Compliant,590,14,7,Yes
+31,https://www.fortinet.com/resources/articles/is-slack-hipaa-compliant,Is Slack Hipaa Compliant,320,23,6,No
+32,https://www.fortinet.com/resources/articles/groundhog-botnet,Groundhog Botnet,0,,1,No
+33,https://www.fortinet.com/resources/articles/xz-utils-vulnerability,XZ Utils Vulnerability,50,47,3,No
+34,https://www.fortinet.com/resources/articles/detecting-ai-resource-hijacking-with-composite-alerts,Detecting AI Resource Hijacking With Composite Alerts,,,1,No
+35,https://www.fortinet.com/resources/articles/is-docusign-hipaa-compliant,Is Docusign Hipaa Compliant,480,35,5,No
+36,https://www.fortinet.com/resources/articles/is-efax-hipaa-compliant,Is Efax Hipaa Compliant,140,25,7,No
+37,https://www.fortinet.com/resources/articles/is-facetime-hipaa-compliant,Is Facetime Hipaa Compliant,320,11,7,No
+38,https://www.fortinet.com/resources/articles/how-to-become-hipaa-compliant,How To Become Hipaa Compliant,320,43,3,No
+39,https://www.fortinet.com/resources/articles/how-to-implement-cnapp,Implementing cnapp,,,1,No
+40,https://www.fortinet.com/resources/articles/defending-against-zero-day-and-bot-attacks,defense against zero day attackshow to prevent bot attacks,,,1,No
+41,https://www.fortinet.com/resources/articles/fortiweb-waf-transformed-ecommerce-security,How FortiWeb WAF Transformed E-Commerce Security and Performance,,,1,No
+42,https://www.fortinet.com/resources/articles/reduce-mttr-secops-use-cases,SecOps use cases to reduce MTTR,,,1,No
+43,https://www.fortinet.com/resources/articles/crypto-agility-quantum-readiness,Crypto-Agility For Quantum Readiness,,,1,No
+44,https://www.fortinet.com/resources/articles/automated-ransomware-response,Automated ransomware response playbook,,,1,No
+45,https://www.fortinet.com/resources/articles/post-quantum-cryptography-preparation,post-quantum cryptography plan,,,1,No
+46,https://www.fortinet.com/resources/articles/redis-rush,Redis Rush,0,0,5,No
+47,https://www.fortinet.com/resources/articles/keksec-tsunami-ryuk,Keksec &Tsunami-Ryuk,,,1,Yes
+48,https://www.fortinet.com/resources/articles/watchdog-smuggles-malware,Watchdog Smuggles Malware,,,1,Yes
+49,https://www.fortinet.com/resources/articles/best-cloud-security-providers,Cloud Security Providers,590,30,11,No
+50,https://www.fortinet.com/resources/articles/is-google-meet-hipaa-compliant,Is Google Meet Hipaa Compliant,880,1,2,No
+51,https://www.fortinet.com/resources/articles/steps-to-building-effective-insider-risk-management-program,Steps To Building Effective Insider Risk Management Program,,,28,No
+52,https://www.fortinet.com/resources/articles/hipaa-compliant-cloud-storage-providers,Hipaa Compliant Cloud Storage Providers,10,,6,No
+53,https://www.fortinet.com/resources/articles/is-zoom-hipaa-compliant,Is Zoom Hipaa Compliant,1300,21,5,No
+54,https://www.fortinet.com/resources/cyberglossary/aaa-security,It Security And Segregation Of Duties,,,-,No
+55,https://www.fortinet.com/resources/articles/is-google-docs-hipaa-compliant,Is Google Docs Hipaa Compliant,210,4,5,Yes
+56,https://www.fortinet.com/resources/articles/hipaa-compliance-and-privacy-for-employers,Hipaa Compliance And Privacy For Employers,,,-,No
+57,https://www.fortinet.com/resources/articles/navigating-the-paradox-of-insiders,Taking Teamtnt Docker Images Offline,,,-,No
+58,https://www.fortinet.com/resources/articles/what-is-q-day,what is q-day,,,3,No
+59,https://www.fortinet.com/resources/articles/sase-for-hybrid-workforces,sase implementation,,,-,No
+60,https://www.fortinet.com/resources/articles/steps-to-evaluate-sase-vendors,SASE Vendors,,,-,No
+61,https://www.fortinet.com/resources/articles/how-sase-secures-remote-branch-users,SASE Solutions,,,-,No
+62,https://www.fortinet.com/resources/articles/sase-replaces-vpns,SASE vpn,,,3,Yes
+63,https://www.fortinet.com/resources/articles/protect-aws-workloads,securing aws workloads /aws protection,,,-,No
+64,https://www.fortinet.com/resources/articles/deploying-secops-automation,secops automation,,,-,No
+65,https://www.fortinet.com/resources/articles/what-is-q-day,quantum day,,,-,No
+66,https://www.fortinet.com/resources/articles/secure-containers-kubernetes-multi-cloud,Securing containers and kubernetes,,,-,No
+67,https://www.fortinet.com/resources/articles/automate-security-operations-with-soar,Automating security operations,,,-,No
+68,https://www.fortinet.com/resources/articles/quantum-risk-assessment,quantum risk assessment,,,3,No
+69,https://www.fortinet.com/resources/articles/teamtnt-docker-images,Docker Images,4400,66,-,No
+70,https://www.fortinet.com/resources/articles/aws-credential-compromises-tied-to-grafana-ssrf-attacks,Grafana,33100,97,-,No
+71,https://www.fortinet.com/resources/articles/trends-in-s3-targeting,S3 Targeting,,,2,No
+72,https://www.fortinet.com/resources/articles/big-threats-small-signals,Find Big Cyber Threats With Small Signals,,,-,No
+73,https://www.fortinet.com/resources/articles/leading-ai-security-companies,leading ai security companies,,,7,No

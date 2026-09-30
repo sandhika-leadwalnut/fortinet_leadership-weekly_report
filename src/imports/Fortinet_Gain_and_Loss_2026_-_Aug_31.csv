@@ -1,0 +1,57 @@
+,,,,,,,,,,
+,,,,,,,,,,
+,Direct Traffic,336k,328k,-8.8k,-2.6%,,,,,
+Source = GA,Pages,24 Aug 2026,31 Aug 2026,Change,Change %,,,,,
+Time Line = Last 30 Days,/library/gtm/sase,2960,1674,-1286,-43%,,,,,
+,/library/soc-dgt/global-threat-landscape-report,3977,3103,-874,-22%,,,,,
+,/training-certification,30141,29286,-855,-3%,,,,,
+,/library/gtm/col/884c173d-ca0a-4242-b7f0-e50e852691b5/zero_trust_access_for_dummies,1066,315,-751,-70%,,,,,
+,/library/amer-intl-es-playlist/insights-cyberthreat-es,781,232,-549,-70%,,,,,
+,/corporate/about-us/global-offices,1257,791,-466,-37%,,,,,
+,/nse-training-update,9516,9051,-465,-5%,,,,,
+,/nse-training,3633,3343,-290,-8%,,,,,
+,/library/gtm/OT-Fortinet-vs-PAN,1246,958,-288,-23%,,,,,
+,/blog/threat-research,2751,2475,-276,-10%,,,,,
+,Total ,57328,51228,-6100,-11%,,,,,
+,,,,,,,,,,
+Source = GSC,Branded,,,,,,,,,
+Last 30 Days,Top 10 KWs,Clicks,Impression,Rank,,,,,,
+,fortinet,"39,693","206,265",1.3,,,,,,
+,fortinet vpn,"5,900","10,844",1.8,,,,,,
+,fortigate,"5,591","52,260",3.3,,,,,,
+,fortinet careers,"3,807","4,728",1.5,,,,,,
+,fortinet product matrix,"3,310","4,098",2.4,,,,,,
+,fortinet vpn client download,"2,834","3,561",1.3,,,,,,
+,fortinet vpn client,"1,995","3,131",1.6,,,,,,
+,fortigate matrix,"1,855","2,379",2.2,,,,,,
+,fortigate 120g,"1,852","6,084",1.2,,,,,,
+,fortivpn,"1,697","3,146",1.6,,,,,,
+,,,,,,,,,,
+Source = GSC,Non-Branded,,,,,,,,,
+Last 30 Days,Top 10 KWs,Clicks,Impression,Rank,,,,,,
+,proxy server,"23,710","1,029,292",4.1,,,,,,
+,proxy,"14,009","8,007,265",5.9,,,,,,
+,hacking,"4,899","62,876",2.5,,,,,,
+,ai cybersecurity,"2,468","11,848",3.2,,,,,,
+,ip address,"2,398","410,689",5.3,,,,,,
+,ip,"2,137","1,155,294",6.8,,,,,,
+,firewall,"1,677","138,012",3.8,,,,,,
+,vpn,"1,234","874,277",9.7,,,,,,
+,proxy server vpn,"1,130","29,569",4,,,,,,
+,cia triad,928,"25,439",1.7,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Source = SEMrush,Source - SEMrush,,,AIO Overall Traffic,,216584,175739,-40845,-19%,
+Time Line = As on Date,Fortinet (Gain),,,24 Aug 2026,31 Aug 2026,24 Aug 2026,31 Aug 2026,change,change %,
+,Keywords,SV,KD,Position,Position,Traffic,Traffic,,,URL
+,what is 5g,673000,76,1,-,41590,0,-41590,-41590%,https://www.fortinet.com/resources/cyberglossary/what-is-5g
+,what is a dns,550000,77,1,-,19096,0,-19096,-19096%,https://www.fortinet.com/resources/cyberglossary/what-is-dns
+,what is a data breach,110000,61,1,-,6797,0,-6797,-6797%,https://www.fortinet.com/resources/cyberglossary/data-breach
+,dns,74000,83,1,-,2645,0,-2645,-2645%,https://www.fortinet.com/resources/cyberglossary/what-is-dns
+,latency,33100,78,1,-,2045,0,-2045,-2045%,https://www.fortinet.com/resources/cyberglossary/latency
+,doxing meaning,27100,59,1,-,1674,0,-1674,-1674%,https://www.fortinet.com/resources/cyberglossary/doxing
+,fortinet news today,4400,68,1,1,1455,46,-1409,-97%,https://www.fortinet.com/corporate/about-us/newsroom
+,what does doxxed mean,22200,42,1,-,1371,0,-1371,-1371%,https://www.fortinet.com/resources/cyberglossary/doxing
+,quick response code qr code,33100,77,1,-,1149,0,-1149,-1149%,https://www.fortinet.com/resources/cyberglossary/what-is-a-qr-code
+,dox meaning,27100,56,1,-,940,0,-940,-940%,https://www.fortinet.com/resources/cyberglossary/doxing
+,Total,,,,,78762,46,-78716,-100%,

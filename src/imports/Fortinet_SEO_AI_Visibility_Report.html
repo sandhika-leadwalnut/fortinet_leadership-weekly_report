@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fortinet — SEO & AI Visibility Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #0a0d12;
+    --surface: #131820;
+    --surface-2: #171d27;
+    --line: #232a36;
+    --line-soft: #1a202b;
+    --red: #ee3124;
+    --red-soft: rgba(238,49,36,0.14);
+    --teal: #2dd4bf;
+    --text: #e9edf3;
+    --text-mid: #a7b0bf;
+    --text-dim: #6b7484;
+    --mono: 'IBM Plex Mono', 'Courier New', monospace;
+    --sans: 'Inter', -apple-system, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--sans);
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .grid-backdrop{
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    background-image:
+      linear-gradient(rgba(238,49,36,0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(238,49,36,0.035) 1px, transparent 1px);
+    background-size:42px 42px;
+    -webkit-mask-image: radial-gradient(ellipse 90% 60% at 50% 0%, black 0%, transparent 75%);
+    mask-image: radial-gradient(ellipse 90% 60% at 50% 0%, black 0%, transparent 75%);
+  }
+  .scanline{
+    position:fixed; left:0; right:0; height:120px; z-index:1; pointer-events:none;
+    background:linear-gradient(180deg, transparent, rgba(238,49,36,0.05), transparent);
+    animation:scan 9s linear infinite;
+  }
+  @keyframes scan{ 0%{top:-120px;} 100%{top:100vh;} }
+
+  .wrap{position:relative; z-index:2; max-width:1180px; margin:0 auto; padding:0 28px 100px;}
+
+  .topbar{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 0; border-bottom:1px solid var(--line-soft);
+    position:sticky; top:0; background:rgba(10,13,18,0.92); backdrop-filter:blur(10px);
+    z-index:50;
+  }
+  .brand{display:flex; align-items:center; gap:10px;}
+  .brand-mark{
+    width:30px; height:30px; border-radius:7px; background:var(--red);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--mono); font-weight:700; color:#fff; font-size:14px;
+  }
+  .brand-name{font-family:var(--mono); font-size:13px; letter-spacing:0.06em; color:var(--text-mid); text-transform:uppercase;}
+  .brand-name b{color:var(--text);}
+  .status-chip{
+    display:flex; align-items:center; gap:7px; font-family:var(--mono); font-size:11.5px;
+    color:var(--teal); border:1px solid rgba(45,212,191,0.3); background:rgba(45,212,191,0.08);
+    padding:5px 11px; border-radius:20px; letter-spacing:0.03em;
+  }
+  .status-dot{width:6px; height:6px; border-radius:50%; background:var(--teal); box-shadow:0 0 8px var(--teal); animation:pulse 2s ease-in-out infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.35;}}
+
+  .hero{padding:56px 0 40px; border-bottom:1px solid var(--line-soft);}
+  .eyebrow{
+    font-family:var(--mono); font-size:12px; color:var(--red); letter-spacing:0.12em;
+    text-transform:uppercase; display:flex; align-items:center; gap:10px; margin-bottom:18px;
+  }
+  .eyebrow::before{content:''; width:26px; height:1px; background:var(--red);}
+  h1.hero-title{
+    font-size:clamp(30px, 4.2vw, 46px); font-weight:800; letter-spacing:-0.02em; margin:0 0 14px;
+    line-height:1.08;
+  }
+  h1.hero-title span{color:var(--text-dim); font-weight:600;}
+  .hero-sub{color:var(--text-mid); font-size:15.5px; max-width:640px; margin:0 0 6px;}
+  .hero-range{font-family:var(--mono); font-size:12.5px; color:var(--text-dim); margin-top:10px;}
+
+  .kpi-grid{
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    gap:14px; margin-top:34px;
+  }
+  .kpi-card{
+    background:var(--surface); border:1px solid var(--line); border-radius:12px;
+    padding:18px 18px 14px; position:relative; overflow:hidden;
+  }
+  .kpi-card::before{
+    content:''; position:absolute; top:0; left:0; width:3px; height:100%; background:var(--accent-color, var(--red));
+  }
+  .kpi-label{font-size:11.5px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.06em; font-family:var(--mono); margin-bottom:10px;}
+  .kpi-value{font-size:26px; font-weight:800; letter-spacing:-0.01em; font-family:var(--mono);}
+  .kpi-delta{display:flex; align-items:center; gap:5px; margin-top:8px; font-size:12.5px; font-weight:600;}
+  .kpi-delta.up{color:var(--teal);}
+  .kpi-delta.down{color:var(--red);}
+  .kpi-delta.flat{color:var(--text-dim);}
+  .kpi-spark{margin-top:10px; height:34px;}
+  .kpi-spark svg{display:block; width:100%; height:100%;}
+
+  .section-nav{
+    display:flex; gap:8px; flex-wrap:wrap; padding:22px 0; border-bottom:1px solid var(--line-soft);
+    position:sticky; top:66px; background:rgba(10,13,18,0.95); backdrop-filter:blur(10px); z-index:40;
+  }
+  .nav-pill{
+    font-family:var(--mono); font-size:11.5px; color:var(--text-mid); border:1px solid var(--line);
+    background:var(--surface); padding:7px 13px; border-radius:20px; cursor:pointer; text-decoration:none;
+    white-space:nowrap; transition:all .15s ease;
+  }
+  .nav-pill:hover{color:var(--text); border-color:var(--red); background:var(--red-soft);}
+
+  .section{padding:56px 0; border-bottom:1px solid var(--line-soft); scroll-margin-top:150px;}
+  .section:last-of-type{border-bottom:none;}
+  .section-head{display:flex; align-items:baseline; gap:14px; margin-bottom:8px; flex-wrap:wrap;}
+  .section-index{font-family:var(--mono); color:var(--red); font-size:14px; font-weight:700;}
+  h2.section-title{font-size:24px; font-weight:800; margin:0; letter-spacing:-0.01em;}
+  .section-narrative{color:var(--text-mid); font-size:14.5px; max-width:820px; margin:14px 0 28px; line-height:1.65;}
+
+  .chart-card{
+    background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:22px 22px 18px; margin-bottom:20px;
+  }
+  .chart-card-head{display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; gap:10px; flex-wrap:wrap;}
+  .chart-card-title{font-family:var(--mono); font-size:12px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.05em;}
+  .chart-hint{font-size:11px; color:var(--text-dim); font-family:var(--mono);}
+  .chart-canvas-wrap{position:relative; width:100%;}
+
+  .chart-tooltip{
+    position:absolute; background:#171d27; border:1px solid #2a3140; border-radius:8px;
+    padding:9px 12px; font-size:11.5px; pointer-events:none; z-index:20; min-width:150px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.4);
+  }
+  .tt-week{font-family:var(--mono); font-size:10.5px; color:var(--text-dim); margin-bottom:6px; text-transform:uppercase;}
+  .tt-row{display:flex; align-items:center; gap:6px; margin:3px 0; justify-content:space-between;}
+  .tt-dot{width:8px; height:8px; border-radius:50%; flex-shrink:0;}
+  .tt-name{color:var(--text-mid); flex:1; margin-right:10px; white-space:nowrap;}
+  .tt-val{font-family:var(--mono); font-weight:700; color:var(--text);}
+
+  .legend{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px;}
+  .legend-item{
+    display:flex; align-items:center; gap:6px; font-size:11.5px; color:var(--text-mid);
+    border:1px solid var(--line-soft); background:var(--surface-2); padding:5px 10px; border-radius:16px;
+    cursor:pointer; user-select:none; transition:opacity .15s;
+  }
+  .legend-item.off{opacity:0.35;}
+  .legend-dot{width:9px; height:9px; border-radius:50%; flex-shrink:0;}
+
+  .stat-grid{
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(190px,1fr)); gap:10px; margin-top:4px;
+  }
+  .stat-mini{
+    background:var(--surface-2); border:1px solid var(--line-soft); border-radius:10px; padding:12px 14px;
+  }
+  .stat-mini-name{font-size:12px; color:var(--text-mid); margin-bottom:6px; font-weight:500;}
+  .stat-mini-row{display:flex; align-items:baseline; justify-content:space-between; gap:8px;}
+  .stat-mini-val{font-family:var(--mono); font-weight:700; font-size:15.5px;}
+  .stat-mini-delta{font-family:var(--mono); font-size:11.5px; font-weight:600;}
+  .stat-mini-delta.up{color:var(--teal);}
+  .stat-mini-delta.down{color:var(--red);}
+  .stat-mini-delta.flat{color:var(--text-dim);}
+  .stat-mini-base{font-size:10.5px; color:var(--text-dim); margin-top:4px;}
+
+  .cwv-grid{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+  .cwv-card{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:20px;}
+  .cwv-card h4{margin:0 0 12px; font-family:var(--mono); font-size:12px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.05em;}
+  .cwv-dots{display:flex; flex-wrap:wrap; gap:6px;}
+  .cwv-dot{width:20px; height:20px; border-radius:5px; background:rgba(238,49,36,0.18); border:1px solid rgba(238,49,36,0.4); position:relative;}
+  .cwv-dot.pass{background:rgba(45,212,191,0.18); border-color:rgba(45,212,191,0.5);}
+  .cwv-banner{
+    display:flex; align-items:center; gap:10px; background:var(--red-soft); border:1px solid rgba(238,49,36,0.35);
+    border-radius:10px; padding:12px 16px; margin-bottom:18px; font-size:13.5px; color:#ffc7c2;
+  }
+  .cwv-banner b{color:#fff;}
+
+  footer{padding:36px 0 10px; text-align:center; color:var(--text-dim); font-family:var(--mono); font-size:11.5px;}
+
+  @media (max-width:640px){
+    .wrap{padding:0 16px 80px;}
+    .cwv-grid{grid-template-columns:1fr;}
+    .section-nav{top:60px;}
+  }
+</style>
+</head>
+<body>
+<div class="grid-backdrop"></div>
+<div class="scanline"></div>
+
+<div class="wrap">
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-mark">F</div>
+      <div class="brand-name"><b>FORTINET</b> · SEO Intelligence</div>
+    </div>
+    <div class="status-chip"><span class="status-dot"></span>29 WEEKS TRACKED</div>
+  </div>
+
+  <div class="hero">
+    <div class="eyebrow">Weekly Performance Report</div>
+    <h1 class="hero-title">SEO &amp; AI Visibility <span>Walkthrough</span></h1>
+    <p class="hero-sub">A week-over-week read on Fortinet's organic search, Bing, technical health, and AI-assistant visibility — Jan 5 through Jul 20, 2026, benchmarked against the December 2025 baseline.</p>
+    <div class="hero-range">JAN 05, 2026 → JUL 20, 2026 · 29 DATA POINTS</div>
+
+    <div class="kpi-grid" id="kpi-grid"></div>
+  </div>
+
+  <div class="section-nav" id="section-nav"></div>
+
+  <div id="sections-root"></div>
+
+  <footer>LeadWalnut × Fortinet — Generated from weekly tracking data. Figures reflect Ahrefs, GSC, Bing Webmaster Tools, SEMrush &amp; AI-visibility trackers.</footer>
+</div>
+
+<script id="data-blob" type="application/json">{"weeks": ["Jan 05", "Jan 12", "Jan 19", "Jan 26", "Feb 02", "Feb 09", "Feb 16", "Feb 23", "Mar 02", "Mar 09", "Mar 16", "Mar 23", "Mar 30", "Apr 06", "Apr 13", "Apr 20", "Apr 27", "May 04", "May 11", "May 18", "May 25", "Jun 01", "Jun 08", "Jun 15", "Jun 22", "Jun 29", "Jul 06", "Jul 13", "Jul 20"], "sections": [{"title": "Ranking Insights \u2014 Overall Keywords", "metrics": [{"baseline": 6085.0, "avg6mo": 6608.833333, "goal": 7269.716667, "name": "Position 1", "values": [6150.0, 6333.0, 6304.0, 6415.0, 6420.0, 6527.0, 6556.0, 6646.0, 6731.0, 6858.0, 7018.0, 7112.0, 7167.0, 7276.0, 7326.0, 7348.0, 7393.0, 7664.0, 7778.0, 7839.0, 7802.0, 7764.0, 7660.0, 7460.0, 7342.0, 7125.0, 6985.0, 6995.0, 7114.0]}, {"baseline": 10662.0, "avg6mo": 10546.83333, "goal": 11601.51667, "name": "Position 2-3", "values": [10895.0, 11306.0, 11256.0, 11549.0, 11559.0, 11679.0, 11702.0, 11861.0, 12064.0, 12198.0, 12406.0, 12693.0, 12759.0, 12751.0, 12763.0, 12651.0, 12539.0, 12825.0, 12788.0, 12704.0, 12601.0, 12523.0, 12256.0, 12058.0, 11804.0, 11606.0, 11474.0, 11579.0, 11687.0]}, {"baseline": 24936.0, "avg6mo": 24013.5, "goal": 26414.85, "name": "Position 4-10", "values": [25493.0, 26533.0, 26588.0, 27182.0, 27154.0, 27328.0, 27407.0, 27584.0, 28173.0, 28314.0, 28492.0, 28941.0, 28865.0, 28963.0, 28679.0, 28146.0, 27536.0, 28001.0, 27589.0, 27177.0, 26736.0, 26353.0, 25705.0, 25301.0, 25026.0, 24836.0, 24779.0, 24969.0, 25374.0]}, {"baseline": 41683, "avg6mo": 41169.16667, "goal": 45286.08333, "name": "Total Keywords on Page 1", "values": [42538, 44172.0, 44148, 45146, 45133, 45534, 45665, 46091, 46968, 47370, 47916, 48746, 48791, 48990, 48768, 48145, 47468, 48490, 48155, 47720, 47139, 46640, 45621, 44819, 44172, 43567, 43238, 43543, 44175]}, {"baseline": 299682.0, "avg6mo": 296905.6667, "goal": null, "name": "Overall Number of Keywords", "values": [302709.0, 320794.0, 323828.0, 333440.0, 337417.0, 344976.0, 350110.0, 358142.0, 362385.0, 360571.0, 347040.0, 339512.0, 332066.0, 325415.0, 314344.0, 304752.0, 303161.0, 322468.0, 336375.0, 336022.0, 322906.0, 312037.0, 293211.0, 274707.0, 250346.0, 224080.0, 205927.0, 202621.0, 203783.0]}]}, {"title": "Ranking Insights \u2014 Cyberglossary (Priority Keywords)", "metrics": [{"baseline": 90.0, "avg6mo": 80.0, "goal": 88, "name": "Position 1", "values": [97.0, 95.0, 137.0, 110.0, 109.0, 116.0, 115.0, 106.0, 109.0, 106.0, 104.0, 114.0, 107.0, 118.0, 117.0, 120.0, 123.0, 124.0, 126.0, 129.0, 135.0, 130.0, 128.0, 130.0, 114.0, 119.0, 115.0, 122.0, null]}, {"baseline": 112.0, "avg6mo": 113.0, "goal": 124.3, "name": "Position 2-3", "values": [109.0, 119.0, 86.0, 110.0, 109.0, 92.0, 112.0, 139.0, 122.0, 132.0, 143.0, 140.0, 141.0, 148.0, 168.0, 148.0, 157.0, 128.0, 147.0, 131.0, 126.0, 115.0, 112.0, 106.0, 117.0, 112.0, 102.0, 107.0, null]}, {"baseline": 200.0, "avg6mo": 251.0, "goal": 276.1, "name": "Position 4-10", "values": [199.0, 175.0, 170.0, 192.0, 206.0, 205.0, 221.0, 225.0, 247.0, 243.0, 245.0, 233.0, 227.0, 216.0, 208.0, 194.0, 177.0, 196.0, 169.0, 175.0, 185.0, 190.0, 183.0, 187.0, 182.0, 196.0, 199.0, 184.0, null]}, {"baseline": 402, "avg6mo": 444.0, "goal": 488.4, "name": "Total Keywords on Page 1", "values": [405, 389, 393, 412, 424, 413, 448, 470, 478, 481, 492, 487, 475, 482, 493, 462, 457, 448, 442, 435, 446, 435, 423, 423, 413, 427, 416, 413, null]}, {"baseline": 497.0, "avg6mo": 540.0, "goal": 540.0, "name": "Overall Number of Keywords", "values": [497.0, 497.0, 497.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, 540.0, null]}, {"baseline": 103.0, "avg6mo": 129.0, "goal": null, "name": "Keywords in AI Overview", "values": [118.0, 107.0, 126.0, 141.0, 154.0, 141.0, 144.0, 153.0, 134.0, 148.0, 142.0, 142.0, 149.0, 173.0, 188.0, 197.0, 208.0, 212.0, 210.0, 224.0, 210.0, 195.0, 206.0, 199.0, 220.0, 217.0, 215.0, 210.0, null]}, {"baseline": null, "avg6mo": null, "goal": null, "name": "Keywords without Ranking", "values": [8.0, 9.0, 9.0, 9.0, 9.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 5.0, 4.0, 5.0, 5.0, 6.0, 6.0, 6.0, 7.0, 6.0, 7.0, 7.0, 7.0, 8.0, 10.0, 7.0, 7.0, 7.0, null]}]}, {"title": "Ranking Insights \u2014 Articles (Priority Keywords)", "metrics": [{"baseline": null, "avg6mo": null, "goal": null, "name": "Position 1", "values": [null, null, 26.0, 24.0, 23.0, 24.0, 25.0, 26.0, 31.0, 30.0, 32.0, 33.0, 35.0, 29.0, 30.0, 32.0, 32.0, 31.0, 31.0, 30.0, 28.0, 30.0, 26.0, 28.0, 24.0, 27.0, 27.0, 34.0, null]}, {"baseline": null, "avg6mo": null, "goal": null, "name": "Position 2-3", "values": [null, null, 8.0, 10.0, 10.0, 7.0, 12.0, 9.0, 8.0, 10.0, 11.0, 12.0, 12.0, 17.0, 13.0, 13.0, 14.0, 14.0, 13.0, 13.0, 12.0, 10.0, 18.0, 14.0, 15.0, 14.0, 15.0, 14.0, null]}, {"baseline": null, "avg6mo": null, "goal": null, "name": "Position 4-10", "values": [null, null, 12.0, 12.0, 14.0, 16.0, 9.0, 11.0, 7.0, 8.0, 5.0, 15.0, 12.0, 13.0, 15.0, 9.0, 13.0, 13.0, 11.0, 13.0, 15.0, 17.0, 13.0, 12.0, 18.0, 17.0, 16.0, 9.0, null]}, {"baseline": null, "avg6mo": null, "goal": null, "name": "Total Keywords on Page 1", "values": [null, null, 46, 46, 47, 47, 46, 46, 46, 48, 48, 60, 59, 59, 58, 54, 59, 58, 55, 56, 55, 57, 57, 54, 57, 58, 58, 57, null]}, {"baseline": null, "avg6mo": null, "goal": null, "name": "Overall Number of Keywords", "values": [null, null, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 68.0, 71.0, 72.0, 72.0, 72.0, 72.0, 73.0, 73.0, 73.0, 73.0, 73.0, 73.0, 73.0, 73.0, 73.0, 73.0, 73.0, 73.0, null]}, {"baseline": null, "avg6mo": null, "goal": null, "name": "Keywords in AI Overview", "values": [null, null, 7.0, 7.0, 9.0, 9.0, 8.0, 10.0, 10.0, 10.0, 9.0, 9.0, 10.0, 10.0, 11.0, 12.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 12.0, 13.0, 13.0, 10.0, 11.0, 12.0, null]}, {"baseline": null, "avg6mo": null, "goal": null, "name": "Keywords without Ranking", "values": [null, null, 5.0, 5.0, 4.0, 5.0, 5.0, 5.0, 6.0, 5.0, 16.0, 7.0, 10.0, 11.0, 13.0, 13.0, 14.0, 13.0, 13.0, 13.0, 15.0, 14.0, 14.0, 18.0, 15.0, 13.0, 13.0, 13.0, null]}]}, {"title": "Ranking Insights \u2014 Cyberglossary (Overall Keywords)", "metrics": [{"baseline": 4485.0, "avg6mo": 4951.833333, "goal": 5447.016667, "name": "Position 1", "values": [4510.0, 4603.0, 4573.0, 4627.0, 4620.0, 4691.0, 4721.0, 4787.0, 4878.0, 4963.0, 5055.0, 5129.0, 5190.0, 5295.0, 5352.0, 5390.0, 5435.0, 5630.0, 5723.0, 5789.0, 5769.0, 5719.0, 5652.0, 5507.0, 5415.0, 5247.0, 5141.0, 5132.0, 5217.0]}, {"baseline": 8261.0, "avg6mo": 8140.833333, "goal": 8954.916667, "name": "Position 2-3", "values": [8440.0, 8712.0, 8686.0, 8859.0, 8859.0, 8913.0, 8911.0, 9010.0, 9151.0, 9214.0, 9285.0, 9518.0, 9624.0, 9639.0, 9694.0, 9636.0, 9581.0, 9783.0, 9774.0, 9714.0, 9647.0, 9587.0, 9414.0, 9302.0, 9183.0, 9096.0, 9038.0, 9144.0, 9204.0]}, {"baseline": 16689.0, "avg6mo": 16230.5, "goal": 17853.55, "name": "Position 4-10", "values": [16989.0, 17571.0, 17525.0, 17826.0, 17810.0, 17833.0, 17895.0, 18006.0, 18463.0, 18547.0, 18746.0, 19212.0, 19304.0, 19518.0, 19407.0, 19029.0, 18653.0, 18914.0, 18622.0, 18373.0, 18218.0, 18063.0, 17819.0, 17803.0, 17913.0, 18053.0, 18205.0, 18386.0, 18698.0]}, {"baseline": 29435, "avg6mo": 29323.16667, "goal": 32255.48333, "name": "Total Keywords on Page 1", "values": [29939, 30886.0, 30784, 31312, 31289, 31437, 31527, 31803, 32492, 32724, 33086, 33859, 34118, 34452, 34453, 34055, 33669, 34327, 34119, 33876, 33634, 33369, 32885, 32612, 32511, 32396, 32384, 32662, 33119]}, {"baseline": 129861.0, "avg6mo": 128391.6667, "goal": null, "name": "Overall Number of Keywords", "values": [130793.0, 139024.0, 139867.0, 143455.0, 142913.0, 146825.0, 149056.0, 153133.0, 159119.0, 159053.0, 149629.0, 146386.0, 142858.0, 140998.0, 136636.0, 132971.0, 130164.0, 135893.0, 142269.0, 144141.0, 143055.0, 141128.0, 136719.0, 133343.0, 129224.0, 123511.0, 120054.0, 119941.0, 120257.0]}]}, {"title": "Ranking Insights \u2014 Bing (Overall Keywords)", "metrics": [{"baseline": 7.0, "avg6mo": 4.833333333, "goal": 7.7, "name": "Position 1", "values": [6.0, 3.0, 3.0, 4.0, 4.0, 6.0, 7.0, 6.0, 8.0, 7.0, 10.0, 9.0, 9.0, 12.0, 8.0, 11.0, 8.0, 6.0, 9.0, 9.0, 11.0, 15.0, 13.0, 14.0, 12.0, 9.0, 7.0, 4.0, 5.0]}, {"baseline": 32.0, "avg6mo": 19.66666667, "goal": 35.2, "name": "Position 2-3", "values": [32.0, 36.0, 43.0, 42.0, 44.0, 44.0, 41.0, 41.0, 37.0, 40.0, 42.0, 51.0, 53.0, 51.0, 55.0, 53.0, 50.0, 54.0, 52.0, 48.0, 56.0, 67.0, 96.0, 115.0, 151.0, 176.0, 188.0, 203.0, 229.0]}, {"baseline": 481.0, "avg6mo": 253.8333333, "goal": 529.1, "name": "Position 4-10", "values": [531.0, 518.0, 527.0, 502.0, 409.0, 432.0, 402.0, 433.0, 420.0, 437.0, 437.0, 431.0, 441.0, 452.0, 440.0, 436.0, 434.0, 427.0, 423.0, 389.0, 395.0, 412.0, 370.0, 323.0, 290.0, 301.0, 285.0, 239.0, 238.0]}, {"baseline": 520, "avg6mo": 278.3333333, "goal": 572, "name": "Total Keywords on Page 1", "values": [569, 557.0, 573, 548, 457, 482, 450, 480, 465, 484, 489, 491, 503, 515, 503, 500, 492, 487, 484, 446, 462, 494, 479, 452, 453, 486, 480, 446, 472]}, {"baseline": 654.0, "avg6mo": 420.3333333, "goal": null, "name": "Overall Number of Keywords", "values": [717.0, 700.0, 706.0, 657.0, 540.0, 559.0, 518.0, 571.0, 553.0, 588.0, 597.0, 591.0, 594.0, 603.0, 587.0, 574.0, 563.0, 561.0, 555.0, 512.0, 530.0, 556.0, 537.0, 514.0, 511.0, 534.0, 522.0, 474.0, 510.0]}]}, {"title": "Traffic Growth", "metrics": [{"baseline": 495152.0, "avg6mo": 566174, "goal": null, "name": "Organic Traffic", "values": [430991.0, 414968.0, 414996.0, 450615.0, 517274.0, 539821.0, 564227.0, 566134.0, 571160.0, 569794.0, 568574.0, 565939.0, 551709.0, 528054.0, 516602.0, 526155.0, 532538.0, 529687.0, 529380.0, 526774.0, 522170.0, 515977.0, 532635.0, 529962.0, 530611.0, 528387.0, 507386.0, 490883.0, 476942.0]}, {"baseline": 618095.0, "avg6mo": 569750.5, "goal": null, "name": "Direct Traffic", "values": [593969.0, 522289.0, 400468.0, 409107.0, 450999.0, 480709.0, 480873.0, 507883.0, 495534.0, 471325.0, 471408.0, 444249.0, 511320.0, 551352.0, 534017.0, 554683.0, 534972.0, 504439.0, 525313.0, 542472.0, 563927.0, 619264.0, 697709.0, 748677.0, 759372.0, 733154.0, 639963.0, 573000.0, 482555.0]}, {"baseline": 1240909.0, "avg6mo": 1267351.333, "goal": null, "name": "Overall Traffic", "values": [1149765.0, 1055535.0, 919781.0, 964945.0, 1088428.0, 1154408.0, 1190288.0, 1211747.0, 1223983.0, 1198427.0, 1215084.0, 1195555.0, 1229192.0, 1239668.0, 1207559.0, 1242001.0, 1242053.0, 1240822.0, 1290202.0, 1320330.0, 1319296.0, 1382024.0, 1475675.0, 1530742.0, 1533493.0, 1498226.0, 1378851.0, 1246054.0, 1152134.0]}, {"baseline": 115244.0, "avg6mo": 162935.3333, "goal": 187375.6333, "name": "Cyberglossary Organic Traffic", "values": [101932.0, 97771.0, 98251.0, 108541.0, 122296.0, 132078.0, 139016.0, 141132.0, 144043.0, 142229.0, 133093.0, 131435.0, 126955.0, 122919.0, 121664.0, 121841.0, 121615.0, 120615.0, 118835.0, 114354.0, 109189.0, 103462.0, 102030.0, 100570.0, 99869.0, 99670.0, 95521.0, 90904.0, 90103.0]}, {"baseline": 246024.0, "avg6mo": 310844.5, "goal": null, "name": "Products Organic Traffic", "values": [220413.0, 216043.0, 216683.0, 237270.0, 272441.0, 284799.0, 294588.0, 294308.0, 290243.0, 288864.0, 287594.0, 282870.0, 275826.0, 265240.0, 258296.0, 256324.0, 261082.0, 257137.0, 257496.0, 256712.0, 254682.0, 246296.0, 247798.0, 247075.0, 247556.0, 254061.0, 248395.0, 245411.0, 247338.0]}, {"baseline": 12900.0, "avg6mo": 14830.66667, "goal": null, "name": "Blog Organic Traffic", "values": [15553.0, 10967.0, 10814.0, 12813.0, 16963.0, 18338.0, 19259.0, 19391.0, 15901.0, 14578.0, 14212.0, 14253.0, 13668.0, 13096.0, 12682.0, 12269.0, 13178.0, 13061.0, 12635.0, 12421.0, 11349.0, 10706.0, 10959.0, 10973.0, 12452.0, 18022.0, 19456.0, 19994.0, 19664.0]}, {"baseline": 188357.0, "avg6mo": 211658.8333, "goal": null, "name": "International Pages Organic Traffic", "values": [159928.0, 156027.0, 155333.0, 170861.0, 199553.0, 207668.0, 218957.0, 218604.0, 220641.0, 220069.0, 220422.0, 222208.0, 221912.0, 209503.0, 205372.0, 210288.0, 212119.0, 213020.0, 214739.0, 211927.0, 213375.0, 214232.0, 220618.0, 216472.0, 211581.0, 204150.0, 193027.0, 183698.0, 174465.0]}, {"baseline": 0.08, "avg6mo": 0.145, "goal": null, "name": "Branded Traffic %", "values": [0.1, 0.11, 0.1, 0.1, 0.11, 0.08, 0.09, 0.08, 0.08, 0.08, 0.06, 0.07, 0.07, 0.06, 0.07, 0.08, 0.08, 0.09, 0.089, 0.071, 0.071, 0.054, 0.034, 0.051, 0.058, 0.073, 0.048, 0.045, 0.041]}]}, {"title": "GSC Click Growth", "metrics": [{"baseline": 1300310.0, "avg6mo": 1546824.5, "goal": null, "name": "GSC Clicks", "values": [1114378.0, 1087867.0, 1094561.0, 1230581.0, 1434750.0, 1520156.0, 1566177.0, 1547653.0, 1537541.0, 1526059.0, 1519866.0, 1530037.0, 1515668.0, 1463086.0, 1431752.0, 1436285.0, 1441803.0, 1419859.0, 1436163.0, 1415590.0, 1395020.0, 1357827.0, 1353942.0, 1334552.0, 1318257.0, 1330611.0, 1313822.0, 1282843.0, 1263057.0]}, {"baseline": 133106804.0, "avg6mo": 123198838.5, "goal": null, "name": "GSC Impressions", "values": [126640088.0, 127503271.0, 133567604.0, 141281165.0, 153998778.0, 176183803.0, 226977312.0, 271186433.0, 303299943.0, 306125007.0, 269695094.0, 227042809.0, 218208965.0, 226460284.0, 235138075.0, 234385175.0, 222082556.0, 197258815.0, 187405130.0, 186205305.0, 184153586.0, 177968118.0, 166738463.0, 163244871.0, 162278926.0, 166379722.0, 165325825.0, 159260640.0, 158617419.0]}, {"baseline": 0.01, "avg6mo": 0.013, "goal": null, "name": "GSC CTR %", "values": [0.009, 0.009, 0.008, 0.009, 0.009, 0.009, 0.007, 0.006, 0.005, 0.005, 0.006, 0.007, 0.007, 0.006, 0.006, 0.006, 0.006, 0.007, 0.008, 0.008, 0.008, 0.008, 0.008, 0.008, 0.008, 0.008, 0.008, 0.008, 0.008]}, {"baseline": 9.1, "avg6mo": 11.0, "goal": null, "name": "GSC Avg. Position", "values": [9.2, 9.2, 9.1, 9.0, 9.0, 8.6, 7.9, 7.1, 6.7, 6.4, 6.2, 6.3, 6.2, 6.0, 6.0, 6.0, 6.2, 6.5, 6.9, 7.2, 7.3, 7.3, 7.1, 7.0, 7.1, 7.1, 7.2, 7.2, 6.9]}]}, {"title": "Bing Traffic Growth", "metrics": [{"baseline": 10903.0, "avg6mo": 14036, "goal": null, "name": "Bing Organic Traffic", "values": [9174.0, 8794.0, 9180.0, 10767.0, 12844.0, 13726.0, 14242.0, 13956.0, 13459.0, 13157.0, 12643.0, 12278.0, 11371.0, 10683.0, 10148.0, 9810.0, 9716.0, 9625.0, 9754.0, 9728.0, 9865.0, 9658.0, 9894.0, 10141.0, 9730.0, 9866.0, 9002.0, 8375.0, 8264.0]}, {"baseline": 402135.0, "avg6mo": 466764, "goal": null, "name": "Bing Clicks", "values": [340661.0, 331951.0, 330432.0, 374313.0, 426013.0, 477132.0, 486755.0, 483231.0, 467786.0, 455760.0, 442214.0, 429822.0, 420676.0, 400284.0, 387473.0, 386987.0, 391302.0, 380531.0, 377581.0, 342749.0, 367859.0, 359116.0, 369350.0, 365855.0, 362155.0, 379077.0, 378800.0, 373848.0, 374903.0]}, {"baseline": 8615927.0, "avg6mo": 9935524.833, "goal": null, "name": "Bing Impressions", "values": [7557717.0, 7222257.0, 7002270.0, 7743885.0, 8144444.0, 9190464.0, 9356869.0, 9425099.0, 9202165.0, 9046146.0, 8766903.0, 8488443.0, 8451931.0, 8212060.0, 8028294.0, 8090654.0, 8107108.0, 7936154.0, 7969826.0, 7283069.0, 7605763.0, 7045407.0, 6857695.0, 6338973.0, 6021076.0, 6731594.0, 6966036.0, 6749712.0, 6722862.0]}, {"baseline": 0.0467, "avg6mo": 0.047, "goal": null, "name": "Bing CTR %", "values": [0.0451, 0.046, 0.0472, 0.0483, 0.0523, 0.0519, 0.052, 0.0513, 0.0508, 0.0504, 0.0504, 0.0506, 0.0498, 0.0487, 0.0483, 0.0478, 0.0483, 0.0479, 0.0474, 0.0471, 0.0486, 0.051, 0.0539, 0.0577, 0.0601, 0.0563, 0.0544, 0.0554, 0.0558]}, {"baseline": 9.13, "avg6mo": 11.4, "goal": null, "name": "Bing Avg. Position", "values": [8.7, 8.9, 8.7, 8.0, 7.9, 7.5, 7.2, 7.9, 7.7, 7.8, 7.9, 7.9, 7.8, 7.6, 7.5, 7.3, 7.7, 8.2, 8.0, 7.8, 8.4, 7.6, 7.3, 7.9, 7.3, 6.6, 6.6, 5.6, 5.3]}]}, {"title": "Featured Snippets", "metrics": [{"baseline": 287.0, "avg6mo": 496.3333333, "goal": null, "name": "Featured Snippets Won", "values": [278.0, 316.0, 329.0, 361.0, 359.0, 363.0, 380.0, 396.0, 385.0, 373.0, 335.0, 290.0, 246.0, 204.0, 168.0, 133.0, 112.0, 112.0, 113.0, 114.0, 109.0, 113.0, 119.0, 115.0, 119.0, 122.0, 127.0, 131.0, 148.0]}]}, {"title": "Website Performance Score", "metrics": [{"baseline": 68.0, "avg6mo": 64.0, "goal": null, "name": "Desktop Score", "values": [53.0, 51.0, 52.0, 52.0, 55.0, 55.0, 57.0, 57.0, 57.0, 55.0, 60.0, 81.0, 58.0, 57.0, 65.0, 53.0, 46.0, 51.0, 49.0, 60.0, 57.0, 57.0, 54.0, 56.0, 61.0, 54.0, 56.0, 57.0, 59.0]}, {"baseline": 48.0, "avg6mo": 47.0, "goal": null, "name": "Mobile Score", "values": [45.0, 36.0, 37.0, 38.0, 38.0, 39.0, 43.0, 63.0, 37.0, 37.0, 40.0, 54.0, 49.0, 49.0, 52.0, 30.0, 34.0, 31.0, 34.0, 32.0, 33.0, 39.0, 38.0, 58.0, 55.0, 53.0, 53.0, 60.0, 33.0]}]}, {"title": "Search-Generated Engagement (AI Overviews)", "metrics": [{"baseline": 13887.0, "avg6mo": 12282.5, "goal": null, "name": "AI Overview Keywords Ranked (SEMrush)", "values": [14406.0, 15214.0, 15704.0, 16613.0, 16395.0, 16011.0, 16007.0, 16358.0, 16503.0, 16666.0, 17017.0, 17326.0, 18301.0, 19437.0, 20937.0, 22079.0, 23102.0, 24619.0, 25671.0, 26350.0, 25890.0, 25687.0, 25291.0, 24852.0, 24452.0, 23405.0, 22905.0, 22811.0, 22917.0]}, {"baseline": 269736.0, "avg6mo": 113889.3333, "goal": null, "name": "AI Overview Traffic (SEMrush)", "values": [122187.0, 139181.0, 138873.0, 103997.0, 190645.0, 220998.0, 223466.0, 314305.0, 207640.0, 202913.0, 286998.0, 198229.0, 357729.0, 409209.0, 238879.0, 215327.0, 287261.0, 335801.0, 233658.0, 224348.0, 194885.0, 185331.0, 321632.0, 299290.0, 265895.0, 216261.0, 216625.0, 347178.0, 415532.0]}, {"baseline": 10919.0, "avg6mo": 8314, "goal": null, "name": "AI Overview Keywords Ranked (Ahrefs)", "values": [11362.0, 11522.0, 11636.0, 11595.0, 11594.0, 11506.0, 10988.0, 11230.0, 11421.0, 11652.0, 11875.0, 12176.0, 12721.0, 13086.0, 13059.0, 12398.0, 12479.0, 11553.0, 10922.0, 10497.0, 10181.0, 9824.0, 11968.0, 14420.0, 16251.0, 19315.0, 19154.0, 18621.0, 18286.0]}, {"baseline": 8862.0, "avg6mo": 12391.16667, "goal": null, "name": "ChatGPT Citations", "values": [7602.0, 7072.0, 6772.0, 7370.0, 8593.0, 9198.0, 9384.0, 9390.0, 9291.0, 9128.0, 8739.0, 8689.0, 8620.0, 8047.0, 7940.0, 7602.0, 7669.0, 7378.0, 8024.0, 9488.0, 11188.0, 12584.0, 13018.0, 12318.0, 11465.0, 10859.0, 10669.0, 9948.0, 9592.0]}, {"baseline": 1097.0, "avg6mo": 1559.833333, "goal": null, "name": "Perplexity Citations", "values": [957.0, 800.0, 707.0, 703.0, 806.0, 837.0, 883.0, 860.0, 788.0, 787.0, 781.0, 806.0, 855.0, 849.0, 845.0, 880.0, 944.0, 951.0, 904.0, 826.0, 743.0, 638.0, 600.0, 572.0, 525.0, 460.0, 432.0, 379.0, 329.0]}, {"baseline": 1237.0, "avg6mo": 932.8333333, "goal": null, "name": "Gemini Citations", "values": [1130.0, 1199.0, 1291.0, 1435.0, 1664.0, 1796.0, 1869.0, 1833.0, 1842.0, 1781.0, 1793.0, 1929.0, 1936.0, 1935.0, 1993.0, 2040.0, 2098.0, 2080.0, 1983.0, 1870.0, 1707.0, 1573.0, 1526.0, 1514.0, 1484.0, 1514.0, 1548.0, 1562.0, 1544.0]}, {"baseline": 179.0, "avg6mo": 180.8333333, "goal": null, "name": "Claude Citations", "values": [156.0, 136.0, 140.0, 196.0, 230.0, 233.0, 265.0, 248.0, 270.0, 353.0, 413.0, 477.0, 486.0, 458.0, 396.0, 364.0, 392.0, 400.0, 419.0, 402.0, 520.0, 533.0, 556.0, 574.0, 489.0, 403.0, 370.0, 337.0, 316.0]}]}, {"title": "Bing AI Performance", "metrics": [{"baseline": null, "avg6mo": null, "goal": null, "name": "Citations", "values": [395413.0, 802010.0, 821598.0, 832545.0, 791190.0, 823856.0, 863846.0, 853088.0, 913715.0, 943126.0, 959546.0, 885877.0, 891361.0, 759678.0, 788809.0, 796044.0, 919624.0, 791000.0, 807103.0, 813885.0, 790721.0, 471404.0, 871584.0, 934761.0, 937931.0, 905447.0, 876845.0, 873570.0, 842596.0]}, {"baseline": null, "avg6mo": null, "goal": null, "name": "Cited Pages", "values": [6004.0, 9529.0, 9826.0, 10246.0, 9465.0, 9046.0, 9369.0, 9267.0, 9548.0, 9505.0, 9416.0, 9098.0, 9072.0, 8074.0, 7701.0, 7902.0, 8352.0, 7215.0, 7290.0, 7146.0, 6763.0, 5569.0, 5630.0, 6601.0, 6778.0, 7090.0, 7041.0, 7407.0, 6468.0]}]}], "core_web_vitals": {"title": "Core Web Vitals", "dates": ["Jan 05", "Jan 12", "Jan 19", "Jan 26", "Feb 02", "Feb 09", "Feb 16", "Feb 23", "Mar 02", "Mar 09", "Mar 16", "Mar 23", "Mar 30", "Apr 06", "Apr 13", "Apr 20", "Apr 27", "May 04", "May 11", "May 18", "May 25", "Jun 01", "Jun 08", "Jun 15", "Jun 22", "Jun 29", "Jul 06", "Jul 13", "Jul 20"], "desktop": ["Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail"], "mobile": ["Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail", "Fail"]}}</script>
+<script id="narrative-blob" type="application/json">{"Ranking Insights \u2014 Overall Keywords": "Page-1 visibility built steadily through H1, running from roughly 41.7K keywords in early January to a peak near 49K by mid-April, with Position 1 rankings climbing from ~6,150 to over 7,300 at the high point. Since late April the curve has cooled \u2014 Page 1 totals have pulled back to ~44K and Position 1 has given back some ground to ~7,100. This reads as a normal post-peak consolidation rather than a structural loss: Position 1 and Page 1 totals both remain well above the December baseline.", "Ranking Insights \u2014 Cyberglossary (Priority Keywords)": "The priority Cyberglossary set is the strongest performer in the account. Position 1 rankings have nearly grown from 90 to 122 keywords, and Page-1 totals have held in the 410-490 range all year versus a baseline of 402 \u2014 meaning even the recent dip still sits above where the program started. This is a durable, compounding win for the glossary content strategy.", "Ranking Insights \u2014 Articles (Priority Keywords)": "Article-level priority keywords only began being tracked from mid-January, so trend reads are shorter, but the trajectory is positive: Page-1 totals have grown from 46 to 57-58 keywords and AI Overview presence has more than doubled, from 7 to 12-13 keywords. This is a smaller keyword set than Cyberglossary, but it's moving in the right direction on both classic rankings and AI visibility simultaneously.", "Ranking Insights \u2014 Cyberglossary (Overall Keywords)": "At the full (non-priority) Cyberglossary keyword level, Page-1 totals have grown from a 29.4K baseline to over 33K currently, after peaking near 34.5K in April. Position 1 rankings are up nearly 16% versus baseline (4,485 \u2192 5,217). This overall keyword universe is larger and noisier than the priority set, but it confirms the priority-keyword gains are part of a broader lift across Cyberglossary, not an isolated pocket.", "Ranking Insights \u2014 Bing (Overall Keywords)": "Bing performance is the most volatile line in the report. Page-1 totals opened at 573 in early January, dropped into the 450-500 range through spring, and now sit at 472 \u2014 roughly flat-to-down versus baseline. Position 2-3 rankings have actually grown sharply (32 \u2192 229), suggesting keywords are stacking just below the top of Page 1 rather than being lost outright. Bing is a smaller-volume channel than Google, so this is worth monitoring rather than escalating.", "Traffic Growth": "Organic traffic followed the same arc as rankings: a run-up from 495K to a February/March peak near 571K, followed by a pullback to 477K in the most recent week. Overall traffic (all channels combined) shows the identical shape, peaking near 1.53M in May before easing to 1.15M. The underlying content mix has shifted favorably, though \u2014 Cyberglossary organic traffic is up from 115K to 187K average and international-page traffic has held firm around 190-220K throughout, showing the content footprint driving traffic is broader and healthier than the topline number alone suggests.", "GSC Click Growth": "Search Console clicks are essentially flat year-to-date (1.30M baseline vs. 1.31M latest) but average position has improved meaningfully, from 9.1 down to 7.1-7.2 \u2014 a real ranking quality gain. Impressions ballooned to over 300M in March/April (likely from a broader set of keywords surfacing) before normalizing back toward 165M, closer to the original baseline. The takeaway: rankings are getting stronger even where click volume hasn't yet caught up, which is common when position gains land just outside the highest-CTR band.", "Bing Traffic Growth": "Bing traffic and clicks have softened somewhat from baseline (organic traffic 10.9K \u2192 9.0K; clicks 402K \u2192 379K), but average position has improved sharply, from 9.1 down to 6.6 \u2014 the best position reading of the whole report. As with Google, position quality is outpacing the traffic figures right now, which is typically a leading indicator of traffic gains still to come.", "Featured Snippets": "Featured snippets are the one metric that has moved clearly backward: starting at 287, climbing to a high of 396 in March, then falling sharply through Q2 to settle in the 109-127 range since May. This is worth flagging directly to the client \u2014 a snippet-recovery push (schema, answer-box formatting, definition-style content) should be a near-term priority alongside the ranking wins elsewhere.", "Website Performance Score": "Desktop performance has drifted down from a 68 baseline to the mid-50s most weeks (currently 56), while mobile has held roughly flat to slightly improved (48 \u2192 53). Both scores bounce week to week, which is typical of PageSpeed-style measurements, but the desktop softening is worth a technical health check given how closely performance ties to Core Web Vitals below.", "Core Web Vitals": "Both desktop and mobile Core Web Vitals have logged a Fail status in every measured week since tracking began. This is the single most important technical item in this report: Core Web Vitals are a confirmed Google ranking factor, and a sustained Fail status is a ceiling on how far the ranking gains elsewhere in this report can go. Recommend prioritizing an CWV remediation sprint (LCP, INP, CLS) alongside the desktop performance-score dip noted above.", "Search-Generated Engagement (AI Overviews)": "This is the standout growth story in the report. AI Overview keyword presence (SEMrush) has grown from 13,887 to 22,905 \u2014 up 65% versus baseline \u2014 and the Ahrefs-tracked figure nearly doubled as well (10,919 \u2192 19,154). Citation counts across every major AI assistant have grown in parallel: ChatGPT citations are up from 8,862 to 10,669 (peaking near 13,000 in June), Gemini is up from 1,237 to 1,548, and Claude citations have more than doubled, from 179 to 370 after peaking above 570. Fortinet's content is clearly earning a growing share of voice inside AI-generated answers, not just traditional search.", "Bing AI Performance": "Bing's AI-surfaced citations have grown substantially since tracking began in January, from roughly 395K to 877K weekly citations, with cited pages growing from 6,004 to 7,041. Both metrics show the same volatility pattern as the rest of the account \u2014 a strong spring build-up followed by a summer pullback \u2014 but both remain multiples above their starting point."}</script>
+
+<script>
+(function(){
+const DATA = JSON.parse(document.getElementById('data-blob').textContent);
+const NARR = JSON.parse(document.getElementById('narrative-blob').textContent);
+const WEEKS = DATA.weeks;
+const svgNS = 'http://www.w3.org/2000/svg';
+
+const PALETTE = ['#ee3124','#2dd4bf','#f5a524','#7c9cff','#e879f9','#84cc16','#fb923c','#38bdf8'];
+
+function elNS(tag, attrs){
+  const e = document.createElementNS(svgNS, tag);
+  for(const k in attrs) e.setAttribute(k, attrs[k]);
+  return e;
+}
+
+function lastValid(arr){
+  for(let i=arr.length-1;i>=0;i--){ if(arr[i]!==null && arr[i]!==undefined) return {val:arr[i], idx:i}; }
+  return {val:null, idx:-1};
+}
+function prevValid(arr, beforeIdx){
+  for(let i=beforeIdx-1;i>=0;i--){ if(arr[i]!==null && arr[i]!==undefined) return arr[i]; }
+  return null;
+}
+function pct(a,b){
+  if(a===null||b===null||b===0) return null;
+  return ((a-b)/Math.abs(b))*100;
+}
+function fmtNum(n, isPercent){
+  if(n===null||n===undefined||isNaN(n)) return '—';
+  if(isPercent) return (n*100).toFixed(2)+'%';
+  if(Math.abs(n) >= 1000000) return (n/1000000).toFixed(2)+'M';
+  if(Math.abs(n) >= 1000) return (n/1000).toFixed(1)+'K';
+  if(Number.isInteger(n)) return n.toLocaleString();
+  return n.toFixed(2);
+}
+function isPercentMetric(name){
+  return /%|CTR/i.test(name);
+}
+function isLowerBetter(name){
+  return /Avg\. Position/i.test(name);
+}
+function deltaClass(d, lowerBetter){
+  if(d===null) return 'flat';
+  if(Math.abs(d) < 0.05) return 'flat';
+  if(lowerBetter) return d < 0 ? 'up' : 'down';
+  return d > 0 ? 'up' : 'down';
+}
+function arrow(cls){
+  if(cls==='up') return '▲';
+  if(cls==='down') return '▼';
+  return '—';
+}
+
+/* ---------------- Sparkline (KPI cards) ---------------- */
+function drawSparkline(container, values, color){
+  const W = 220, H = 60, pad = 4;
+  const valid = values.map((v,i)=>({v,i})).filter(o=>o.v!==null && o.v!==undefined);
+  if(valid.length===0){ return; }
+  const vmin = Math.min(...valid.map(o=>o.v));
+  const vmax = Math.max(...valid.map(o=>o.v));
+  const range = (vmax-vmin) || 1;
+  const n = values.length;
+  function x(i){ return pad + (n===1?0:(i/(n-1))*(W-2*pad)); }
+  function y(v){ return H-pad - ((v-vmin)/range)*(H-2*pad); }
+  let d = '';
+  valid.forEach((o,j)=>{ d += (j===0?'M':'L') + x(o.i).toFixed(1)+','+y(o.v).toFixed(1)+' '; });
+  let area = d + ` L${x(valid[valid.length-1].i).toFixed(1)},${H} L${x(valid[0].i).toFixed(1)},${H} Z`;
+
+  const svg = elNS('svg', {viewBox:`0 0 ${W} ${H}`, preserveAspectRatio:'none'});
+  const gradId = 'grad-'+Math.random().toString(36).slice(2);
+  const defs = elNS('defs',{});
+  const grad = elNS('linearGradient',{id:gradId, x1:'0', y1:'0', x2:'0', y2:'1'});
+  const stop1 = elNS('stop',{offset:'0%', 'stop-color':color, 'stop-opacity':'0.35'});
+  const stop2 = elNS('stop',{offset:'100%', 'stop-color':color, 'stop-opacity':'0'});
+  grad.appendChild(stop1); grad.appendChild(stop2); defs.appendChild(grad); svg.appendChild(defs);
+
+  const areaPath = elNS('path', {d:area, fill:`url(#${gradId})`, stroke:'none'});
+  const linePath = elNS('path', {d:d, fill:'none', stroke:color, 'stroke-width':2, 'stroke-linecap':'round', 'stroke-linejoin':'round'});
+  svg.appendChild(areaPath);
+  svg.appendChild(linePath);
+  container.appendChild(svg);
+}
+
+/* ---------------- Main section chart ---------------- */
+function drawSectionChart(wrapEl, legendEl, weeks, metrics){
+  const W = 900, H = 300;
+  const pad = {left:56, right:14, top:14, bottom:30};
+  const plotW = W - pad.left - pad.right;
+  const plotH = H - pad.top - pad.bottom;
+  const n = weeks.length;
+
+  let allVals = [];
+  metrics.forEach(m=> m.values.forEach(v=>{ if(v!==null && v!==undefined) allVals.push(v); }));
+  if(allVals.length===0) allVals = [0,1];
+  let vmin = Math.min(...allVals), vmax = Math.max(...allVals);
+  if(vmin === vmax){ vmin -= 1; vmax += 1; }
+  const range0 = vmax - vmin;
+  vmin -= range0*0.08; vmax += range0*0.08;
+  if(vmin > 0 && (vmin/(vmax-vmin)) < 0.15) vmin = Math.min(vmin, 0); // keep near-zero baselines visible
+
+  function xAt(i){ return pad.left + (n===1? plotW/2 : (i/(n-1))*plotW); }
+  function yAt(v){ return pad.top + plotH - ((v - vmin)/(vmax-vmin))*plotH; }
+
+  const svg = elNS('svg', {viewBox:`0 0 ${W} ${H}`, preserveAspectRatio:'none', style:'width:100%; height:300px; display:block; overflow:visible;'});
+
+  const mainIsPercent = isPercentMetric(metrics[0].name);
+
+  const gridGroup = elNS('g',{});
+  const numGrid = 4;
+  for(let g=0; g<=numGrid; g++){
+    const yVal = vmin + (vmax-vmin)*(g/numGrid);
+    const y = yAt(yVal);
+    gridGroup.appendChild(elNS('line',{x1:pad.left, x2:W-pad.right, y1:y.toFixed(1), y2:y.toFixed(1), stroke:'#171d27', 'stroke-width':1}));
+    const label = elNS('text',{x:pad.left-8, y:(y+3).toFixed(1), 'text-anchor':'end', 'font-size':'10', fill:'#6b7484', 'font-family':'IBM Plex Mono, monospace'});
+    label.textContent = fmtNum(yVal, mainIsPercent);
+    gridGroup.appendChild(label);
+  }
+  svg.appendChild(gridGroup);
+
+  const xLabelGroup = elNS('g',{});
+  const step = Math.max(1, Math.ceil(n/7));
+  for(let i=0;i<n;i+=step){
+    const x = xAt(i);
+    const t = elNS('text',{x:x.toFixed(1), y:H-8, 'text-anchor':'middle', 'font-size':'10', fill:'#6b7484', 'font-family':'IBM Plex Mono, monospace'});
+    t.textContent = weeks[i];
+    xLabelGroup.appendChild(t);
+  }
+  svg.appendChild(xLabelGroup);
+
+  const pathsGroup = elNS('g',{});
+  const seriesEls = metrics.map((m, idx)=>{
+    const color = PALETTE[idx % PALETTE.length];
+    const pts = [];
+    m.values.forEach((v,i)=>{ if(v!==null && v!==undefined) pts.push([xAt(i), yAt(v)]); });
+    let d = '';
+    pts.forEach((p,j)=>{ d += (j===0?'M':'L') + p[0].toFixed(2)+','+p[1].toFixed(2)+' '; });
+    const path = elNS('path',{d:d, fill:'none', stroke:color, 'stroke-width':2.2, 'stroke-linejoin':'round', 'stroke-linecap':'round'});
+    pathsGroup.appendChild(path);
+    const marker = elNS('circle',{r:4, fill:color, stroke:'#0a0d12', 'stroke-width':1.5});
+    marker.style.display='none';
+    pathsGroup.appendChild(marker);
+    return {path, marker, color, name:m.name, values:m.values, isPercent:isPercentMetric(m.name), visible:true};
+  });
+  svg.appendChild(pathsGroup);
+
+  const guide = elNS('line',{x1:pad.left,x2:pad.left,y1:pad.top,y2:H-pad.bottom, stroke:'#3a4354', 'stroke-width':1, 'stroke-dasharray':'3,3'});
+  guide.style.display='none';
+  svg.appendChild(guide);
+
+  const overlay = elNS('rect',{x:pad.left, y:pad.top, width:Math.max(plotW,1), height:Math.max(plotH,1), fill:'transparent'});
+  svg.appendChild(overlay);
+
+  wrapEl.appendChild(svg);
+
+  const tooltip = document.createElement('div');
+  tooltip.className = 'chart-tooltip';
+  tooltip.style.display='none';
+  wrapEl.appendChild(tooltip);
+
+  function updateHover(clientX, clientY){
+    const rect = svg.getBoundingClientRect();
+    if(rect.width===0) return;
+    const scaleX = W / rect.width;
+    const mx = (clientX - rect.left) * scaleX;
+    let i = Math.round(((mx - pad.left)/plotW) * (n-1));
+    i = Math.max(0, Math.min(n-1, i));
+    const x = xAt(i);
+    guide.setAttribute('x1', x.toFixed(2)); guide.setAttribute('x2', x.toFixed(2)); guide.style.display='';
+    let rows = '';
+    seriesEls.forEach((s)=>{
+      if(!s.visible){ s.marker.style.display='none'; return; }
+      const v = s.values[i];
+      if(v===null || v===undefined){ s.marker.style.display='none'; return; }
+      s.marker.setAttribute('cx', x.toFixed(2));
+      s.marker.setAttribute('cy', yAt(v).toFixed(2));
+      s.marker.style.display='';
+      rows += '<div class="tt-row"><span class="tt-dot" style="background:'+s.color+'"></span><span class="tt-name">'+s.name+'</span><span class="tt-val">'+fmtNum(v, s.isPercent)+'</span></div>';
+    });
+    tooltip.innerHTML = '<div class="tt-week">'+weeks[i]+'</div>'+rows;
+    tooltip.style.display='block';
+    const wrapRect = wrapEl.getBoundingClientRect();
+    let left = clientX - wrapRect.left + 14;
+    let top = clientY - wrapRect.top - 10;
+    if(left + 190 > wrapRect.width) left = clientX - wrapRect.left - 190 - 14;
+    if(left < 0) left = 4;
+    tooltip.style.left = left+'px';
+    tooltip.style.top = Math.max(0, top)+'px';
+  }
+
+  overlay.addEventListener('mousemove', (e)=> updateHover(e.clientX, e.clientY));
+  overlay.addEventListener('touchmove', (e)=>{ if(e.touches[0]) updateHover(e.touches[0].clientX, e.touches[0].clientY); }, {passive:true});
+  overlay.addEventListener('mouseleave', ()=>{
+    guide.style.display='none';
+    tooltip.style.display='none';
+    seriesEls.forEach(s=> s.marker.style.display='none');
+  });
+
+  // legend
+  const defaultVisibleCount = metrics.length <= 6 ? metrics.length : 5;
+  seriesEls.forEach((s, idx)=>{
+    const item = document.createElement('div');
+    item.className = 'legend-item';
+    item.innerHTML = '<span class="legend-dot" style="background:'+s.color+'"></span>'+s.name;
+    if(idx >= defaultVisibleCount){
+      item.classList.add('off');
+      s.visible = false;
+      s.path.style.display = 'none';
+    }
+    item.addEventListener('click', ()=>{
+      s.visible = !s.visible;
+      s.path.style.display = s.visible ? '' : 'none';
+      if(!s.visible) s.marker.style.display = 'none';
+      item.classList.toggle('off', !s.visible);
+    });
+    legendEl.appendChild(item);
+  });
+
+  return seriesEls;
+}
+
+/* ---------------- Executive KPI strip ---------------- */
+const kpiDefs = [
+  {section:"Ranking Insights — Overall Keywords", metric:"Overall Number of Keywords", label:"Total Ranking Keywords"},
+  {section:"Ranking Insights — Overall Keywords", metric:"Total Keywords on Page 1", label:"Keywords on Page 1"},
+  {section:"Traffic Growth", metric:"Organic Traffic", label:"Organic Traffic / wk"},
+  {section:"GSC Click Growth", metric:"GSC Clicks", label:"GSC Clicks / wk"},
+  {section:"GSC Click Growth", metric:"GSC Avg. Position", label:"GSC Avg. Position"},
+  {section:"Featured Snippets", metric:"Featured Snippets Won", label:"Featured Snippets"},
+];
+
+function findMetric(sectionTitle, metricName){
+  const sec = DATA.sections.find(s=>s.title===sectionTitle);
+  if(!sec) return null;
+  return sec.metrics.find(m=>m.name===metricName);
+}
+
+const kpiGrid = document.getElementById('kpi-grid');
+kpiDefs.forEach((def, i)=>{
+  const m = findMetric(def.section, def.metric);
+  if(!m) return;
+  const isPct = isPercentMetric(m.name);
+  const lowerBetter = isLowerBetter(m.name);
+  const {val:latest, idx} = lastValid(m.values);
+  const vsBase = pct(latest, m.baseline);
+  const cls = deltaClass(vsBase, lowerBetter);
+  const color = PALETTE[i % PALETTE.length];
+
+  const card = document.createElement('div');
+  card.className = 'kpi-card';
+  card.style.setProperty('--accent-color', color);
+  card.innerHTML =
+    '<div class="kpi-label">'+def.label+'</div>'+
+    '<div class="kpi-value">'+fmtNum(latest, isPct)+'</div>'+
+    '<div class="kpi-delta '+cls+'">'+arrow(cls)+' '+(vsBase===null?'—':Math.abs(vsBase).toFixed(1)+'%')+' vs baseline</div>'+
+    '<div class="kpi-spark"></div>';
+  kpiGrid.appendChild(card);
+  drawSparkline(card.querySelector('.kpi-spark'), m.values, color);
+});
+
+/* ---------------- Section nav ---------------- */
+const navEl = document.getElementById('section-nav');
+const allSectionTitles = DATA.sections.map(s=>s.title);
+const cwvInsertAfter = "Website Performance Score";
+const idxInsert = allSectionTitles.indexOf(cwvInsertAfter);
+allSectionTitles.splice(idxInsert+1, 0, "Core Web Vitals");
+
+allSectionTitles.forEach((title, i)=>{
+  const a = document.createElement('a');
+  a.className='nav-pill';
+  a.href = '#sec-'+i;
+  a.textContent = (i+1)+'. '+title.replace('Ranking Insights — ','').replace('Search-Generated Engagement (AI Overviews)','AI Overviews');
+  navEl.appendChild(a);
+});
+
+/* ---------------- Render sections ---------------- */
+const root = document.getElementById('sections-root');
+
+function renderChartSection(sec, index){
+  const wrap = document.createElement('div');
+  wrap.className = 'section';
+  wrap.id = 'sec-'+index;
+
+  const narrative = NARR[sec.title] || '';
+  wrap.innerHTML =
+    '<div class="section-head"><span class="section-index">'+String(index+1).padStart(2,'0')+'</span><h2 class="section-title">'+sec.title+'</h2></div>'+
+    '<p class="section-narrative">'+narrative+'</p>'+
+    '<div class="chart-card">'+
+      '<div class="chart-card-head"><span class="chart-card-title">Weekly Trend</span><span class="chart-hint">Hover chart for values · click legend to toggle a series</span></div>'+
+      '<div class="chart-canvas-wrap"></div>'+
+      '<div class="legend"></div>'+
+    '</div>'+
+    '<div class="stat-grid"></div>';
+
+  root.appendChild(wrap);
+
+  const canvasWrap = wrap.querySelector('.chart-canvas-wrap');
+  const legendEl = wrap.querySelector('.legend');
+  drawSectionChart(canvasWrap, legendEl, WEEKS, sec.metrics);
+
+  const statGrid = wrap.querySelector('.stat-grid');
+  sec.metrics.forEach(m=>{
+    const isPct = isPercentMetric(m.name);
+    const lowerBetter = isLowerBetter(m.name);
+    const {val:latest, idx} = lastValid(m.values);
+    const prev = prevValid(m.values, idx);
+    const wow = pct(latest, prev);
+    const clsWow = deltaClass(wow, lowerBetter);
+    const div = document.createElement('div');
+    div.className = 'stat-mini';
+    div.innerHTML =
+      '<div class="stat-mini-name">'+m.name+'</div>'+
+      '<div class="stat-mini-row"><span class="stat-mini-val">'+fmtNum(latest, isPct)+'</span>'+
+      '<span class="stat-mini-delta '+clsWow+'">'+arrow(clsWow)+' '+(wow===null?'—':Math.abs(wow).toFixed(1)+'% WoW')+'</span></div>'+
+      '<div class="stat-mini-base">Baseline: '+fmtNum(m.baseline, isPct)+(m.avg6mo!==null? ' · 6-mo avg: '+fmtNum(m.avg6mo, isPct) : '')+'</div>';
+    statGrid.appendChild(div);
+  });
+}
+
+function renderCWVSection(cwv, index){
+  const wrap = document.createElement('div');
+  wrap.className = 'section';
+  wrap.id = 'sec-'+index;
+  const failCountDesktop = cwv.desktop.filter(v=>v==='Fail').length;
+  const failCountMobile = cwv.mobile.filter(v=>v==='Fail').length;
+
+  wrap.innerHTML =
+    '<div class="section-head"><span class="section-index">'+String(index+1).padStart(2,'0')+'</span><h2 class="section-title">Core Web Vitals</h2></div>'+
+    '<p class="section-narrative">'+(NARR['Core Web Vitals']||'')+'</p>'+
+    '<div class="cwv-banner">⚠ <b>'+failCountDesktop+' of '+cwv.dates.length+' weeks Failed on Desktop, '+failCountMobile+' of '+cwv.dates.length+' on Mobile</b> — a confirmed Google ranking signal that has not passed once during the tracking window.</div>'+
+    '<div class="cwv-grid">'+
+      '<div class="cwv-card"><h4>Desktop — Weekly Status</h4><div class="cwv-dots">'+cwv.desktop.map(v=>'<div class="cwv-dot '+(v==='Pass'?'pass':'')+'" title="'+v+'"></div>').join('')+'</div></div>'+
+      '<div class="cwv-card"><h4>Mobile — Weekly Status</h4><div class="cwv-dots">'+cwv.mobile.map(v=>'<div class="cwv-dot '+(v==='Pass'?'pass':'')+'" title="'+v+'"></div>').join('')+'</div></div>'+
+    '</div>';
+  root.appendChild(wrap);
+}
+
+DATA.sections.forEach((sec)=>{
+  const globalIndex = allSectionTitles.indexOf(sec.title);
+  renderChartSection(sec, globalIndex);
+  if(sec.title === cwvInsertAfter){
+    renderCWVSection(DATA.core_web_vitals, allSectionTitles.indexOf('Core Web Vitals'));
+  }
+});
+
+const children = Array.from(root.children);
+children.sort((a,b)=> parseInt(a.id.split('-')[1]) - parseInt(b.id.split('-')[1]));
+children.forEach(c=>root.appendChild(c));
+
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "description": "Delivers expert SEO walkthroughs of website updates, helping clients understand improvements and optimize their online presence effectively.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

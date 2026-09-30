@@ -1,0 +1,63 @@
+,,,,,,,,,,,
+,,,,,,,,,,,
+Source = GA,Organic Traffic,456k,448k,-7.9k,-1.7%,,Source = GSC,Branded,,,
+Time Line = Last 30 Days,Pages,27 Jul 2026,03 Aug 2026,Change,Change %,,Last 30 Days,Top 10 KWs,Clicks,Impression,Rank
+,/support/product-downloads,113401,110149,-3252,-3%,,,fortinet,"42,874","219,158",1.3
+,/blog/psirt-blogs/analysis-of-reported-credential-compromise-of-fortigate-devices,3832,2098,-1734,-45%,,,fortinet vpn,"6,168","11,385",1.9
+,/resources/data-sheets/fortigate-700g-series,1417,1327,-90,-6%,,,fortigate,"6,098","55,688",2.9
+,/resources/cyberglossary/fake-hacking,1474,1386,-88,-6%,,,fortinet careers,"3,944","4,923",1.3
+,/library/fortinet-cybersecurity,974,887,-87,-9%,,,fortinet product matrix,"3,481","4,285",2.4
+,/corporate/careers,6295,5969,-326,-5%,,,fortinet vpn client download,"3,014","3,837",1.2
+,/demo-center/fortigate-demo,2692,2500,-192,-7%,,,fortinet certification,"2,653","6,900",4.5
+,/support/contact,4799,4667,-132,-3%,,,fortinet vpn client,"2,226","3,816",1.6
+,/support/product-downloads/linux,2843,2713,-130,-5%,,,fortigate 120g,"2,117","6,615",1.2
+,/resources/data-sheets/fortigate-200g-series,3213,3097,-116,-4%,,,fortigate matrix,"1,984","2,500",2.1
+,Total ,140940,134793,-6147,-4%,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,Direct Traffic,379k,369k,-10.3k,-2.7%,,Source = GSC,Non-Branded,,,
+Source = GA,Pages,27 Jul 2026,03 Aug 2026,Change,Change %,,Last 30 Days,Top 10 KWs,Clicks,Impression,Rank
+Time Line = Last 30 Days,/support/product-downloads,61403,56191,-5212,-8%,,,proxy server,"24,801","1,128,832",4.1
+,/blog/psirt-blogs/analysis-of-reported-credential-compromise-of-fortigate-devices,3798,1818,-1980,-52%,,,proxy,"11,049","8,481,190",6.8
+,/products/endpoint-security/forticlient,9356,8743,-613,-7%,,,hacking,"4,529","60,277",2.4
+,/support/contact,11221,10866,-355,-3%,,,ip,"2,048","1,107,767",7.1
+,/blog/threat-research/from-ci-cd-to-cloud-data-how-shai-hulud-persistence-leads-to-redshift-breach,450,95,-355,-79%,,,ip address,"2,012","387,817",6.2
+,/blog/threat-research/analysis-of-ongoing-ousaban-attacks-targeting-the-iberian-peninsula,744,425,-319,-43%,,,ai cybersecurity,"1,876","11,484",3.2
+,/corporate/about-us/contact-us,3912,3646,-266,-7%,,,firewall,"1,588","143,320",3.8
+,/blog/industry-trends/attacks-at-the-speed-of-ai,395,169,-226,-57%,,,proxy server vpn,"1,542","30,799",3.6
+,/corporate/careers,3300,3095,-205,-6%,,,fake hacking,"1,373","16,691",3.6
+,/blog,1558,1390,-168,-11%,,,vpn,"1,051","808,410",9.8
+,Total ,96137,86438,-9699,-10%,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Source = SEMrush,Source - SEMrush,,,AIO Overall Traffic,,116.0K,204.2K,88242,76%,,
+Time Line = As on Date,Fortinet,,,27 Jul 2026,03 Aug 2026,27 Jul 2026,03 Aug 2026,change,change %,,
+,Keywords,SV,KD,Position,Position,Traffic,Traffic,,,URL,
+,what is a vpn,673000,73,1,1,699,23366,22667,3243%,https://www.fortinet.com/resources/cyberglossary/what-is-a-vpn,
+,what is a firewall,673000,73,1,1,8176,24065,15889,194%,https://www.fortinet.com/resources/cyberglossary/firewall,
+,what is a dns,550000,78,1,1,572,6682,6110,1068%,https://www.fortinet.com/resources/cyberglossary/what-is-dns,
+,firewall configuration,110000,33,1,1,1336,6797,5461,409%,https://www.fortinet.com/resources/cyberglossary/firewall-configuration,
+,what is a static ip,90500,42,1,1,584,5498,4914,841%,https://www.fortinet.com/resources/cyberglossary/static-vs-dynamic-ip,
+,what is a data breach,90500,56,1,1,1099,5498,4399,400%,https://www.fortinet.com/resources/cyberglossary/data-breach,
+,what is an api key,110000,62,-,1,0,3933,3933,3933%,https://www.fortinet.com/resources/cyberglossary/api-key,
+,what is a keylogger,90500,47,-,1,0,3142,3142,3142%,https://www.fortinet.com/resources/cyberglossary/what-is-keyloggers,
+,proxy server,49500,78,-,1,0,3007,3007,3007%,https://www.fortinet.com/resources/cyberglossary/proxy-server,
+,what is latency,110000,62,1,1,1336,3933,2597,194%,https://www.fortinet.com/resources/cyberglossary/latency,
+,Total,,,,,13802,85921,72119,523%,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Source = SEMrush,Source - SEMrush,,,AIO Overall Traffic,,122.5K,376.7K,254157,207%,,
+Time Line = As on Date,Cisco,,,27 Jul 2026,03 Aug 2026,27 Jul 2026,03 Aug 2026,change,change %,,
+,Keywords,SV,KD,Position,Position,Traffic,Traffic,,,URL,
+,virtual private networks,1830000,85,-,1,0,113093,113093,113093%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-virtual-private-network-vpn.html,
+,what is a firewall,673000,73,1,1,4670,41590,36920,791%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-firewall.html,
+,what is 5g,673000,73,-,1,0,23366,23366,23366%,https://www.cisco.com/site/us/en/learn/topics/networking/what-is-5g.html,
+,cybersecurity,2740000,92,-,1,0,14248,14248,14248%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html,
+,what is malware,550000,64,-,1,0,6682,6682,6682%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-malware.html,
+,cisco news,9900,55,1,1,66,3325,3259,4938%,https://newsroom.cisco.com/pressreleases,
+,cisco certified network administrator,9900,58,-,1,0,3247,3247,3247%,https://www.cisco.com/site/us/en/learn/training-certifications/exams/ccna.html,
+,incident response plans,90500,51,-,1,0,3142,3142,3142%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-an-incident-response-plan.html,
+,router,74000,88,1,1,76,2645,2569,3380%,https://www.cisco.com/site/us/en/learn/topics/small-business/what-is-a-router.html,
+,cyber security,74000,91,1,1,76,2569,2493,3280%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html,
+,Total,,,,,4888,213907,209019,4276%,,

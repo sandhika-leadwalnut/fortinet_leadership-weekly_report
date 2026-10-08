@@ -1,0 +1,72 @@
+,,,,,,,,,,
+,Direct Traffic,368.7k,360k,-8.7k,-2.4%,,,,,
+Source = GA,Pages,03 Aug 2026,10 Aug 2026,Change,Change %,,,,,
+Time Line = Last 30 Days,/,72494,66563,-5931,-8%,,,,,
+,/support/product-downloads,56191,52435,-3756,-7%,,,,,
+,/nse-training-update,16379,14103,-2276,-14%,,,,,
+,/solutions/enterprise-midsize-business/security-fabric,1716,359,-1357,-79%,,,,,
+,/training/cybersecurity-professionals,4695,3777,-918,-20%,,,,,
+,/blog/psirt-blogs/analysis-of-reported-credential-compromise-of-fortigate-devices,1818,1080,-738,-41%,,,,,
+,/training-certification,37300,36693,-607,-2%,,,,,
+,/support/contact,10866,10284,-582,-5%,,,,,
+,/corporate/careers/job-openings,4509,3927,-582,-13%,,,,,
+,/products/endpoint-security/forticlient,8743,8439,-304,-3%,,,,,
+,Total ,214711,197660,-17051,-8%,,,,,
+,,,,,,,,,,
+Source = GSC,Branded,,,,,,,,,
+Last 30 Days,Top 10 KWs,Clicks,Impression,Rank,,,,,,
+,fortinet,"42,282","219,284",1.3,,,,,,
+,fortinet vpn,"6,100","11,210",2,,,,,,
+,fortigate,"5,886","53,548",3,,,,,,
+,fortinet careers,"3,949","4,908",1.3,,,,,,
+,fortinet product matrix,"3,489","4,250",2.2,,,,,,
+,fortinet vpn client download,"2,988","3,767",1.2,,,,,,
+,fortinet certification,"2,380","6,727",4.3,,,,,,
+,fortinet vpn client,"2,221","3,647",1.5,,,,,,
+,fortigate 120g,"2,013","6,517",1.2,,,,,,
+,fortigate matrix,"1,995","2,531",2,,,,,,
+,,,,,,,,,,
+Source = GSC,Non-Branded,,,,,,,,,
+Last 30 Days,Top 10 KWs,Clicks,Impression,Rank,,,,,,
+,proxy server,"27,052","1,088,115",4.1,,,,,,
+,proxy,"12,432","7,825,491",6.7,,,,,,
+,hacking,"4,776","60,127",2.3,,,,,,
+,ai cybersecurity,"2,356","12,753",3.1,,,,,,
+,ip address,"2,201","396,883",5.9,,,,,,
+,ip,"2,175","1,107,598",7,,,,,,
+,firewall,"1,661","144,555",3.7,,,,,,
+,proxy server vpn,"1,584","31,014",3.6,,,,,,
+,vpn,"1,062","921,191",9.7,,,,,,
+,fake hacking,887,"17,076",4,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Source = SEMrush,Source - SEMrush,,,AIO Overall Traffic,,376.7K,266.9K,-109799,-29%,
+Time Line = As on Date,Cisco (Loss),,,03 Aug 2026,10 Aug 2026,03 Aug 2026,10 Aug 2026,change,change %,
+,Keywords,SV,KD,Position,Position,Traffic,Traffic,,,URL
+,virtual private networks,1830000,85,1,1,113093,63537,-49556,-44%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-virtual-private-network-vpn.html
+,what is a firewall,673000,73,1,1,41590,747,-40843,-98%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-firewall.html
+,cybersecurity,2740000,92,1,1,14248,686,-13562,-95%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html
+,what is malware,550000,64,1,1,6682,914,-5768,-86%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-malware.html
+,cisco news,9900,55,1,1,3325,108,-3217,-97%,https://newsroom.cisco.com/pressreleases
+,cisco certified network administrator,9900,58,1,1,3247,104,-3143,-97%,https://www.cisco.com/site/us/en/learn/training-certifications/exams/ccna.html
+,router,74000,88,1,1,2645,76,-2569,-97%,https://www.cisco.com/site/us/en/learn/topics/small-business/what-is-a-router.html
+,cyber security,74000,91,1,1,2569,460,-2109,-82%,https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html
+,data center,49500,91,1,1,1769,314,-1455,-82%,https://www.cisco.com/site/us/en/learn/topics/computing/what-is-a-data-center.html
+,cisco software download,2400,47,1,2,786,16,-770,-98%,https://software.cisco.com/
+,Total,,,,,189954,66962,-122992,-65%,
+,,,,,,,,,,
+,,,,,,,,,,
+Source = SEMrush,Source - SEMrush,,,AIO Overall Traffic,,82.1K,151.9K,69770,85%,
+Time Line = As on Date,Palo Alto (Gain),,,03 Aug 2026,10 Aug 2026,03 Aug 2026,10 Aug 2026,change,change %,
+,Keywords,SV,KD,Position,Position,Traffic,Traffic,,,URL
+,movierulz,1000000,43,-,1,0,39190,39190,39190%,https://live.paloaltonetworks.com/t5/next-generation-firewall/how-to-block-movierulz-site-with-pa-filrewall/td-p/1259967
+,palo alto,110000,100,-,1,0,21560,21560,21560%,https://www.paloaltonetworks.com/
+,what is a vpn tunnel,110000,66,1,1,94,6797,6703,7131%,https://www.paloaltonetworks.com/cyberpedia/what-is-a-vpn-tunnel
+,what is a botnet,110000,50,1,1,1099,6797,5698,518%,https://www.paloaltonetworks.com/cyberpedia/what-is-botnet
+,cortex,22200,66,1,1,744,2858,2114,284%,https://www.paloaltonetworks.com/cortex
+,what is a vpn concentrator,110000,51,1,1,5498,7255,1757,32%,https://www.paloaltonetworks.com/cyberpedia/what-is-a-vpn-concentrator
+,what is a vpn protocol,22200,50,1,1,115,1348,1233,1072%,https://www.paloaltonetworks.com/cyberpedia/types-of-vpn-protocols
+,palo alto networks news,8100,46,1,1,2494,2656,162,6%,https://www.paloaltonetworks.com/blog/2026/08/introducing-unit-42-threat-intelligence-know-what-matters-understand-the-adversary-and-act-faster/
+,zoom meeting domains firewall bypass,2900,36,-,1,0,568,568,568%,https://live.paloaltonetworks.com/t5/general-topics/exclude-all-zoom-traffic-from-globalprotect-vpn/td-p/316766
+,palo alto firewall,2400,32,1,1,531,786,255,48%,https://www.paloaltonetworks.com/network-security/next-generation-firewall
+,Total,,,,,10575,89815,79240,749%,

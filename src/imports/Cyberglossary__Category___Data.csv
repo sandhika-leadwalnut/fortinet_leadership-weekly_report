@@ -1,0 +1,568 @@
+,,,,,,
+,,,,,,
+,,,,,,
+,,,2026 Wk33,AIO (Wk33),2026 Wk34,AIO (Wk34)
+,# of keywords on page 1,,422,,431,
+,# of keywords on page 2,,73,,71,
+,# of keywords on page 3,,34,,29,
+,,,12,,14,
+,# of keywords on position 1,,113,,113,
+,,,109,,109,
+,,,109,,109,
+,# of keywords wihtout ranking,,7,,3,
+,,,178,,184,
+,,,,,,
+,# of keywords with positive movement,,146,,138,
+,# of keywords with No movement,,253,,232,
+,# of keywords with negative movement, ,142,,175,
+,Total # of keywords,,548,,548,
+,,,,,,
+18 Categories,Keywords ,SV,2026 Wk33,AIO (Wk33),2026 Wk34,AIO (Wk34)
+AI Security,AIops,1300,26,No,24,No
+AI Security,AI Data Center,2900,2,No,2,No
+Cloud Security,AWS Compliance,590,3,No,3,No
+Cloud Security,Virtual Cloud Network,70,10,No,12,No
+Cloud Security,Cloud Infrastructure,3600,7,No,18,No
+Cloud Security,Hybrid Cloud,4400,23,No,22,No
+Cloud Security,Hybrid Cloud Security,1300,10,No,10,No
+Cloud Security,Cspm,5400,7,No,6,No
+Cloud Security,Cloud Native,2900,6,No,7,No
+Cloud Security,Secure Web Gateway,4400,5,No,6,No
+Cloud Security,Cloud Security Tools,2900,5,Yes,6,Yes
+Cloud Security,Cloud Security Architecture,2400,7,No,7,No
+Cloud Security,Cloud Security Best Practices,3600,16,No,19,No
+Cloud Security,multi cloud security,320,17,No,18,No
+NGFW,Cloud Native Firewall,50,17,No,22,No
+Cloud Security,Cloud Application Security,1000,6,Yes,8,Yes
+Cloud Security,private cloud vs public cloud,3600,23,No,20,No
+NGFW,Distributed Firewall,50,26,No,27,No
+NGFW,Stateful Firewall,1600,44,No,45,No
+NGFW,DNS Firewall,320,7,Yes,6,Yes
+NGFW,Firewall Design Principles,20,12,No,12,No
+Network Security,Network Security,1300,4,No,3,No
+OT Security,OT Security Best Practices,140,2,Yes,3,No
+Cyber Compliance,Ot Network Segmentation,140,13,No,11,No
+OT Security,ics scada,90,25,No,24,No
+Quantum Security,Quantum Security,720,4,Yes,6,Yes
+SASE,SASE Benefits,720,1,No,1,No
+SASE,sd wan architecture,320,11,No,6,No
+SASE,sd wan cost,110,4,No,7,No
+ZTNA,Zero Trust Architecture,6600,4,Yes,4,Yes
+ZTNA,Zero Trust Cloud,390,6,No,4,No
+VPN,Public Wifi,1000,7,No,10,No
+Cyber Threats,Threat Hunting,4400,19,No,16,No
+Cyber Security,information security,1000,27,No,13,No
+Access Control,Oauth,12100,2,Yes,2,No
+Cyber Security,Credential Stuffing,3600,4,Yes,2,No
+Cyber Threats,Malvertising,1900,5,No,5,No
+OT Security,edge computing,3600,25,No,2,No
+Cyber Threats,Wannacry Ransomware Attack,2900,2,No,1,No
+Access Control,Authentication Vs Authorization,3600,3,No,2,No
+Email Security,EmAIl Spoofing,2400,1,No,2,No
+Data Security,Cybersecurity Analytics,480,1,No,1,No
+Cyber Threats,Worm Virus,1300,3,No,6,No
+Cyber Threats,Computer Viruses,2400,6,No,3,No
+VPN,VPN Blocker,2900,3,Yes,3,Yes
+Cyber Threats,DNS Poisioning,20,4,No,4,No
+Cyber Threats,Cyberwarfare,1600,2,Yes,4,Yes
+Cyber Threats,Indicators Of Compromise,4400,2,No,3,No
+Cyber Security,File Transfer Protocol,1600,5,No,5,No
+Network Security,Kerberos Authentication,1900,14,Yes,10,Yes
+Cyber Security,What Is Nat,4400,2,No,3,No
+Network Security,What Is An IPS,720,5,No,8,No
+Network Security,what is hsm,14800,3,No,2,No
+Network Security,Ethernet Switching,260,9,No,7,No
+Cyber Threats,Buffer Overflow,2900,2,No,3,Yes
+Cyber Security,Icmp,12100,6,No,5,No
+Cyber Security,Fault Tolerance,2400,4,No,3,No
+Network Security,DNS Protection,590,7,No,9,No
+Data Security,Data Leak,4400,4,Yes,4,No
+Network Security,Latency,33100,45,Yes,13,Yes
+Cyber Threats,What Is Catfishing,8100,2,Yes,2,Yes
+Cyber Threats,cyber attacks on small business,0,17,No,28,No
+Cyber Threats,Ping Of Death,880,4,No,1,No
+SASE,What Is Sse,1300,14,Yes,11,No
+Cyber Security,Mobile App Security,1600,3,No,3,No
+Cyber Threats,P2P VPN,3600,1,Yes,1,No
+Cyber Security,Runtime Application Self-Protection,320,8,No,8,No
+Cyber Security,Enterprise Security,2400,2,Yes,2,No
+Cyber Threats,Cryptojacking,1600,6,No,6,No
+Cyber Threats,Smishing,18100,3,No,3,No
+Cyber Threats,Shadow It,3600,18,No,14,No
+Cyber Security,What Is Data Center,590,12,No,4,No
+Network Security,Data Integrity,5400,8,No,6,No
+Cyber Threats,Wardriving,1900,3,No,4,No
+VPN,SSL VPN,4400,5,Yes,4,Yes
+Network Security,Snort,6600,13,No,14,No
+Cyber Threats,Zero-Day Attack,1000,3,Yes,2,Yes
+Cyber Security,Vulnerability Scanning Vs Penetration Testing,390,1,No,1,No
+Cloud Security,Api Security,3600,6,No,6,No
+Cyber Security,Cryptography,22200,4,No,5,No
+Cyber Threats,Doxing,27100,2,No,2,No
+Access Control,access control,1000,2,No,2,Yes
+Email Security,Dkim Record,1300,2,No,5,No
+Access Control,Saml Vs Oauth Vs Open Id,20,8,No,10,No
+Cyber Threats,Csrf Attack,1300,13,No,13,No
+Cyber Security,What Is CAPTCHA?,33100,3,No,3,No
+Cyber Security,Common Vulnerabilities And Exposures,6600,2,No,2,No
+Cyber Security,Reverse Proxy,6600,7,No,8,Yes
+OT Security,What Is Scada,3600,6,No,6,No
+Access Control,Identity And Access Management,5400,4,No,4,No
+Cyber Security,What Is Cybersecurity,9900,9,No,10,No
+Cyber Compliance,What Is SOC 2 Compliance,1000,3,No,2,No
+Cyber Compliance,Cobit,3600,3,Yes,5,Yes
+OT security,What Is IOT?,9900,15,No,14,No
+Cyber Security,Enterprise Architecture,3600,3,No,4,No
+Cyber Security,Disaster Recovery,8100,6,No,4,No
+Cyber Compliance,Personally Identifiable Information,12100,6,No,6,No
+Network Security,Osi Model,33100,22,No,26,No
+Cyber Compliance,Owasp,14800,3,No,3,No
+Cyber Security,Rbac,9900,32,No,20,Yes
+Cyber Threats,What Is A Cyber Attack,2900,11,Yes,14,Yes
+Cyber Threats,Vishing Attack,1600,6,No,5,No
+Endpoint Security,Endpoint Protection Platform,1300,2,No,2,No
+Network Security,What Is A Wan,1600,2,No,2,No
+Cyber Threats,Ransomware Statistics,590,18,Yes,13,Yes
+Cloud Security,Ciem,1900,19,No,11,No
+Cyber Threats,Command And Control Attack,70,70,Yes,75,Yes
+OT Security,IOT Security,3600,29,Yes,18,Yes
+Cyber Security,Packet Loss,3600,4,Yes,5,Yes
+Cyber Security,Dynamic Application Security Testing,1300,23,No,20,Yes
+Cyber Security,Bluekeep,320,10,Yes,9,Yes
+SecOps,It Operations,2400,8,No,9,No
+Cyber Threats,Advanced Persistent Threat,2900,20,No,21,No
+Cloud Security,Cnapp,5400,28,No,33,No
+Cyber Threats,SOCial Engineering,14800,3,No,9,No
+SecOps,SAAS,90500,3,No,3,No
+SASE,Privileged Access Management,6600,19,No,25,No
+Cloud Security,Iaas,9900,6,No,6,No
+Data Security,Data Governance,12100,4,No,6,No
+OT Security,Iec 62443,1600,26,Yes,22,No
+Network Security,Digital Experience Monitoring,1000,3,Yes,4,Yes
+Network Security,Active Directory Cybersecurity,30,11,No,10,No
+Endpoint Security,Scim Authentication,110,21,No,17,No
+Network Security,Application Security,4400,26,No,16,No
+Cyber Threats,Cyber Safety,1000,2,No,2,No
+Cyber Threats,Cyber Resilience,2400,5,No,6,Yes
+Cyber Security,Antivirus Protection,4400,10,No,10,Yes
+NGFW,Web Application Firewall Architecture,170,8,Yes,7,Yes
+Cyber Security,Cybersecurity Awareness,1220000,3,No,4,No
+Network Security,It Security,8100,5,No,5,Yes
+Cyber Compliance,Nist 800 53,4400,5,No,5,Yes
+Cyber Compliance,Nittf Cnssd 504,0,8,No,10,No
+Access Control,Principle Of Least Privilege,5400,3,No,4,No
+Cyber Security,Sbom,4400,9,No,8,No
+Data Security,Secret Detection,50,9,No,10,No
+AI Security,ai in cybersecurity,320,5,Yes,6,Yes
+AI Security,AI Adoption,1600,7,Yes,7,No
+AI Security,AI Security,4400,12,No,12,Yes
+AI Security,Deep Fake AI,3600,6,No,6,No
+Cloud Security,Virtual Private Cloud,1600,6,No,6,No
+SASE,CASB,1600,3,Yes,3,Yes
+Cloud Security,Public Cloud Security Risks,40,4,No,4,No
+VPN,Cloud VPN,4400,2,Yes,3,Yes
+Cloud Security,cloud security,1300,4,No,5,No
+Data Security,Cloud Data Protection,1300,3,No,4,No
+Cloud Security,Cloud Encryption,720,1,Yes,1,Yes
+Cloud Security,Cloud Firewall,1300,9,Yes,10,Yes
+NGFW,virtual firewall,1000,2,No,2,No
+Cloud Security,Cloud Security TIPS,2240000,3,No,2,No
+Cloud Security,Cloud Detection And Response,720,3,No,2,Yes
+Cloud Security,cloud workload protection platform,2900,6,No,6,No
+Data Security,DLP For Cloud,70,7,No,8,No
+NGFW,What Does A Firewall Do,1600,1,No,1,Yes
+NGFW,Firewall As A Service,1000,1,Yes,1,Yes
+NGFW,Waf Vs Firewall,320,1,Yes,1,Yes
+NGFW,How Does A Firewall Work,590,1,Yes,1,Yes
+NGFW,Perimeter Firewall,170,1,Yes,1,Yes
+NGFW,Transparent Firewall,50,1,Yes,1,Yes
+NGFW,Firewall Configuration,5400,1,Yes,1,Yes
+NGFW,Hybrid Mesh Firewall,170,5,Yes,7,Yes
+NGFW,Proxy Firewall,590,1,No,1,No
+NGFW,Does Firewall Slow Down Internet Speed,20,1,No,1,No
+NGFW,hybrid firewall,20,2,No,2,No
+NGFW,Stateful Vs Stateless Firewall,1000,1,No,1,No
+NGFW,proxy server vs packet filtering firewall,10,1,No,1,No
+NGFW,Firewall,27100,9,Yes,9,Yes
+NGFW,Hardware Firewall,4400,2,No,4,Yes
+NGFW,Firewall Benefits,50,1,No,1,No
+NGFW,What Is A Firewall,135000,2,No,3,Yes
+NGFW,end of life firewall ,2900,1,No,1,No
+NGFW,Human Firewall,1000,5,No,7,No
+OT Security,Rugged Firewall,20,1,No,1,No
+NGFW,web application firewall for enterprise,0,3,No,6,No
+NGFW,waf,1300,5,No,5,No
+NGFW,best virtual firwall,590,4,No,5,No
+NGFW,NGFW,4400,19,No,2,No
+Network Security,Network Security Vulnerability,110,1,Yes,1,Yes
+Network Security,Network Security Threats,720,1,Yes,1,Yes
+Network Security,Cloud Network Security,2900,3,Yes,4,Yes
+Network Security,Network Security Management,1300,3,No,2,No
+Network Security,Network Security Vs Cybersecurity,90,1,Yes,1,Yes
+OT Security,it vs ot security,70,2,No,5,No
+OT Security,Manufacturing Ot,40,2,No,3,No
+Quantum Security,Quantum Key Distribution,1000,1,Yes,3,Yes
+Quantum Security,Post Quantum Cryptography,3600,11,Yes,12,No
+Quantum Security,Quantum Computing Security,110,3,No,4,No
+Quantum Security,Quantum Safe Security,70,1,No,1,No
+Quantum Security,Quantum Safe Encryption,390,25,No,2,No
+SASE,sd wan vs sase,70,2,Yes,2,Yes
+SASE,SASE Vs Casb,260,1,Yes,2,Yes
+SASE,SASE,14800,1,Yes,1,Yes
+SASE,SASE Architecture,1000,6,No,5,No
+SASE,SASE Vs ZTNA,110,4,Yes,3,Yes
+SASE,Sovereign SASE,40,2,Yes,2,Yes
+SD-WAN,SDN Vs SD WAN,210,1,Yes,1,Yes
+SD-WAN,sd wan vs vpn,110,5,Yes,5,Yes
+SASE,sd wan explained,50,3,No,5,No
+SD-WAN,sd wan benefits,390,1,Yes,1,Yes
+SASE,SD WAN As A Service,590,1,No,1,No
+SASE,sd wan security,260,6,No,7,No
+Network Security,SD WAN Vs MPLs,880,3,Yes,4,Yes
+SecOps,Security Operations,1300,3,No,3,No
+SecOps,Secops,1900,6,No,9,Yes
+SecOps,Secops Metrics,30,1,No,1,No
+ZTNA,How To Implement Zero Trust,880,2,Yes,3,Yes
+ZTNA,Universal ZTNA,110,1,Yes,1,Yes
+ZTNA,Zero Trust EDGE,260,2,No,2,No
+ZTNA,ZeroTrust Security Model,5400,1,No,1,No
+ZTNA,ZTNA Vs VPN,1000,1,No,1,No
+ZTNA,Zero-Trust Network Access,8100,2,No,3,Yes
+ZTNA,Virtual Firewall For Zero Trust,0,1,No,1,No
+ZTNA,Zero Trust,9900,2,No,5,No
+Cyber Security,Cognitive Science,12100,3,No,3,No
+Cyber Compliance,FEDRamp,18100,11,No,11,No
+Cyber Security,Hyperscale Data Center,1900,21,No,1,Yes
+Cyber Threats,What Is Adware,3600,2,Yes,2,Yes
+Cyber Security,Common Vulnerability Scoring System,18100,3,No,4,No
+Cyber Security,Bitcoin Mining,12100,2,Yes,2,Yes
+Email Security,Business EmAIl Compromise,2900,5,No,9,No
+Email Security,what is dmarc,12100,3,Yes,3,Yes
+Cyber Compliance,Iso/Iec 27001,2900,5,No,6,No
+Cyber Security,managed security service provider,12100,2,Yes,2,Yes
+SecOps,Sandboxing,1900,6,Yes,5,Yes
+Cloud Security,Web Security,2400,20,Yes,24,No
+Cyber Security,Cybersecurity Management,720,2,No,3,No
+Endpoint Security,endpoint security,1600,4,No,3,No
+Data Security,What Is Encryption,3600,7,No,9,Yes
+Network Security,Ldap Authentication,880,1,No,1,No
+SASE,Privileged Identity Management,6600,4,No,3,Yes
+Network Security,DMZ,22200,3,No,4,No
+VPN,Does VPN Affect Internet Speed,90,4,No,5,Yes
+VPN,Are VPNs Safe,1300,5,Yes,6,Yes
+Data Security,Threat Modeling,2900,2,No,2,No
+VPN,Is VPN Safe,1300,2,Yes,2,Yes
+Cyber Threats,Attack Vector,1600,5,Yes,6,Yes
+Cyber Security,Service Set Identifier,1300,1,Yes,1,Yes
+Data Security,Digital Rights Management,5400,6,No,4,No
+SecOps,Content Filtering,2400,1,Yes,1,Yes
+Data Security,What Is Splunk,4400,2,Yes,3,No
+SASE,What Is Proxy Server,1600,15,Yes,17,Yes
+Data Security,Data Egress,320,1,Yes,1,Yes
+OT Security,IOT EDGE,390,3,No,3,No
+SASE,Http Proxy,1900,1,Yes,1,Yes
+Cyber Threats,Web Security Threats,110,2,No,2,No
+Email Security,EmAIl Encryption,2900,7,Yes,7,Yes
+Cyber Threats,Brute Force Attack,1900,1,No,1,No
+Data Security,Defense In Depth,2900,5,Yes,3,Yes
+Data Security,Honey Tokens,320,1,Yes,1,Yes
+Data Security,Attack Surface,1900,6,Yes,6,Yes
+Data Security,Types Of Cyber Attacks,2900,1,Yes,1,Yes
+Cyber Threats,Active Defense,170,2,Yes,7,Yes
+Cyber Compliance,Nist Compliance,1900,1,No,1,No
+Cyber Threats,Remote Access Trojan,4400,2,Yes,2,Yes
+Cyber Threats,Malware Analysis,1300,9,No,3,No
+Cyber Threats,Fake Hacking,5400,13,No,14,No
+Data Security,Pos Security,480,1,Yes,1,Yes
+OT Security,IOT Security Best Practices,210,1,No,1,No
+Endpoint Security,What Is EDR,2400,3,Yes,3,No
+Endpoint Security,Types Of Endpoint Security,110,1,Yes,1,Yes
+Network Security,Wan Aggregation,260,4,Yes,5,Yes
+SecOps,ueba,590,3,Yes,5,No
+Email Security,what is a pst file,2400,1,Yes,1,Yes
+Access Control,Saml Vs Oauth,1000,1,No,1,No
+Cyber Security,What Is Traceroute,390,1,Yes,1,Yes
+SASE,Authentication Token,590,1,No,2,No
+Network Security,Network Traffic,720,1,Yes,1,Yes
+Cyber Threats,Internet Fraud,1300,2,No,4,No
+Cyber Threats,802.1X Authentication,1300,1,No,1,No
+Network Security,Network Access Control List,480,1,Yes,1,Yes
+Cyber Security,What Is An Open Proxy,110,1,No,1,No
+Cloud Security,What Is An Api Key,8100,2,Yes,2,No
+Access Control,Radius Protocol,1900,2,Yes,2,Yes
+Cyber Security,Transparent Proxy,480,1,Yes,1,Yes
+Cyber Security,OCSP,2900,3,Yes,3,Yes
+Network Security,Centralized Management,590,10,Yes,9,Yes
+VPN,Benefits Of VPN,1900,10,Yes,10,Yes
+VPN,VPN Split Tunneling,880,2,Yes,2,Yes
+VPN,Proxy Vs VPN,4400,2,Yes,2,No
+Access Control,Aaa Security,880,5,No,5,No
+OT Security,Network EDGE,480,1,No,1,No
+OT Security,Operational Security,1600,4,No,4,No
+Cloud Security,Hybrid Data Center,170,9,No,9,No
+SASE,How To Setup A Proxy Server,590,3,No,3,No
+Cyber Security,Message Authentication Code,390,8,Yes,8,Yes
+Network Security,DNS Security,1300,9,Yes,8,Yes
+Data Security,Healthcare Data Security,590,1,Yes,1,Yes
+Data Security,Data Center Security,2400,1,Yes,1,Yes
+Cyber Security,Cybersecurity Mesh,210,1,Yes,1,Yes
+Cyber Threats,Hacking,18100,1,Yes,1,Yes
+VPN,How Does A VPN Work,5400,1,No,1,No
+Cyber Security,Cia Triad,9900,1,Yes,1,Yes
+SecOps,Security-As-A-Service,50,1,Yes,1,Yes
+Cyber Compliance,Compliance Automation,1000,1,No,1,No
+Data Security,Data Deduplication,480,8,No,9,No
+Cyber Security,Tcp Ip Model Vs Osi Model,880,1,No,1,No
+Cyber Threats,TAIlgating Attack,1600,1,Yes,1,Yes
+Data Security,Data Security,9900,7,Yes,6,Yes
+Email Security,Phishing EmAIl Analysis,50,1,Yes,1,Yes
+Data Security,Data Exfiltration,1300,1,No,1,No
+Email Security,Pgp Encryption,3600,5,No,5,No
+Network Security,Unified Threat Management,4400,1,Yes,1,Yes
+Cyber Threats,Url Phishing,210,1,No,1,No
+Cyber Security,It Security Policy,720,1,Yes,1,Yes
+Cyber Threats,DNS Hijacking,720,7,No,7,No
+Cyber Threats,Dos Vs Ddos,880,1,Yes,1,Yes
+Cyber Threats,Whaling Attack,1300,6,No,6,No
+Cyber Threats,Botnet,6600,3,No,5,No
+Cyber Threats,Port Scan,2400,6,No,8,No
+Network Security,Digital Certificates,1000,1,Yes,1,Yes
+Cyber Threats,Eavesdropping Attack,70,1,Yes,1,Yes
+Network Security,Border Gateway Protocol,2400,4,No,4,Yes
+SASE,SSPM,320,9,No,9,Yes
+Cyber Threats,Cyber Extortion,590,1,Yes,1,Yes
+Cyber Security,Devops Security,1300,4,Yes,3,Yes
+Data Security,Confidential Computing,880,5,No,5,No
+Cyber Threats,Scareware,2400,8,Yes,8,Yes
+Cyber Threats,Trojan Horse Virus,2900,1,No,1,Yes
+Cyber Security,Canary In Cybersecurity,40,1,Yes,1,Yes
+Email Security,EmAIl Security,5400,9,No,8,No
+Cyber Security,cybersecurity tools for small business,10,2,No,3,No
+Cyber Threats,Ransomware Settlement,40,13,No,10,No
+Cyber Threats,Fileless Malware,1000,5,Yes,7,Yes
+Cyber Threats,Keyloggers,1900,1,Yes,1,No
+Network Security,Microsegmentation,1900,4,Yes,5,No
+Cyber Security,Cybersquatting,1000,18,No,12,No
+Cyber Security,What Is Firmware,9900,14,Yes,14,Yes
+Cyber Security,User Datagram Protocol,8100,9,No,8,Yes
+Network Security,Certificate Management,720,4,Yes,3,Yes
+Network Security,what is Url Filtering,1000,8,No,5,No
+SD-WAN,Diy Vs Managed SD WAN,70,1,Yes,1,Yes
+Network Security,Qos,9900,2,Yes,3,No
+SASE,Branch Networking,50,2,No,3,No
+Network Security,MPLs,18100,9,No,10,No
+Cyber Security,FAIlover,1600,2,No,3,No
+Cyber Threats,Lateral Movement,5400,13,No,8,No
+VPN,Site To Site VPN,6600,5,No,12,No
+Cyber Threats,Ransomware Removal,880,1,Yes,1,Yes
+Endpoint Security,Endpoint Security For Mobile Devices,20,1,No,1,No
+SecOps,Shift Left Security,880,1,Yes,1,Yes
+Cyber Security,What Is An Ip Address,135000,1,Yes,1,Yes
+Email Security,Spam Filtering,590,1,Yes,1,Yes
+OT Security,IOT Device Vulnerabilities,70,1,Yes,1,Yes
+Cloud Security,Ddos Mitigation,90,11,No,10,No
+Cyber Security,what is time to live,8100,12,No,11,No
+Cyber Threats,Malware Vs Virus Vs Worm,20,1,No,1,No
+Cyber Security,Login Credentials,1300,1,Yes,1,Yes
+Cyber Threats,Ransomware Jargon,10,1,No,1,No
+Cyber Threats,Pretexting,4400,1,No,2,No
+OT Security,Ics Security,1600,5,No,6,No
+Cyber Security,Fortinet Doj,20,5,No,7,No
+Network Security,Wireless Network,2400,3,Yes,2,Yes
+Cyber Security,What Is DNS,18100,6,No,1,Yes
+Cyber Security,What Is Https,2900,14,No,27,No
+Cyber Threats,Ransomware As A Service,720,4,Yes,1,Yes
+Cyber Security,Tcp/Ip,8100,2,Yes,3,No
+Cyber Threats,What Is An Insider Threat,4400,7,No,5,Yes
+Network Security,Static Vs Dynamic Ip Address,1300,1,Yes,1,Yes
+Cyber Threats,Smurf Attack,1600,21,No,22,No
+Cyber Security,Cybersecurity TIPS For Small Businesses,390,3,No,4,No
+Cyber Security,data loss prevention,1900,15,No,15,No
+Access Control,network access control,390,4,Yes,5,No
+Cyber Threats,Dark Web Monitoring,590,2,No,2,No
+Cyber Security,Caching,8100,19,Yes,28,No
+Cyber Threats,What Is Spyware,2900,41,No,38,Yes
+Cyber Security,Code Scanning,720,25,No,38,No
+Cyber Security,Cybersecurity Statistics,590,12,Yes,13,Yes
+Cyber Security,Pharming,3600,8,No,8,No
+Cyber Threats,What Is An Exploit,480,16,No,4,No
+Cyber Security,Vulnerability Assessment,9900,1,No,1,No
+Cyber Threats,What Is A Bot,8100,3,No,4,No
+Cyber Threats,Ddos Protection,2900,2,Yes,3,Yes
+Cloud Security,What Is Openstack,480,24,No,21,No
+Cloud Security,Hybrid It,720,4,Yes,5,Yes
+Cyber Threats,Krack Attack,170,3,No,3,No
+Cyber Security,Thin Client,4400,11,Yes,10,Yes
+Access Control,Ciam,3600,9,No,4,No
+Cyber Threats,Spear Phishing,12100,3,No,2,No
+Cyber Security,Advanced Threat Protection,1600,1,No,1,Yes
+SASE,Network As A Service,1600,5,No,5,No
+Endpoint Security,Managed Detection And Response,3600,9,No,9,No
+Access Control,What Is Sso?,5400,8,No,8,No
+Network Security,what is internet security,2900,1,No,2,No
+Network Security,Wireless Security TIPS,20,1,No,1,No
+Cyber Compliance,What Is Pci Compliance,4400,7,No,9,No
+Cyber Threats,Sql Injection,9900,9,No,6,Yes
+Cyber Threats,Sextortion,12100,9,No,8,No
+Cyber Security,Web Scraping,1830000,2,Yes,2,Yes
+Network Security,Network Monitoring,3600,8,No,10,No
+Access Control,Pki,22200,3,No,4,No
+Cloud Security,Paas,14800,2,No,3,No
+Cyber Security,Mobile Device Management,6600,4,No,7,No
+Cyber Threats,How To Prevent Ransomware,1300,2,No,4,No
+Network Security,Remote Desktop Protocol,2900,13,No,17,No
+Cyber Compliance,Cyber Glossary,20,9,No,9,No
+Cyber Threats,Solarwinds Cyber Attack,390,1,Yes,1,Yes
+Cyber Threats,Identity Theft,22200,5,No,3,No
+Cyber Compliance,Sarbanes-Oxley Act,6600,18,No,17,No
+Cyber Security,SSL Certificate,14800,28,Yes,32,No
+Data Security,Data Classification,2400,19,No,12,No
+SecOps,what is soar,9900,2,No,4,No
+Access Control,what is Mobile Security,2900,2,Yes,2,Yes
+Cyber Security,Devsecops,9900,9,No,8,No
+Cyber Security,Dynamic DNS,3600,8,No,7,No
+Cloud Security, Infrastructure As Code,880,8,No,9,No
+Cyber Threats,What Is A Cyber Attack?,2900,6,No,6,No
+Access Control,Multi-Factor Authentication,6600,5,No,4,No
+Cyber Security,Account Takeover,1900,22,Yes,19,Yes
+Cyber Security,Colocation Data Center,3600,1,No,1,No
+Cyber Threats,Cyber Espionage,880,10,No,7,No
+SecOps,Deception Technology,390,1,Yes,1,Yes
+Network Security,Deep Packet Inspection,1600,1,Yes,1,Yes
+Network Security,Network Automation,1900,3,No,3,No
+Cyber Threats,DNS Leak,8100,5,No,6,No
+Cyber Threats,Swatting,18100,10,No,11,Yes
+Cyber Security,What Is A Honeypot,3600,11,No,12,No
+Data Security,What Is A Data Breach,6600,4,No,4,Yes
+Access Control,What Is Remote Access,210,1,Yes,1,Yes
+SecOps,Incident Response,590,10,No,11,No
+Cyber Threats,cyber warfare,2400,9,No,10,No
+Cyber Threats,remote work cyber security risks,40,1,No,1,No
+Cyber Threats,What Is Deepfake,2400,43,No,46,No
+OT Security,Critical Infrastructure Protection,4400,6,Yes,9,Yes
+Cyber Threats,Watering Hole Attack,1900,10,Yes,3,No
+Cyber Threats,Rootkit,5400,13,No,12,No
+Access Control,Oidc,9900,9,No,68,No
+Network Security,Intrusion Detection System,5400,9,No,9,No
+Cyber Security,Heuristic Analysis,720,5,No,3,No
+Cloud Security,Serverless Computing,4400,9,No,9,No
+Cyber Threats,Hacktivism,1900,15,No,11,No
+Cyber Threats,Types Of Phishing Attacks,1000,4,No,3,No
+Cyber Threats,Election Security,880,11,No,12,No
+Cyber Threats,Arp,90500,4,No,4,Yes
+Cyber Threats,Supply ChAIn Attacks,720,5,No,6,No
+Email Security,EmailSecurity Best Practices,590,1,No,1,No
+Cyber Security,white hat hacking,4400,10,No,10,No
+Cyber Threats,What Is Ddos Attack,2900,22,Yes,14,Yes
+Cyber Security,Recent Cyber Attacks,3600,29,No,28,No
+VPN,Remote Access VPN,5400,12,Yes,11,Yes
+Cyber Compliance,Fisma,6600,8,No,1,No
+Cyber Threats,How To Detect Keylogger,320,28,No,23,No
+Network Security,Network Segmentation,2900,2,Yes,3,Yes
+Network Security,Intrusion Prevention System,9900,2,No,3,No
+SecOps,SIEM,2900,7,No,10,No
+Endpoint Security,XDR,6600,9,Yes,9,No
+VPN,VPN Routers,480,10,Yes,9,Yes
+Cyber Threats,Clickjacking,1600,11,No,15,No
+Cyber Security,Bring Your Own Device,2400,28,No,26,No
+Cyber Threats,Cross Site Scripting,5400,9,Yes,27,Yes
+Cyber Threats,Fast Flux Networks,20,12,No,12,No
+Cyber Threats,Phishing,49500,32,No,35,No
+Cyber Threats,Malware,40500,9,No,10,No
+Endpoint Security,Unified Endpoint Management,1300,5,Yes,3,Yes
+Cyber Threats,Man In The Middle Attack,5400,27,No,25,No
+Cyber Security,Cyber Insurance,9900,2,No,2,Yes
+Cyber Threats,Bloatware,4400,29,Yes,30,Yes
+Access Control,What Is Two Factor Authentication,6600,4,No,4,No
+Cyber Threats,Black Hat Security,110,9,No,9,No
+Network Security,DHCP,8100,11,No,9,No
+Cyber Security,Machine Learning,60500,1,No,1,No
+Cyber Threats,Cyber Threat Intelligence,3600,3,No,3,No
+Cyber Security,What Is A Qr Code,5400,2,Yes,3,Yes
+Network Security,Simple Network Management Protocol,4400,2,Yes,3,No
+Access Control,Federated Identity,880,15,No,14,No
+Cyber Threats,Ransomware,33100,11,No,10,Yes
+SecOps,SOC,40500,4,Yes,4,No
+Cyber Threats,Wannacry,4400,5,No,6,No
+Cyber Security,Ci/Cd Pipelines,3600,11,No,12,No
+Network Security,How To Pick A Wifi Router,90,7,No,15,No
+Network Security,Mitre Att&Ck,5400,26,No,25,No
+Network Security,What Is 5G?,135000,15,No,15,No
+Cyber Security,Virtual Desktop Infrastructure,1900,5,No,2,No
+VPN,What Is A VPN,165000,26,Yes,26,No
+Cyber Security,Fabric Of Security,40,1,No,1,No
+SecOps,network detection and response,1300,6,Yes,5,Yes
+OT Security,Cyber Physical Systems,1300,6,Yes,5,Yes
+OT Security,Purdue Model,70,33,No,30,No
+AI Security,What Is AIr Gap,210,13,No,16,No
+Cyber Threats,Malware Protection,1830000,12,No,13,No
+Endpoint Security,Browser Security,1000,11,No,8,No
+Cyber Threats,Types Of Malware,2900,8,No,16,No
+Endpoint Security,Identity As A Service,880,11,No,8,No
+Network Security,DFIR,2900,14,Yes,12,No
+Network Security,Application Performance Monitoring,6600,7,No,8,No
+Cyber Security,SOC 1 Compliance,590,1,Yes,1,Yes
+Cyber Compliance,Security Audit,1300,60,Yes,60,Yes
+SecOps,Web Application Security,1900,5,No,9,No
+Network Security,Server Virtualization,1600,7,No,2,No
+Cyber Threats,Vulnerability Assessment Tools,1300,7,No,10,No
+Data Security,Neural Networks,9900,-,No,88,No
+Cyber Security,shor's algorithm,3600,6,No,2,No
+Cyber Threats,Dark Web Vs Deep Web,1000,5,No,5,No
+Cyber Threats,Signs Of Malware,260,1,No,1,No
+Cyber Security,Vulnerability Management,5400,9,No,9,No
+Cyber Security,Vulnerability Disclosure,140,10,Yes,8,Yes
+OT Security,Virtual Patching,260,5,Yes,6,Yes
+OT Security,Nerc Cip,5400,7,No,9,Yes
+Cyber Security,cyber security platform,1000,2,Yes,3,Yes
+OT Security,Compensating Controls,720,4,Yes,5,Yes
+Cyber Security,Darkside Ransomware,260,17,No,16,No
+OT Security,Rugged Hardware,50,17,No,17,No
+Cyber Security,identity based attacks,110,5,No,5,No
+VPN,Enterprise VPN Solutions,390,23,No,10,No
+NGFW,WAF OWASP Top 10,110,11,No,12,No
+Cloud Security,Virtual Machine,40500,45,No,47,No
+Cloud Security,Agent Vs Agentless Security,90,11,No,11,No
+Data Security,Behavioral Analytics,1000,10,No,11,No
+Cyber Security,ci/cd,9900,14,No,13,No
+Data Security,Cspm Vs DSPM,320,5,No,5,No
+Data Security,Ctem,1600,20,No,18,No
+Data Security,Data Discovery,1900,72,No,2,No
+Data Security,Data Matching,1300,4,No,2,No
+Data Security,Data Protection,6600,3,No,3,No
+Data Security,Dcap,3600,20,No,20,No
+Data Security,Device Control,720,43,No,44,No
+Cyber Compliance,Digital Operational Resilience Act,140,15,No,17,No
+Data Security,DLP Monitoring,110,1,No,1,No
+Data Security,DLP Policy,720,12,No,7,No
+Data Security,dlp as a service,50,1,No,1,No
+Data Security,File Sharing Security,40,1,No,1,No
+Cyber Compliance,Gdpr,49500,2,No,2,No
+Cyber Compliance,Hipaa Compliance,22200,14,No,15,No
+Access Control,Identity Risk,170,9,No,10,No
+Cyber Threats,living off the land attack,320,27,No,24,No
+Cyber Security,national vulnerability database,590,5,No,5,No
+Data Security,Network DLP,320,1,Yes,1,Yes
+OT Security,Private 5G Warehousing,0,1,No,1,No
+Cloud Security,SAAS Security,1600,3,No,4,No
+Data Security,Secret Management,590,25,No,27,No
+Cyber Threats,Security Misconfiguration,720,9,Yes,8,Yes
+Access Control,Software Defined Perimeter,590,6,No,6,No
+SecOps,Threat Detection And Response,1300,12,No,13,No
+Cyber Threats,remote code execution,4400,3,Yes,2,Yes
+Cyber Threats,Data Poisoning,590,27,No,30,No
+Data Security,Data Privacy,6600,-,No,-,No
+Cloud Security,Cloud Migration,480,-,No,69,No
+Cloud Security,cloud workload security,480,9,No,10,No
+Data Security,rise of cybersecurity mesh,170,1,No,1,No
+Access Control,SAML,18100,21,No,21,No
+NGFW,NGFW vs UTM,170,1,Yes,1,Yes
+Cyber Security,Cybersecurity Trends,1300,2,Yes,2,Yes
+Cyber Security,Cybersecurity Best Practices,40500,10,No,12,No
+SecOps,MLSecops,100,-,No,-,No
+Quantum Security,Quantum Cryptanalysis,20,4,No,4,No
+Cyber Security,Cybersecurity Risks,590,-,No,18,No
+Quantum Security,Quantum Cryptography,18100,-,No,13,No
+SecOps,red teaming,6600,19,No,17,No
+Data Security,Prompt Injection Attack,1000,17,No,24,No
+Cyber Threats,ai risk management,2800,-,No,-,No

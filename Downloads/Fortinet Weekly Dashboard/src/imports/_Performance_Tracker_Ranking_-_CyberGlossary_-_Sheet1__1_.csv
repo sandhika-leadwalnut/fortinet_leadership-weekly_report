@@ -1,0 +1,552 @@
+Categories,Target Keywords ,2026 Wk37,"WK 37
+AIO",2026 Wk38,"WK 38
+AIO"
+AI Security,AIOPS,34,No,22,No
+AI Security,AI Data Center,26,No,24,No
+Cloud Security,AWS Compliance,16,No,9,No
+Cloud Security,Virtual Cloud Network,1,No,1,No
+Cloud Security,Cloud Infrastructure,17,No,19,No
+Cloud Security,Hybrid Cloud,17,No,16,No
+Cloud Security,Hybrid Cloud Security,6,No,7,No
+Cloud Security,CSPM,27,No,15,No
+Cloud Security,Cloud NATive,42,No,41,No
+Cloud Security,Secure Web Gateway,6,No,6,No
+Cloud Security,Cloud Security Tools,3,No,2,Yes
+Cloud Security,Cloud Security Architecture,11,No,8,No
+Cloud Security,Cloud Security Best Practices,16,No,20,No
+Cloud Security,Multi Cloud Security,8,No,8,No
+NGFW/firewall,Cloud Native Firewall,16,No,17,No
+Cloud Security,Cloud Application Security,3,Yes,2,No
+Cloud Security,Private Cloud Vs Public Cloud,10,No,11,No
+NGFW/firewall,Distributed Firewall,1,Yes,1,Yes
+NGFW/firewall,Stateful Firewall,4,No,2,Yes
+NGFW/firewall,DNS Firewall,9,No,11,No
+NGFW/firewall,Firewall Design Principles,6,No,7,No
+Network Security,Network Security,7,Yes,6,Yes
+OT Security,OT Security Best Practices,11,No,9,No
+Cyber Compliance,OT Network Segmentation,2,No,1,No
+OT Security,ICS SCADA,1,No,1,No
+Quantum Security,Quantum Security,6,Yes,4,Yes
+SASE,SASE Benefits,6,No,3,Yes
+SASE,SD WAN Architecture,5,No,4,No
+SASE,SD WAN Cost,6,Yes,2,Yes
+ZTNA,Zero Trust Architecture,42,No,26,No
+ZTNA,Zero Trust Cloud,9,No,9,No
+VPN,Public Wifi,6,No,5,No
+Cyber Threats,Threat Hunting,27,No,21,No
+Cyber Security,Information Security,29,No,29,No
+Access Control,OAUTH,12,No,7,No
+Cyber Security,Credential Stuffing,5,No,5,No
+Cyber Threats,Malvertising,10,No,10,No
+OT Security,EDGE Computing,33,No,13,No
+Cyber Threats,Wannacry Ransomware Attack,9,No,5,No
+Access Control,Authentication Vs Authorization,7,No,6,No
+Email Security,Email Spoofing,7,No,6,No
+Data Security,Cybersecurity Analytics,6,Yes,8,Yes
+Cyber Threats,Worm Virus,2,Yes,2,Yes
+Cyber Threats,Computer Viruses,5,Yes,4,No
+VPN,VPN Blocker,6,No,3,Yes
+Cyber Threats,DNS Poisioning,2,No,2,No
+Cyber Threats,Cyberwarfare,3,Yes,4,No
+Cyber Threats,Indicators Of Compromise,3,No,4,Yes
+Cyber Security,File Transfer Protocol,5,No,2,No
+Network Security,Kerberos Authentication,3,Yes,2,Yes
+Cyber Security,What Is NAT,5,No,4,Yes
+Network Security,What Is An IPS,6,Yes,3,Yes
+Network Security,What Is HSM,2,No,2,No
+Network Security,Ethernet Switching,7,No,7,No
+Cyber Threats,Buffer Overflow,3,Yes,3,No
+Cyber Security,ICMP,4,Yes,4,No
+Cyber Security,Fault Tolerance,5,No,3,Yes
+Network Security,DNS Protection,9,No,4,No
+Data Security,Data Leak,8,No,7,Yes
+Network Security,Latency,6,Yes,5,Yes
+Cyber Threats,What Is Catfishing,2,Yes,2,No
+Cyber Threats,Cyber Attacks On Small Business,2,No,4,No
+Cyber Threats,Ping Of Death,6,No,5,No
+SASE,What Is SSE,7,Yes,4,No
+Cyber Security,Mobile App Security,8,No,5,No
+Cyber Threats,P2P VPN,7,Yes,8,Yes
+Cyber Security,Runtime Application Self-Protection,9,No,9,No
+Cyber Security,Enterprise Security,4,Yes,4,Yes
+Cyber Threats,Cryptojacking,10,No,9,Yes
+Cyber Threats,Smishing,11,No,10,No
+Cyber Threats,Shadow It,10,Yes,8,No
+Cyber Security,What Is Data Center,8,No,7,No
+Network Security,Data Integrity,5,No,2,No
+Cyber Threats,Wardriving,5,No,4,No
+VPN,SSL VPN,6,Yes,4,Yes
+Network Security,Snort,7,No,7,No
+Cyber Threats,Zero-Day Attack,1,Yes,1,Yes
+Cyber Security,Vulnerability Scanning Vs Penetration Testing,1,No,1,No
+Cloud Security,API Security,6,No,6,No
+Cyber Security,Cryptography,4,No,3,No
+Cyber Threats,Doxing,10,No,8,No
+Access Control,Access Control,3,No,3,No
+Email Security,DKIM Record,7,No,6,No
+Access Control,SAML Vs OAUTH Vs Open Id,12,No,10,No
+Cyber Threats,CSRF Attack,15,No,13,No
+Cyber Security,What Is Captcha?,8,No,9,No
+Cyber Security,Common Vulnerabilities And Exposures,26,No,28,No
+Cyber Security,Reverse Proxy,9,No,6,No
+OT Security,What Is Scada,6,No,5,No
+Access Control,Identity And Access Management,19,No,7,Yes
+Cyber Security,What Is Cybersecurity,11,No,11,No
+Cyber Compliance,What Is Soc 2 Compliance,7,No,6,No
+Cyber Compliance,Cobit,3,Yes,3,No
+OT security,What Is IOT?,20,No,11,No
+Cyber Security,Enterprise Architecture,9,No,5,No
+Cyber Security,Disaster Recovery,10,No,11,No
+Cyber Compliance,Personally Identifiable Information,25,No,25,No
+Network Security,OSI Model,36,No,36,No
+Cyber Compliance,Owasp,12,No,12,No
+Cyber Security,RBAC,15,No,6,No
+Cyber Threats,What Is A Cyber Attack,3,Yes,3,Yes
+Cyber Threats,Vishing Attack,5,No,5,No
+Endpoint Security,Endpoint Protection Platform,6,No,5,Yes
+Network Security,What Is A WAN,4,No,3,No
+Cyber Threats,Ransomware Statistics,20,No,7,No
+Cloud Security,CIEM,14,Yes,15,Yes
+Cyber Threats,Command And Control Attack,2,Yes,1,Yes
+OT Security,IOT Security,6,Yes,6,No
+Cyber Security,Packet Loss,6,Yes,5,No
+Cyber Security,Dynamic Application Security Testing,15,No,12,No
+Cyber Security,Bluekeep,3,Yes,3,Yes
+Security Operations (SecOps),It Operations,9,No,8,No
+Cyber Threats,Advanced Persistent Threat,14,No,14,No
+Cloud Security,CNapp,15,No,14,No
+Cyber Threats,Social Engineering,27,No,27,No
+Security Operations (SecOps),SAAS,5,No,5,No
+SASE,Privileged Access Management,12,No,12,No
+Cloud Security,LAAS,-,No,-,No
+Data Security,Data Governance,44,No,31,No
+OT Security,IEC 62443,3,Yes,3,No
+Network Security,Digital Experience Monitoring,6,No,4,No
+Network Security,Active Directory Cybersecurity,1,No,1,No
+Endpoint Security,SCIM Authentication,1,No,2,No
+Network Security,Application Security,29,No,27,No
+Cyber Threats,Cyber Safety,4,No,3,No
+Cyber Threats,Cyber Resilience,26,No,27,No
+Cyber Security,Antivirus Protection,5,Yes,5,Yes
+NGFW/firewall,Web Application Firewall Architecture,5,No,2,No
+Cyber Security,Cybersecurity Awareness,11,No,11,No
+Network Security,It Security,8,Yes,8,Yes
+Cyber Compliance,Nist 800 53,11,No,12,No
+Cyber Compliance,Nittf Cnssd 504,2,No,2,No
+Access Control,Principle Of Least Privilege,30,No,25,No
+Cyber Security,SBOM,24,No,25,No
+Data Security,Secret Detection,2,No,2,No
+AI Security,AI In Cybersecurity,2,No,2,Yes
+AI Security,AI Adoption,2,Yes,2,Yes
+AI Security,AI Security,12,No,9,No
+AI Security,Deep Fake AI,6,No,10,No
+Cloud Security,Virtual Private Cloud,8,No,9,Yes
+SASE,CASB,7,No,6,Yes
+Cloud Security,Public Cloud Security Risks,6,No,6,No
+VPN,Cloud VPN,7,No,6,Yes
+Cloud Security,Cloud Security,24,No,20,No
+Data Security,Cloud Data Protection,25,No,25,No
+Cloud Security,Cloud Encryption,13,Yes,11,Yes
+Cloud Security,Cloud Firewall,2,Yes,2,Yes
+NGFW/firewall,Virtual Firewall,8,No,8,No
+Cloud Security,Cloud Security TIPS,9,No,2,Yes
+Cloud Security,Cloud Detection And Response,11,Yes,7,Yes
+Cloud Security,Cloud Workload Protection Platform,8,No,10,No
+Data Security,DLP For Cloud,6,No,4,No
+NGFW/firewall,What Does A Firewall Do,1,Yes,1,No
+NGFW/firewall,Firewall As A Service,1,Yes,1,Yes
+NGFW/firewall,Waf Vs Firewall,1,Yes,1,Yes
+NGFW/firewall,How Does A Firewall Work,1,Yes,1,Yes
+NGFW/firewall,Perimeter Firewall,1,No,1,No
+NGFW/firewall,Transparent Firewall,1,Yes,1,Yes
+NGFW/firewall,Firewall Configuration,1,Yes,1,Yes
+NGFW/firewall,Hybrid Mesh Firewall,5,Yes,3,Yes
+NGFW/firewall,Proxy Firewall,1,No,1,Yes
+NGFW/firewall,Does Firewall Slow Down Internet Speed,1,No,1,No
+NGFW/firewall,Hybrid Firewall,1,No,1,No
+NGFW/firewall,Stateful Vs Stateless Firewall,1,No,1,No
+NGFW/firewall,Proxy Server Vs Packet Filtering Firewall,1,No,1,No
+NGFW/firewall,Firewall,2,Yes,2,No
+NGFW/firewall,Hardware Firewall,4,No,3,Yes
+NGFW/firewall,Firewall Benefits,1,No,1,No
+NGFW/firewall,What Is A Firewall,2,No,2,Yes
+NGFW/firewall,End Of Life Firewall,1,No,1,No
+NGFW/firewall,Human Firewall,2,Yes,2,Yes
+OT Security,Rugged Firewall,8,No,-,No
+NGFW/firewall,Web Application Firewall For Enterprise,21,No,2,No
+NGFW/firewall,WAF,12,No,12,No
+NGFW/firewall,Best Virtual Firwall,15,No,15,No
+NGFW/firewall,NGFW,28,No,40,No
+Network Security,Network Security Vulnerability,1,Yes,1,Yes
+Network Security,Network Security Threats,1,Yes,1,Yes
+Network Security,Cloud Network Security,2,Yes,1,Yes
+Network Security,Network Security Management,7,No,7,No
+Network Security,Network Security Vs Cybersecurity,1,Yes,1,Yes
+OT Security,IT Vs OT Security,2,No,2,No
+OT Security,Manufacturing OT,5,No,4,No
+Quantum Security,Quantum Key Distribution,2,Yes,2,Yes
+Quantum Security,Post Quantum Cryptography,9,No,10,No
+Quantum Security,Quantum Computing Security,1,Yes,1,Yes
+Quantum Security,Quantum Safe Security,1,No,1,No
+Quantum Security,Quantum Safe Encryption,55,No,23,No
+SASE,SD WAN Vs SASE,3,Yes,3,Yes
+SASE,SASE Vs CASB,1,Yes,1,Yes
+SASE,SASE,1,Yes,1,Yes
+SASE,SASE Architecture,4,No,4,No
+SASE,SASE Vs ZTNA,4,No,3,No
+SASE,Sovereign SASE,15,Yes,11,Yes
+SD-WAN,SDN Vs SD WAN,1,Yes,1,Yes
+SD-WAN,SD WAN Vs VPN,5,Yes,2,Yes
+SASE,SD WAN Explained,3,No,2,No
+SD-WAN,SD WAN Benefits,5,Yes,1,Yes
+SASE,SD WAN As A Service,1,No,1,Yes
+SASE,SD WAN Security,9,No,7,No
+Network Security,SD WAN Vs Mpls,3,Yes,3,Yes
+Security Operations (SecOps),Security Operations,5,Yes,33,Yes
+Security Operations (SecOps),Secops,4,Yes,7,Yes
+Security Operations (SecOps),Secops Metrics,1,No,1,No
+ZTNA,How To Implement Zero Trust,2,Yes,1,Yes
+ZTNA,Universal ZTNA,41,No,19,No
+ZTNA,Zero Trust EDGE,15,No,10,Yes
+ZTNA,Zerotrust Security Model,1,No,2,No
+ZTNA,ZTNA Vs VPN,1,No,1,Yes
+ZTNA,Zero-Trust Network Access,1,Yes,1,Yes
+ZTNA,Virtual Firewall For Zero Trust,1,No,1,No
+ZTNA,Zero Trust,76,No,72,No
+Cyber Security,Cognitive Science,10,No,8,No
+Cyber Compliance,Fedramp,7,No,7,No
+Cyber Security,Hyperscale Data Center,13,Yes,9,No
+Cyber Threats,What Is Adware,3,Yes,3,No
+Cyber Security,Common Vulnerability Scoring System,27,No,24,No
+Cyber Security,Bitcoin Mining,6,Yes,4,No
+Email Security,Business Email Compromise,25,No,22,No
+Email Security,What Is Dmarc,3,No,3,No
+Cyber Compliance,ISO/IEC 27001,13,No,13,No
+Cyber Security,Managed Security Service Provider,2,Yes,2,Yes
+Security Operations (SecOps),Sandboxing,4,Yes,4,Yes
+Cloud Security,Web Security,7,No,4,No
+Cyber Security,Cybersecurity Management,2,No,1,No
+Endpoint Security,Endpoint Security,3,No,3,Yes
+Data Security,What Is Encryption,4,Yes,2,Yes
+Network Security,LDAP Authentication,6,No,3,No
+SASE,Privileged Identity Management,12,No,9,No
+Network Security,DMZ,6,No,7,Yes
+VPN,Does VPN Affect Internet Speed,5,Yes,2,Yes
+VPN,Are VPNs Safe,6,No,6,No
+Data Security,Threat Modeling,11,No,11,No
+VPN,Is VPN Safe,7,Yes,6,Yes
+Cyber Threats,Attack Vector,5,Yes,4,Yes
+Cyber Security,Service Set Identifier,1,Yes,1,No
+Data Security,Digital Rights Management,3,Yes,3,Yes
+Security Operations (SecOps),Content Filtering,1,Yes,1,Yes
+Data Security,What Is Splunk,4,No,2,No
+SASE,What Is Proxy Server,3,Yes,2,Yes
+Data Security,Data Egress,1,Yes,1,Yes
+OT Security,IOT EDGE,7,No,6,No
+SASE,Http Proxy,1,No,1,No
+Cyber Threats,Web Security Threats,1,No,1,No
+Email Security,Email Encryption,3,Yes,3,Yes
+Cyber Threats,Brute Force Attack,6,Yes,4,Yes
+Data Security,Defense In Depth,2,No,2,Yes
+Data Security,Honey Tokens,1,Yes,1,Yes
+Data Security,Attack Surface,2,Yes,2,Yes
+Data Security,Types Of Cyber Attacks,1,Yes,1,Yes
+Cyber Threats,Active Defense,1,Yes,1,Yes
+Cyber Compliance,Nist Compliance,1,Yes,1,Yes
+Cyber Threats,Remote Access Trojan,5,Yes,4,Yes
+Cyber Threats,Malware Analysis,8,Yes,7,Yes
+Cyber Threats,Fake Hacking,4,No,4,No
+Data Security,Pos Security,1,Yes,1,Yes
+OT Security,IOT Security Best Practices,1,No,1,No
+Endpoint Security,What Is EDR,6,No,4,No
+Endpoint Security,Types Of Endpoint Security,1,Yes,1,Yes
+Network Security,WAN Aggregation,5,Yes,5,Yes
+Security Operations (SecOps),UEBA,4,Yes,3,No
+Email Security,What Is A Pst File,1,Yes,1,Yes
+Access Control,SAML Vs OAUTH,1,Yes,1,Yes
+Cyber Security,What Is Traceroute,1,Yes,1,Yes
+SASE,Authentication Token,2,No,2,Yes
+Network Security,Network Traffic,1,Yes,1,Yes
+Cyber Threats,Internet Fraud,3,No,3,No
+Cyber Threats,802.1X Authentication,1,No,1,Yes
+Network Security,Network Access Control List,1,Yes,1,Yes
+Cyber Security,What Is An Open Proxy,1,No,1,No
+Cloud Security,What Is An API Key,2,Yes,1,Yes
+Access Control,Radius Protocol,2,Yes,2,Yes
+Cyber Security,Transparent Proxy,1,Yes,1,Yes
+Cyber Security,OCSP,2,Yes,2,No
+Network Security,Centralized Management,2,Yes,2,Yes
+VPN,Benefits Of VPN,4,No,2,No
+VPN,VPN Split Tunneling,1,Yes,1,Yes
+VPN,Proxy Vs VPN,3,Yes,2,Yes
+Access Control,AAA Security,4,No,4,No
+OT Security,Network EDGE,7,No,3,No
+OT Security,Operational Security,3,Yes,2,Yes
+Cloud Security,Hybrid Data Center,1,Yes,1,Yes
+SASE,How To Setup A Proxy Server,6,No,5,No
+Cyber Security,Message Authentication Code,3,Yes,3,Yes
+Network Security,DNS Security,11,No,10,Yes
+Data Security,Healthcare Data Security,1,Yes,1,Yes
+Data Security,Data Center Security,1,No,1,Yes
+Cyber Security,Cybersecurity Mesh,1,Yes,1,Yes
+Cyber Threats,Hacking,1,Yes,1,Yes
+VPN,How Does A VPN Work,4,No,3,Yes
+Cyber Security,CIA Triad,1,Yes,1,Yes
+Security Operations (SecOps),Security-As-A-Service,1,Yes,1,Yes
+Cyber Compliance,Compliance Automation,1,No,1,No
+Data Security,Data Deduplication,9,No,7,No
+Cyber Security,Tcp Ip Model Vs Osi Model,1,No,1,No
+Cyber Threats,Tailgating Attack,1,Yes,1,Yes
+Data Security,Data Security,4,No,4,No
+Email Security,Phishing Email Analysis,1,No,2,No
+Data Security,Data Exfiltration,6,No,5,No
+Email Security,PGP Encryption,2,Yes,2,Yes
+Network Security,Unified Threat Management,1,Yes,1,Yes
+Cyber Threats,URL Phishing,1,No,1,Yes
+Cyber Security,It Security Policy,1,Yes,1,Yes
+Cyber Threats,DNS Hijacking,3,Yes,4,Yes
+Cyber Threats,DOS Vs DDOS,1,Yes,1,Yes
+Cyber Threats,Whaling Attack,3,No,3,No
+Cyber Threats,Botnet,4,No,4,Yes
+Cyber Threats,Port Scan,6,No,6,No
+Network Security,Digital Certificates,1,Yes,1,Yes
+Cyber Threats,Eavesdropping Attack,1,Yes,1,Yes
+Network Security,Border Gateway Protocol,14,No,8,No
+SASE,SSPM,5,Yes,4,Yes
+Cyber Threats,Cyber Extortion,1,Yes,1,Yes
+Cyber Security,Devops Security,4,Yes,4,Yes
+Data Security,Confidential Computing,19,No,19,No
+Cyber Threats,Scareware,7,No,3,Yes
+Cyber Threats,Trojan Horse Virus,1,No,1,Yes
+Cyber Security,Canary In Cybersecurity,1,Yes,1,Yes
+Email Security,Email Security,6,No,6,No
+Cyber Security,Cybersecurity Tools For Small Business,1,No,1,No
+Cyber Threats,Ransomware Settlement,1,No,2,No
+Cyber Threats,Fileless Malware,5,Yes,5,Yes
+Cyber Threats,Keyloggers,1,Yes,1,Yes
+Network Security,Microsegmentation,9,No,7,No
+Cyber Security,Cybersquatting,12,No,12,No
+Cyber Security,What Is Firmware,2,Yes,2,Yes
+Cyber Security,User Datagram Protocol,7,No,4,No
+Network Security,Certificate Management,12,No,12,No
+Network Security,What Is Url Filtering,2,No,2,No
+SD-WAN,Diy Vs Managed SD WAN,1,Yes,1,Yes
+Network Security,QOS,3,Yes,2,Yes
+SASE,Branch Networking,5,No,4,No
+Network Security,MPLS,10,No,8,Yes
+Cyber Security,Failover,4,No,4,No
+Cyber Threats,Lateral Movement,7,Yes,7,No
+VPN,Site To Site VPN,3,Yes,3,No
+Cyber Threats,Ransomware Removal,1,Yes,1,Yes
+Endpoint Security,Endpoint Security For Mobile Devices,17,No,17,No
+Security Operations (SecOps),Shift Left Security,1,Yes,1,Yes
+Cyber Security,What Is An Ip Address,1,Yes,1,Yes
+Email Security,SPAM Filtering,1,No,1,No
+OT Security,IOT Device Vulnerabilities,1,Yes,1,Yes
+Cloud Security,DDOS Mitigation,11,No,9,No
+Cyber Security,What Is Time To Live,4,No,3,No
+Cyber Threats,Malware Vs Virus Vs Worm,1,No,1,No
+Cyber Security,Login Credentials,1,No,1,No
+Cyber Threats,Ransomware Jargon,1,No,1,No
+Cyber Threats,Pretexting,5,Yes,3,No
+OT Security,ICS Security,8,No,7,No
+Cyber Security,Fortinet DOJ,2,No,2,No
+Network Security,Wireless Network,2,Yes,2,Yes
+Cyber Security,What Is DNS,6,No,6,No
+Cyber Security,What Is Https,7,No,7,No
+Cyber Threats,Ransomware As A Service,5,No,5,No
+Cyber Security,TCP/IP,3,Yes,2,Yes
+Cyber Threats,What Is An Insider Threat,5,No,5,No
+Network Security,Static Vs Dynamic Ip Address,1,Yes,1,Yes
+Cyber Threats,Smurf Attack,5,No,5,No
+Cyber Security,Cybersecurity TIPS For Small Businesses,3,No,3,No
+Cyber Security,Data Loss Prevention,10,Yes,7,No
+Access Control,Network Access Control,7,No,4,Yes
+Cyber Threats,Dark Web Monitoring,6,No,6,No
+Cyber Security,Caching,11,No,9,No
+Cyber Threats,What Is Spyware,2,Yes,1,No
+Cyber Security,Code Scanning,4,No,4,No
+Cyber Security,Cybersecurity Statistics,2,Yes,5,No
+Cyber Security,Pharming,4,No,5,No
+Cyber Threats,What Is An Exploit,8,No,8,No
+Cyber Security,Vulnerability Assessment,1,Yes,1,No
+Cyber Threats,What Is A Bot,10,No,8,No
+Cyber Threats,DDOS Protection,3,Yes,2,Yes
+Cloud Security,What Is Openstack,10,No,6,No
+Cloud Security,Hybrid It,8,Yes,10,Yes
+Cyber Threats,Krack Attack,5,No,5,No
+Cyber Security,Thin Client,4,Yes,4,Yes
+Access Control,CIAM,18,No,13,No
+Cyber Threats,Spear Phishing,7,Yes,5,Yes
+Cyber Security,Advanced Threat Protection,1,Yes,1,Yes
+SASE,Network As A Service,5,No,5,No
+Endpoint Security,Managed Detection And Response,27,No,28,No
+Access Control,What Is SSO?,3,No,3,No
+Network Security,What Is Internet Security,2,Yes,1,Yes
+Network Security,Wireless Security TIPS,2,No,2,No
+Cyber Compliance,What Is PCI Compliance,2,Yes,1,No
+Cyber Threats,SQL Injection,13,No,10,No
+Cyber Threats,Sextortion,8,No,4,No
+Cyber Security,Web ScrAPIng,6,No,4,No
+Network Security,Network Monitoring,6,No,5,Yes
+Access Control,PKI,3,No,2,No
+Cloud Security,PAAS,11,No,11,No
+Cyber Security,Mobile Device Management,5,No,5,No
+Cyber Threats,How To Prevent Ransomware,2,Yes,2,Yes
+Network Security,Remote Desktop Protocol,5,Yes,4,Yes
+Cyber Compliance,Cyber Glossary,7,No,3,No
+Cyber Threats,Solarwinds Cyber Attack,1,Yes,1,Yes
+Cyber Threats,Identity Theft,14,No,28,No
+Cyber Compliance,Sarbanes-Oxley Act,-,No,-,No
+Cyber Security,SSL Certificate,9,No,9,No
+Data Security,Data Classification,18,No,16,No
+Security Operations (SecOps),What Is SOAR,4,No,3,No
+Access Control,What Is Mobile Security,2,Yes,2,Yes
+Cyber Security,Devsecops,37,No,37,No
+Cyber Security,Dynamic DNS,9,No,7,No
+Cloud Security,Infrastructure As Code,26,No,22,No
+Cyber Threats,What Is A Cyber Attack?,3,No,3,No
+Access Control,Multi-Factor Authentication,23,No,20,No
+Cyber Security,Account Takeover,6,No,5,No
+Cyber Security,Colocation Data Center,1,No,1,No
+Cyber Threats,Cyber Espionage,9,No,9,No
+Security Operations (SecOps),Deception Technology,1,Yes,1,Yes
+Network Security,Deep Packet Inspection,1,Yes,1,Yes
+Network Security,Network Automation,8,No,7,No
+Cyber Threats,DNS Leak,8,No,6,No
+Cyber Threats,Swatting,10,No,9,No
+Cyber Security,What Is A Honeypot,7,Yes,7,No
+Data Security,What Is A Data Breach,6,No,5,No
+Access Control,What Is Remote Access,1,Yes,1,Yes
+Security Operations (SecOps),Incident Response,7,No,7,No
+Cyber Threats,Cyber Warfare,74,No,-,No
+Cyber Threats,Remote Work Cyber Security Risks,1,No,1,No
+Cyber Threats,What Is Deepfake,10,No,8,No
+OT Security,Critical Infrastructure Protection,3,Yes,3,Yes
+Cyber Threats,Watering Hole Attack,2,Yes,2,Yes
+Cyber Threats,Rootkit,3,No,3,No
+Access Control,OIDC,18,No,19,No
+Network Security,Intrusion Detection System,11,No,11,No
+Cyber Security,Heuristic Analysis,7,No,6,No
+Cloud Security,Serverless Computing,30,No,27,No
+Cyber Threats,Hacktivism,2,Yes,2,Yes
+Cyber Threats,Types Of Phishing Attacks,2,Yes,1,Yes
+Cyber Threats,Election Security,9,No,9,No
+Cyber Threats,ARP,6,No,6,Yes
+Cyber Threats,Supply Chain Attacks,16,No,15,No
+Email Security,Emailsecurity Best Practices,1,No,1,No
+Cyber Security,White Hat Hacking,3,No,3,No
+Cyber Threats,What Is DDOS Attack,6,No,7,No
+Cyber Security,Recent Cyber Attacks,2,No,2,Yes
+VPN,Remote Access VPN,7,Yes,3,Yes
+Cyber Compliance,Fisma,8,No,5,Yes
+Cyber Threats,How To Detect Keylogger,12,No,8,No
+Network Security,Network Segmentation,6,No,6,No
+Network Security,Intrusion Prevention System,10,No,9,No
+Security Operations (SecOps),SIEM,19,No,27,No
+Endpoint Security,XDR,7,Yes,7,No
+VPN,VPN Routers,4,Yes,2,Yes
+Cyber Threats,Clickjacking,12,No,12,No
+Cyber Security,Bring Your Own Device,68,No,6,No
+Cyber Threats,Cross Site Scripting,9,No,9,No
+Cyber Threats,Fast Flux Networks,3,No,2,No
+Cyber Threats,Phishing,8,No,7,No
+Cyber Threats,Malware,19,No,13,No
+Endpoint Security,Unified Endpoint Management,2,Yes,3,Yes
+Cyber Threats,Man In The Middle Attack,8,Yes,7,No
+Cyber Security,Cyber Insurance,4,Yes,3,Yes
+Cyber Threats,Bloatware,5,Yes,3,Yes
+Access Control,What Is Two Factor Authentication,11,No,10,No
+Cyber Threats,Black Hat Security,12,No,4,No
+Network Security,DHCP,7,No,8,No
+Cyber Security,Machine Learning,1,No,1,No
+Cyber Threats,Cyber Threat Intelligence,26,No,20,No
+Cyber Security,What Is A Qr Code,3,Yes,3,Yes
+Network Security,Simple Network Management Protocol,3,Yes,3,Yes
+Access Control,Federated Identity,8,No,7,No
+Cyber Threats,Ransomware,8,No,9,No
+Security Operations (SecOps),SOC,18,No,18,No
+Cyber Threats,Wannacry,13,No,12,No
+Cyber Security,CI/CD Pipelines,23,No,67,No
+Network Security,How To Pick A Wifi Router,7,No,5,No
+Network Security,Mitre ATT&CK,31,No,27,No
+Network Security,What Is 5G?,10,No,7,No
+Cyber Security,Virtual Desktop Infrastructure,29,No,28,No
+VPN,What Is A VPN,7,No,6,No
+Cyber Security,Fabric Of Security,1,No,1,No
+Security Operations (SecOps),Network Detection And Response,13,No,12,No
+OT Security,Cyber Physical Systems,3,Yes,3,Yes
+OT Security,Purdue Model,2,No,3,No
+AI Security,What Is Air Gap,11,No,9,No
+Cyber Threats,Malware Protection,12,Yes,13,No
+Endpoint Security,Browser Security,14,No,14,No
+Cyber Threats,Types Of Malware,3,Yes,3,Yes
+Endpoint Security,Identity As A Service,13,No,12,No
+Network Security,DFIR,6,No,5,No
+Network Security,Application Performance Monitoring,24,No,18,No
+Cyber Security,Soc 1 Compliance,1,Yes,1,Yes
+Cyber Compliance,Security Audit,4,Yes,4,Yes
+Security Operations (SecOps),Web Application Security,25,No,28,No
+Network Security,Server Virtualization,8,No,8,Yes
+Cyber Threats,Vulnerability Assessment Tools,10,No,8,No
+Data Security,Neural Networks,-,No,-,No
+Cyber Security,Shor's Algorithm,5,No,1,No
+Cyber Threats,Dark Web Vs Deep Web,18,No,12,No
+Cyber Threats,Signs Of Malware,5,No,1,No
+Cyber Security,Vulnerability Management,67,No,63,No
+Cyber Security,Vulnerability Disclosure,5,Yes,5,Yes
+OT Security,Virtual Patching,3,Yes,3,Yes
+OT Security,NERC CIP,6,No,6,Yes
+Cyber Security,Cyber Security Platform,2,Yes,2,Yes
+OT Security,Compensating Controls,2,Yes,2,Yes
+Cyber Security,Darkside Ransomware,5,No,4,No
+OT Security,Rugged Hardware,9,No,9,No
+Cyber Security,Identity Based Attacks,7,No,7,No
+VPN,Enterprise VPN Solutions,4,No,3,No
+NGFW/firewall,Waf Owasp Top 10,7,No,3,No
+Cloud Security,Virtual Machine,30,No,9,No
+Cloud Security,Agent Vs Agentless Security,5,No,3,No
+Data Security,Behavioral Analytics,14,No,14,No
+Cyber Security,CI/CD,13,No,9,No
+Data Security,CSPM Vs DSPM,5,No,5,No
+Data Security,CTEM,17,No,7,No
+Data Security,Data Discovery,23,No,30,No
+Data Security,Data Matching,10,No,11,No
+Data Security,Data Protection,14,No,14,No
+Data Security,DCAP,22,No,8,No
+Data Security,Device Control,5,No,5,No
+Cyber Compliance,Digital Operational Resilience Act,17,No,19,No
+Data Security,DLP Monitoring,1,Yes,1,Yes
+Data Security,DLP Policy,3,No,2,No
+Data Security,DLP As A Service,1,No,1,No
+Data Security,File Sharing Security,1,No,1,No
+Cyber Compliance,GDPR,44,No,44,No
+Cyber Compliance,Hipaa Compliance,17,No,17,No
+Access Control,Identity Risk,22,No,15,No
+Cyber Threats,Living Off The Land Attack,4,No,4,No
+Cyber Security,National Vulnerability Database,5,No,5,No
+Data Security,Network DLP,1,Yes,1,Yes
+OT Security,Private 5G Warehousing,1,No,1,No
+Cloud Security,SAAS Security,11,No,9,No
+Data Security,Secret Management,24,No,24,No
+Cyber Threats,Security Misconfiguration,6,No,6,No
+Access Control,Software Defined Perimeter,7,Yes,5,Yes
+Security Operations (SecOps),Threat Detection And Response,12,No,12,No
+Cyber Threats,Remote Code Execution,6,No,3,Yes
+Cyber Threats,Data Poisoning,26,No,26,No
+Data Security,Data Privacy,-,No,-,No
+Cloud Security,Cloud Migration,-,No,74,No
+Cloud Security,Cloud Workload Security,10,No,10,No
+Data Security,Rise Of Cybersecurity Mesh,1,No,1,No
+Access Control,SAML,16,No,17,No
+NGFW/firewall,NGFW Vs UTM,1,Yes,1,Yes
+Cyber Security,Cybersecurity Trends,1,Yes,1,Yes
+Cyber Security,Cybersecurity Best Practices,6,No,6,No
+Security Operations (SecOps),Mlsecops,-,No,-,No
+Quantum Security,Quantum Cryptanalysis,1,No,1,No
+Cyber Security,Cybersecurity Risks,19,No,6,No
+Quantum Security,Quantum Cryptography,9,No,5,No
+Security Operations (SecOps),Red Teaming,16,No,17,No
+Data Security,Prompt Injection Attack,17,No,17,No
+Cyber Threats,AI Risk Management,-,No,-,No
+SASE,SASE Firewall,2,Yes,2,Yes

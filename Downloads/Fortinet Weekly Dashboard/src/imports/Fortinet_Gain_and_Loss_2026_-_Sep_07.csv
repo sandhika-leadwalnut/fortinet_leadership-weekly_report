@@ -1,0 +1,57 @@
+,,,,,,,,,,
+,,,,,,,,,,
+,Direct Traffic,328k,331k,3.1k,1.0%,,,,,
+Source = GA,Pages,24 Aug 2026,31 Aug 2026,Change,Change %,,,,,
+Time Line = Last 30 Days,/,73176,77404,4228,6%,,,,,
+,/sase-summit,1100,1549,449,41%,,,,,
+,/library/gtm,566,751,185,33%,,,,,
+,/corporate/about-us/events/events/sase-summit,316,472,156,49%,,,,,
+,/blog/threat-research/someone-else-is-using-your-ai,0,141,141,#DIV/0!,,,,,
+,/resources/data-sheets/fortiswitch-secure-access-series,1079,1192,113,10%,,,,,
+,/library/financial-services-middle-east,328,436,108,33%,,,,,
+,/corporate/about-us/newsroom/press-releases/2026/stanford-athletics-and-fortinet-team-up-for-multi-year-sponsorship,23,119,96,417%,,,,,
+,/corporate/about-us/newsroom/press-releases/2026/fortinet-advances-continuous-ai-protection-with-the-acquisition-of-virtue-ai,733,821,88,12%,,,,,
+,/products/next-generation-firewall,3954,4034,80,2%,,,,,
+,Total ,81275,86919,5644,7%,,,,,
+,,,,,,,,,,
+Source = GSC,Branded,,,,,,,,,
+Last 30 Days,Top 10 KWs,Clicks,Impression,Rank,,,,,,
+,fortinet,"39,821","206,511",1.3,,,,,,
+,fortinet vpn,"5,859","10,769",1.8,,,,,,
+,fortigate,"5,778","53,090",3.3,,,,,,
+,fortinet careers,"3,734","4,609",1.5,,,,,,
+,fortinet product matrix,"3,263","4,051",2.7,,,,,,
+,fortinet vpn client download,"2,861","3,564",1.3,,,,,,
+,fortinet vpn client,"1,990","3,108",1.5,,,,,,
+,fortigate 120g,"1,821","5,999",1.1,,,,,,
+,fortigate matrix,"1,711","2,249",2.5,,,,,,
+,fortivpn,"1,686","3,143",1.6,,,,,,
+,,,,,,,,,,
+Source = GSC,Non-Branded,,,,,,,,,
+Last 30 Days,Top 10 KWs,Clicks,Impression,Rank,,,,,,
+,proxy server,"22,953","1,020,919",4,,,,,,
+,proxy,"14,142","8,873,142",5.7,,,,,,
+,hacking,"4,641","64,003",2.5,,,,,,
+,ai cybersecurity,"2,760","11,559",3,,,,,,
+,ip address,"2,316","412,020",5.5,,,,,,
+,firewall,"1,752","138,141",3.8,,,,,,
+,vpn,"1,353","718,625",9.8,,,,,,
+,cia triad,"1,007","26,848",1.6,,,,,,
+,proxy server vpn,993,"29,416",4.2,,,,,,
+,ssl certificate,886,"3,039,187",6.5,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Source = SEMrush,Source - SEMrush,,,AIO Overall Traffic,,175739,184258,8519,5%,
+Time Line = As on Date,Fortinet (Gain),,,24 Aug 2026,31 Aug 2026,24 Aug 2026,31 Aug 2026,change,change %,
+,Keywords,SV,KD,Position,Position,Traffic,Traffic,,,URL
+,what is phishing,550000,77,-,1,0,19096,19096,19096%,https://www.fortinet.com/resources/cyberglossary/phishing
+,fortinet,33100,100,-,1,0,7338,7338,7338%,https://www.fortinet.com/
+,proxy server,49500,77,-,1,0,3007,3007,3007%,https://www.fortinet.com/resources/cyberglossary/proxy-server
+,doxxed meaning,33100,56,-,1,0,2011,2011,2011%,https://www.fortinet.com/resources/cyberglossary/doxing
+,malware protection,1830000,73,-,1,0,1903,1903,1903%,https://www.fortinet.com/resources/cyberglossary/malware-protection
+,what is the meaning of data center,22200,66,-,1,0,1371,1371,1371%,https://www.fortinet.com/resources/cyberglossary/data-center
+,proxies,22200,78,1,1,23,1371,1348,5861%,https://www.fortinet.com/resources/cyberglossary/proxy-server
+,proxy proxy servers,22200,73,-,1,0,1348,1348,1348%,https://www.fortinet.com/resources/cyberglossary/proxy-server
+,fortinet news today,4400,68,1,1,46,1382,1336,2904%,https://www.fortinet.com/corporate/about-us/newsroom
+,wans,6600,54,-,1,0,1315,1315,1315%,https://www.fortinet.com/resources/cyberglossary/wan
+,Total,,,,,69,40142,40073,58077%,

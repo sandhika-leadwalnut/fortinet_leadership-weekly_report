@@ -1,0 +1,552 @@
+,,,,,
+Target Keywords ,URLs,SV,KD,Sep 21,"Sep 21
+AIO"
+AIOPS,https://www.fortinet.com/resources/cyberglossary/aiops-future-of-it-operations,1300,69,22,No
+AI Data Center,https://www.fortinet.com/resources/cyberglossary/ai-data-centers,2900,36,24,No
+AWS Compliance,https://www.fortinet.com/resources/cyberglossary/aws-compliance,590,69,9,No
+Virtual Cloud Network,https://www.fortinet.com/resources/cyberglossary/virtual-cloud-network,70,49,1,No
+Cloud Infrastructure,https://www.fortinet.com/resources/cyberglossary/cloud-infrastructure,3600,57,19,No
+Hybrid Cloud,https://www.fortinet.com/resources/cyberglossary/what-is-hybrid-cloud,4400,62,16,No
+Hybrid Cloud Security,https://www.fortinet.com/resources/cyberglossary/hybrid-cloud-security,1300,31,7,No
+CSPM,https://www.fortinet.com/resources/cyberglossary/cloud-security-posture-management,5400,26,15,No
+Cloud NATive,https://www.fortinet.com/resources/cyberglossary/what-is-cloud-native,2900,81,41,No
+Secure Web Gateway,https://www.fortinet.com/resources/cyberglossary/secure-web-gateways,4400,60,6,No
+Cloud Security Tools,https://www.fortinet.com/resources/cyberglossary/cloud-security-tools,2900,23,2,Yes
+Cloud Security Architecture,https://www.fortinet.com/resources/cyberglossary/cloud-security-architecture,2400,33,8,No
+Cloud Security Best Practices,https://www.fortinet.com/resources/cyberglossary/cloud-security-best-practices,3600,50,20,No
+Multi Cloud Security,https://www.fortinet.com/resources/cyberglossary/multi-cloud-security,320,27,8,No
+Cloud Native Firewall,https://www.fortinet.com/resources/cyberglossary/cloud-native-firewalls,50,38,17,No
+Cloud Application Security,https://www.fortinet.com/resources/cyberglossary/cloud-application-security,1000,20,2,No
+Private Cloud Vs Public Cloud,https://www.fortinet.com/resources/cyberglossary/public-vs-private-cloud,3600,28,11,No
+Distributed Firewall,https://www.fortinet.com/resources/cyberglossary/distributed-firewall,50,22,1,Yes
+Stateful Firewall,https://www.fortinet.com/resources/cyberglossary/stateful-firewall,1600,31,2,Yes
+DNS Firewall,https://www.fortinet.com/resources/cyberglossary/dns-firewall,320,30,11,No
+Firewall Design Principles,https://www.fortinet.com/resources/cyberglossary/firewall-design-principles,20,21,7,No
+Network Security,https://www.fortinet.com/resources/cyberglossary/what-is-network-security,1300,48,6,Yes
+OT Security Best Practices,https://www.fortinet.com/resources/cyberglossary/ot-security-best-practices,140,19,9,No
+OT Network Segmentation,https://www.fortinet.com/resources/cyberglossary/ot-network-segmentation-and-microsegmentation,140,6,1,No
+ICS SCADA,https://www.fortinet.com/resources/cyberglossary/ics-scada,90,14,1,No
+Quantum Security,https://www.fortinet.com/resources/cyberglossary/quantum-security,720,41,4,Yes
+SASE Benefits,https://www.fortinet.com/resources/cyberglossary/sase-benefits,720,17,3,Yes
+SD WAN Architecture,https://www.fortinet.com/resources/cyberglossary/sd-wan-architecture,320,19,4,No
+SD WAN Cost,https://www.fortinet.com/resources/cyberglossary/sd-wan-costs,110,9,2,Yes
+Zero Trust Architecture,https://www.fortinet.com/resources/cyberglossary/zero-trust-architecture,6600,78,26,No
+Zero Trust Cloud,https://www.fortinet.com/resources/cyberglossary/zero-trust-for-the-cloud,390,48,9,No
+Public Wifi,https://www.fortinet.com/resources/cyberglossary/vpn-wifi,1000,52,5,No
+Threat Hunting,https://www.fortinet.com/resources/cyberglossary/threat-hunting,4400,40,21,No
+Information Security,https://www.fortinet.com/resources/cyberglossary/information-security,1000,52,29,No
+OAUTH,https://www.fortinet.com/resources/cyberglossary/oauth,12100,71,7,No
+Credential Stuffing,https://www.fortinet.com/resources/cyberglossary/credential-stuffing,3600,55,5,No
+Malvertising,https://www.fortinet.com/resources/cyberglossary/malvertising,1900,53,10,No
+EDGE Computing,https://www.fortinet.com/resources/cyberglossary/edge-computing,3600,67,13,No
+Wannacry Ransomware Attack,https://www.fortinet.com/resources/cyberglossary/wannacry-ransomware-attack,2900,65,5,No
+Authentication Vs Authorization,https://www.fortinet.com/resources/cyberglossary/authentication-vs-authorization,3600,47,6,No
+Email Spoofing,https://www.fortinet.com/resources/cyberglossary/email-spoofing,2400,56,6,No
+Cybersecurity Analytics,https://www.fortinet.com/resources/cyberglossary/cybersecurity-analytics,480,28,8,Yes
+Worm Virus,https://www.fortinet.com/resources/cyberglossary/worm-virus,1300,38,2,Yes
+Computer Viruses,https://www.fortinet.com/resources/cyberglossary/computer-virus,2400,49,4,No
+VPN Blocker,https://www.fortinet.com/resources/cyberglossary/vpn-blocker,2900,68,3,Yes
+DNS Poisioning,https://www.fortinet.com/resources/cyberglossary/dns-poisoning,20,42,2,No
+Cyberwarfare,https://www.fortinet.com/resources/cyberglossary/cyber-warfare,1600,55,4,No
+Indicators Of Compromise,https://www.fortinet.com/resources/cyberglossary/indicators-of-compromise,4400,51,4,Yes
+File Transfer Protocol,https://www.fortinet.com/resources/cyberglossary/file-transfer-protocol-ftp-meaning,1600,49,2,No
+Kerberos Authentication,https://www.fortinet.com/resources/cyberglossary/kerberos-authentication,1900,43,2,Yes
+What Is NAT,https://www.fortinet.com/resources/cyberglossary/network-address-translation,4400,48,4,Yes
+What Is An IPS,https://www.fortinet.com/resources/cyberglossary/what-is-an-ips,720,38,3,Yes
+What Is HSM,https://www.fortinet.com/resources/cyberglossary/hardware-security-module,14800,71,2,No
+Ethernet Switching,https://www.fortinet.com/resources/cyberglossary/what-is-ethernet-switching,260,33,7,No
+Buffer Overflow,https://www.fortinet.com/resources/cyberglossary/buffer-overflow,2900,56,3,No
+ICMP,https://www.fortinet.com/resources/cyberglossary/internet-control-message-protocol-icmp,12100,75,4,No
+Fault Tolerance,https://www.fortinet.com/resources/cyberglossary/fault-tolerance,2400,44,3,Yes
+DNS Protection,https://www.fortinet.com/resources/cyberglossary/dns-protection,590,47,4,No
+Data Leak,https://www.fortinet.com/resources/cyberglossary/data-leak,4400,65,7,Yes
+Latency,https://www.fortinet.com/resources/cyberglossary/latency,33100,67,5,Yes
+What Is Catfishing,https://www.fortinet.com/resources/cyberglossary/catfishing,8100,48,2,No
+Cyber Attacks On Small Business,https://www.fortinet.com/resources/cyberglossary/smb-cyberattacks,0,51,4,No
+Ping Of Death,https://www.fortinet.com/resources/cyberglossary/ping-of-death,880,30,5,No
+What Is SSE,https://www.fortinet.com/resources/cyberglossary/security-service-edge-sse,1300,20,4,No
+Mobile App Security,https://www.fortinet.com/resources/cyberglossary/mobile-app-security,1600,20,5,No
+P2P VPN,https://www.fortinet.com/resources/cyberglossary/peer-to-peer-p2p-vpn,3600,43,8,Yes
+Runtime Application Self-Protection,https://www.fortinet.com/resources/cyberglossary/runtime-application-self-protection-rasp,320,32,9,No
+Enterprise Security,https://www.fortinet.com/resources/cyberglossary/enterprise-security,2400,43,4,Yes
+Cryptojacking,https://www.fortinet.com/resources/cyberglossary/cryptojacking,1600,56,9,Yes
+Smishing,https://www.fortinet.com/resources/cyberglossary/smishing,18100,52,10,No
+Shadow It,https://www.fortinet.com/resources/cyberglossary/shadow-it,3600,50,8,No
+What Is Data Center,https://www.fortinet.com/resources/cyberglossary/data-center,590,52,7,No
+Data Integrity,https://www.fortinet.com/resources/cyberglossary/data-integrity,5400,55,2,No
+Wardriving,https://www.fortinet.com/resources/cyberglossary/wardriving,1900,44,4,No
+SSL VPN,https://www.fortinet.com/resources/cyberglossary/ssl-vpn,4400,55,4,Yes
+Snort,https://www.fortinet.com/resources/cyberglossary/snort,6600,66,7,No
+Zero-Day Attack,https://www.fortinet.com/resources/cyberglossary/zero-day-attack,1000,50,1,Yes
+Vulnerability Scanning Vs Penetration Testing,https://www.fortinet.com/resources/cyberglossary/vulnerability-scanning-compare,390,25,1,No
+API Security,https://www.fortinet.com/resources/cyberglossary/api-security,3600,55,6,No
+Cryptography,https://www.fortinet.com/resources/cyberglossary/what-is-cryptography,22200,77,3,No
+Doxing,https://www.fortinet.com/resources/cyberglossary/doxing,27100,56,8,No
+Access Control,https://www.fortinet.com/resources/cyberglossary/access-control,1000,66,3,No
+DKIM Record,https://www.fortinet.com/resources/cyberglossary/dkim-record,1300,64,6,No
+SAML Vs OAUTH Vs Open Id,https://www.fortinet.com/resources/cyberglossary/saml-vs-oauth,20,18,10,No
+CSRF Attack,https://www.fortinet.com/resources/cyberglossary/csrf,1300,65,13,No
+What Is Captcha?,https://www.fortinet.com/resources/cyberglossary/captcha,33100,81,9,No
+Common Vulnerabilities And Exposures,https://www.fortinet.com/resources/cyberglossary/cve,6600,91,28,No
+Reverse Proxy,https://www.fortinet.com/resources/cyberglossary/reverse-proxy,6600,69,6,No
+What Is Scada,https://www.fortinet.com/resources/cyberglossary/scada-and-scada-systems,3600,40,5,No
+Identity And Access Management,https://www.fortinet.com/resources/cyberglossary/identity-and-access-management,5400,65,7,Yes
+What Is Cybersecurity,https://www.fortinet.com/resources/cyberglossary/what-is-cybersecurity,9900,77,11,No
+What Is Soc 2 Compliance,https://www.fortinet.com/resources/cyberglossary/soc-2-compliance,1000,45,6,No
+Cobit,https://www.fortinet.com/resources/cyberglossary/what-is-cobit,3600,41,3,No
+What Is IOT?,https://www.fortinet.com/resources/cyberglossary/iot,9900,75,11,No
+Enterprise Architecture,https://www.fortinet.com/resources/cyberglossary/enterprise-architecture,3600,46,5,No
+Disaster Recovery,https://www.fortinet.com/resources/cyberglossary/disaster-recovery,8100,74,11,No
+Personally Identifiable Information,https://www.fortinet.com/resources/cyberglossary/pii,12100,64,25,No
+OSI Model,https://www.fortinet.com/resources/cyberglossary/osi-model,33100,59,36,No
+Owasp,https://www.fortinet.com/resources/cyberglossary/owasp,14800,72,12,No
+RBAC,https://www.fortinet.com/resources/cyberglossary/role-based-access-control,9900,79,6,No
+What Is A Cyber Attack,https://www.fortinet.com/resources/cyberglossary/what-is-cyber-attack,2900,61,3,Yes
+Vishing Attack,https://www.fortinet.com/resources/cyberglossary/vishing-attack,1600,35,5,No
+Endpoint Protection Platform,https://www.fortinet.com/resources/cyberglossary/endpoint-protection-platform,1300,39,5,Yes
+What Is A WAN,https://www.fortinet.com/resources/cyberglossary/wan,1600,49,3,No
+Ransomware Statistics,https://www.fortinet.com/resources/cyberglossary/ransomware-statistics,590,44,7,No
+CIEM,https://www.fortinet.com/resources/cyberglossary/ciem,1900,36,15,Yes
+Command And Control Attack,https://www.fortinet.com/resources/cyberglossary/command-and-control-attacks,70,19,1,Yes
+IOT Security,https://www.fortinet.com/resources/cyberglossary/iot-security,3600,52,6,No
+Packet Loss,https://www.fortinet.com/resources/cyberglossary/what-is-packet-loss,3600,54,5,No
+Dynamic Application Security Testing,https://www.fortinet.com/resources/cyberglossary/dynamic-application-security-testing,1300,32,12,No
+Bluekeep,https://www.fortinet.com/resources/cyberglossary/what-is-bluekeep,320,22,3,Yes
+It Operations,https://www.fortinet.com/resources/cyberglossary/it-operations,2400,32,8,No
+Advanced Persistent Threat,https://www.fortinet.com/resources/cyberglossary/advanced-persistent-threat,2900,72,14,No
+CNapp,https://www.fortinet.com/resources/cyberglossary/cnapp,5400,44,14,No
+Social Engineering,https://www.fortinet.com/resources/cyberglossary/social-engineering,14800,74,27,No
+SAAS,https://www.fortinet.com/resources/cyberglossary/software-as-a-service,90500,92,5,No
+Privileged Access Management,https://www.fortinet.com/resources/cyberglossary/privileged-access-management,6600,62,12,No
+LAAS,https://www.fortinet.com/resources/cyberglossary/infrastructure-as-a-service,9900,65,-,No
+Data Governance,https://www.fortinet.com/resources/cyberglossary/data-governance,12100,65,31,No
+IEC 62443,https://www.fortinet.com/resources/cyberglossary/iec-62443,1600,37,3,No
+Digital Experience Monitoring,https://www.fortinet.com/resources/cyberglossary/digital-experience-monitoring,1000,19,4,No
+Active Directory Cybersecurity,https://www.fortinet.com/resources/cyberglossary/active-directory,30,20,1,No
+SCIM Authentication,https://www.fortinet.com/resources/cyberglossary/what-is-scim,110,32,2,No
+Application Security,https://www.fortinet.com/resources/cyberglossary/application-security,4400,49,27,No
+Cyber Safety,https://www.fortinet.com/resources/cyberglossary/cyber-safety,1000,52,3,No
+Cyber Resilience,https://www.fortinet.com/resources/cyberglossary/cyber-resilience,2400,48,27,No
+Antivirus Protection,https://www.fortinet.com/resources/cyberglossary/antivirus-protection,4400,88,5,Yes
+Web Application Firewall Architecture,https://www.fortinet.com/resources/cyberglossary/waf-architecture,170,45,2,No
+Cybersecurity Awareness,https://www.fortinet.com/resources/cyberglossary/cybersecurity-awareness,1220000,65,11,No
+It Security,https://www.fortinet.com/resources/cyberglossary/it-security,8100,43,8,Yes
+Nist 800 53,https://www.fortinet.com/resources/cyberglossary/nist-800-53,4400,44,12,No
+Nittf Cnssd 504,https://www.fortinet.com/resources/cyberglossary/nittf-cnssd-504,0,14,2,No
+Principle Of Least Privilege,https://www.fortinet.com/resources/cyberglossary/principle-of-least-privilege,5400,63,25,No
+SBOM,https://www.fortinet.com/resources/cyberglossary/sbom,4400,46,25,No
+Secret Detection,https://www.fortinet.com/resources/cyberglossary/secret-detection,50,24,2,No
+AI In Cybersecurity,https://www.fortinet.com/resources/cyberglossary/artificial-intelligence-in-cybersecurity,320,67,2,Yes
+AI Adoption,https://www.fortinet.com/resources/cyberglossary/ai-adoption,1600,48,2,Yes
+AI Security,https://www.fortinet.com/resources/cyberglossary/ai-security,4400,67,9,No
+Deep Fake AI,https://www.fortinet.com/resources/cyberglossary/deepfake-ai,3600,82,10,No
+Virtual Private Cloud,https://www.fortinet.com/resources/cyberglossary/vpc,1600,21,9,Yes
+CASB,https://www.fortinet.com/resources/cyberglossary/casb,1600,50,6,Yes
+Public Cloud Security Risks,https://www.fortinet.com/resources/cyberglossary/public-cloud-security-risks,40,25,6,No
+Cloud VPN,https://www.fortinet.com/resources/cyberglossary/cloud-vpn,4400,56,6,Yes
+Cloud Security,https://www.fortinet.com/resources/cyberglossary/what-is-cloud-security,1300,54,20,No
+Cloud Data Protection,https://www.fortinet.com/resources/cyberglossary/cloud-data-protection,1300,42,25,No
+Cloud Encryption,https://www.fortinet.com/resources/cyberglossary/cloud-encryption,720,37,11,Yes
+Cloud Firewall,https://www.fortinet.com/resources/cyberglossary/cloud-firewall,1300,38,2,Yes
+Virtual Firewall,https://www.fortinet.com/resources/cyberglossary/virtual-firewall-for-cloud,1000,36,8,No
+Cloud Security TIPS,https://www.fortinet.com/resources/cyberglossary/cloud-security-tips,2240000,34,2,Yes
+Cloud Detection And Response,https://www.fortinet.com/resources/cyberglossary/cloud-detection-and-response,720,19,7,Yes
+Cloud Workload Protection Platform,https://www.fortinet.com/resources/cyberglossary/cwpp,2900,37,10,No
+DLP For Cloud,https://www.fortinet.com/resources/cyberglossary/dlp-for-cloud,70,26,4,No
+What Does A Firewall Do,https://www.fortinet.com/resources/cyberglossary/what-does-a-firewall-do,1600,59,1,No
+Firewall As A Service,https://www.fortinet.com/resources/cyberglossary/firewall-as-a-service-fwaas,1000,30,1,Yes
+Waf Vs Firewall,https://www.fortinet.com/resources/cyberglossary/waf-vs-firewall,320,20,1,Yes
+How Does A Firewall Work,https://www.fortinet.com/resources/cyberglossary/how-does-a-firewall-work,590,44,1,Yes
+Perimeter Firewall,https://www.fortinet.com/resources/cyberglossary/perimeter-firewall,170,13,1,No
+Transparent Firewall,https://www.fortinet.com/resources/cyberglossary/transparent-firewall,50,9,1,Yes
+Firewall Configuration,https://www.fortinet.com/resources/cyberglossary/firewall-configuration,5400,27,1,Yes
+Hybrid Mesh Firewall,https://www.fortinet.com/resources/cyberglossary/hybrid-mesh-firewall,170,24,3,Yes
+Proxy Firewall,https://www.fortinet.com/resources/cyberglossary/proxy-firewall,590,32,1,Yes
+Does Firewall Slow Down Internet Speed,https://www.fortinet.com/resources/cyberglossary/does-a-firewall-affect-internet-speed,20,11,1,No
+Hybrid Firewall,https://www.fortinet.com/resources/cyberglossary/hybrid-firewall-advantages-disadvantages,20,23,1,No
+Stateful Vs Stateless Firewall,https://www.fortinet.com/resources/cyberglossary/stateful-vs-stateless-firewall,1000,33,1,No
+Proxy Server Vs Packet Filtering Firewall,https://www.fortinet.com/resources/cyberglossary/proxy-server-vs-packet-filtering-firewall,10,25,1,No
+Firewall,https://www.fortinet.com/resources/cyberglossary/firewall,27100,74,2,No
+Hardware Firewall,https://www.fortinet.com/resources/cyberglossary/hardware-firewalls-better-than-software,4400,28,3,Yes
+Firewall Benefits,https://www.fortinet.com/resources/cyberglossary/benefits-of-firewall,50,44,1,No
+What Is A Firewall,https://www.fortinet.com/resources/cyberglossary/firewall,135000,70,2,Yes
+End Of Life Firewall,https://www.fortinet.com/resources/cyberglossary/end-of-life-firewall,2900,54,1,No
+Human Firewall,https://www.fortinet.com/resources/cyberglossary/human-firewall,1000,21,2,Yes
+Rugged Firewall,https://www.fortinet.com/resources/cyberglossary/ruggedized-firewall,20,11,-,No
+Web Application Firewall For Enterprise,https://www.fortinet.com/resources/cyberglossary/business-web-application-firewall,0,69,2,No
+WAF,https://www.fortinet.com/resources/cyberglossary/waf,1300,58,12,No
+Best Virtual Firwall,https://www.fortinet.com/resources/cyberglossary/comparing-virtual-firewalls,590,39,15,No
+NGFW,https://www.fortinet.com/resources/cyberglossary/next-generation-firewall,4400,52,40,No
+Network Security Vulnerability,https://www.fortinet.com/resources/cyberglossary/network-security-vulnerability,110,27,1,Yes
+Network Security Threats,https://www.fortinet.com/resources/cyberglossary/network-security-threats,720,50,1,Yes
+Cloud Network Security,https://www.fortinet.com/resources/cyberglossary/cloud-network-security,2900,32,1,Yes
+Network Security Management,https://www.fortinet.com/resources/cyberglossary/network-security-management,1300,31,7,No
+Network Security Vs Cybersecurity,https://www.fortinet.com/resources/cyberglossary/network-security-vs-cybersecurity,90,12,1,Yes
+IT Vs OT Security,https://www.fortinet.com/resources/cyberglossary/it-vs-ot-cybersecurity,70,42,2,No
+Manufacturing OT,https://www.fortinet.com/resources/cyberglossary/manufacturing-ot,40,10,4,No
+Quantum Key Distribution,https://www.fortinet.com/resources/cyberglossary/quantum-key-distribution,1000,45,2,Yes
+Post Quantum Cryptography,https://www.fortinet.com/resources/cyberglossary/post-quantum-cryptography,3600,76,10,No
+Quantum Computing Security,https://www.fortinet.com/resources/cyberglossary/quantum-computing-security,110,34,1,Yes
+Quantum Safe Security,https://www.fortinet.com/resources/cyberglossary/quantum-safe-security,70,48,1,No
+Quantum Safe Encryption,https://www.fortinet.com/resources/cyberglossary/quantum-safe-encryption,390,49,23,No
+SD WAN Vs SASE,https://www.fortinet.com/resources/cyberglossary/sd-wan-vs-sase,70,13,3,Yes
+SASE Vs CASB,https://www.fortinet.com/resources/cyberglossary/sase-vs-casb,260,25,1,Yes
+SASE,https://www.fortinet.com/resources/cyberglossary/sase,14800,69,1,Yes
+SASE Architecture,https://www.fortinet.com/resources/cyberglossary/sase-architecture,1000,59,4,No
+SASE Vs ZTNA,https://www.fortinet.com/resources/cyberglossary/sase-vs-ztna,110,17,3,No
+Sovereign SASE,https://www.fortinet.com/resources/cyberglossary/sovereign-sase,40,8,11,Yes
+SDN Vs SD WAN,https://www.fortinet.com/resources/cyberglossary/sdn-vs-sd-wan,210,24,1,Yes
+SD WAN Vs VPN,https://www.fortinet.com/resources/cyberglossary/sd-wan-vs-vpn,110,12,2,Yes
+SD WAN Explained,https://www.fortinet.com/resources/cyberglossary/sd-wan-explained,50,40,2,No
+SD WAN Benefits,https://www.fortinet.com/resources/cyberglossary/benefits-of-sd-wan,390,24,1,Yes
+SD WAN As A Service,https://www.fortinet.com/resources/cyberglossary/sd-wan-as-a-service,590,7,1,Yes
+SD WAN Security,https://www.fortinet.com/resources/cyberglossary/sd-wan-security,260,30,7,No
+SD WAN Vs Mpls,https://www.fortinet.com/resources/cyberglossary/sd-wan-vs-mpls,880,19,3,Yes
+Security Operations,https://www.fortinet.com/resources/cyberglossary/what-is-secops,1300,49,33,Yes
+Secops,https://www.fortinet.com/resources/cyberglossary/what-is-secops,1900,47,7,Yes
+Secops Metrics,https://www.fortinet.com/resources/cyberglossary/secops-metrics,30,16,1,No
+How To Implement Zero Trust,https://www.fortinet.com/resources/cyberglossary/how-to-implement-zero-trust,880,50,1,Yes
+Universal ZTNA,https://www.fortinet.com/resources/cyberglossary/universal-ztna,110,15,19,No
+Zero Trust EDGE,https://www.fortinet.com/resources/cyberglossary/zero-trust-edge,260,14,10,Yes
+Zerotrust Security Model,https://www.fortinet.com/resources/cyberglossary/what-is-the-zero-trust-network-security-model,5400,36,2,No
+ZTNA Vs VPN,https://www.fortinet.com/resources/cyberglossary/ztna-vs-vpn,1000,29,1,Yes
+Zero-Trust Network Access,https://www.fortinet.com/resources/cyberglossary/what-is-ztna,8100,74,1,Yes
+Virtual Firewall For Zero Trust,https://www.fortinet.com/resources/cyberglossary/virtual-firewall-zero-trust,0,30,1,No
+Zero Trust,https://www.fortinet.com/resources/cyberglossary/what-is-zero-trust,9900,83,72,No
+Cognitive Science,https://www.fortinet.com/resources/cyberglossary/what-is-cognitive-science,12100,66,8,No
+Fedramp,https://www.fortinet.com/resources/cyberglossary/what-is-fedramp,18100,67,7,No
+Hyperscale Data Center,https://www.fortinet.com/resources/cyberglossary/hyperscale,1900,34,9,No
+What Is Adware,https://www.fortinet.com/resources/cyberglossary/what-is-adware,3600,46,3,No
+Common Vulnerability Scoring System,https://www.fortinet.com/resources/cyberglossary/common-vulnerability-scoring-system,18100,77,24,No
+Bitcoin Mining,https://www.fortinet.com/resources/cyberglossary/what-is-bitcoin-mining,12100,94,4,No
+Business Email Compromise,https://www.fortinet.com/resources/cyberglossary/business-email-compromise,2900,58,22,No
+What Is Dmarc,https://www.fortinet.com/resources/cyberglossary/dmarc,12100,78,3,No
+ISO/IEC 27001,https://www.fortinet.com/resources/cyberglossary/iso-iec-27001,2900,62,13,No
+Managed Security Service Provider,https://www.fortinet.com/resources/cyberglossary/what-is-mssp,12100,61,2,Yes
+Sandboxing,https://www.fortinet.com/resources/cyberglossary/what-is-sandboxing,1900,56,4,Yes
+Web Security,https://www.fortinet.com/resources/cyberglossary/what-is-web-security,2400,43,4,No
+Cybersecurity Management,https://www.fortinet.com/resources/cyberglossary/cybersecurity-management,720,28,1,No
+Endpoint Security,https://www.fortinet.com/resources/cyberglossary/what-is-endpoint-security,1600,49,3,Yes
+What Is Encryption,https://www.fortinet.com/resources/cyberglossary/encryption,3600,75,2,Yes
+LDAP Authentication,https://www.fortinet.com/resources/cyberglossary/ldap-authentication,880,24,3,No
+Privileged Identity Management,https://www.fortinet.com/resources/cyberglossary/privileged-identity-management,6600,33,9,No
+DMZ,https://www.fortinet.com/resources/cyberglossary/what-is-dmz,22200,80,7,Yes
+Does VPN Affect Internet Speed,https://www.fortinet.com/resources/cyberglossary/does-vpn-decrease-internet-speed,90,43,2,Yes
+Are VPNs Safe,https://www.fortinet.com/resources/cyberglossary/are-vpns-safe,1300,34,6,No
+Threat Modeling,https://www.fortinet.com/resources/cyberglossary/threat-modeling,2900,60,11,No
+Is VPN Safe,https://www.fortinet.com/resources/cyberglossary/are-vpns-safe,1300,45,6,Yes
+Attack Vector,https://www.fortinet.com/resources/cyberglossary/attack-vector,1600,48,4,Yes
+Service Set Identifier,https://www.fortinet.com/resources/cyberglossary/service-set-identifier-ssid,1300,21,1,No
+Digital Rights Management,https://www.fortinet.com/resources/cyberglossary/digital-rights-management-drm,5400,49,3,Yes
+Content Filtering,https://www.fortinet.com/resources/cyberglossary/content-filtering,2400,35,1,Yes
+What Is Splunk,https://www.fortinet.com/resources/cyberglossary/what-is-splunk,4400,44,2,No
+What Is Proxy Server,https://www.fortinet.com/resources/cyberglossary/proxy-server,1600,63,2,Yes
+Data Egress,https://www.fortinet.com/resources/cyberglossary/data-egress,320,35,1,Yes
+IOT EDGE,https://www.fortinet.com/resources/cyberglossary/iot-edge,390,50,6,No
+Http Proxy,https://www.fortinet.com/resources/cyberglossary/http-proxy,1900,59,1,No
+Web Security Threats,https://www.fortinet.com/resources/cyberglossary/web-security-threats,110,49,1,No
+Email Encryption,https://www.fortinet.com/resources/cyberglossary/email-encryption,2900,51,3,Yes
+Brute Force Attack,https://www.fortinet.com/resources/cyberglossary/brute-force-attack,1900,66,4,Yes
+Defense In Depth,https://www.fortinet.com/resources/cyberglossary/defense-in-depth,2900,60,2,Yes
+Honey Tokens,https://www.fortinet.com/resources/cyberglossary/honey-tokens,320,23,1,Yes
+Attack Surface,https://www.fortinet.com/resources/cyberglossary/attack-surface,1900,55,2,Yes
+Types Of Cyber Attacks,https://www.fortinet.com/resources/cyberglossary/types-of-cyber-attacks,2900,68,1,Yes
+Active Defense,https://www.fortinet.com/resources/cyberglossary/active-defense,170,20,1,Yes
+Nist Compliance,https://www.fortinet.com/resources/cyberglossary/nist-compliance,1900,32,1,Yes
+Remote Access Trojan,https://www.fortinet.com/resources/cyberglossary/remote-access-trojan,4400,42,4,Yes
+Malware Analysis,https://www.fortinet.com/resources/cyberglossary/malware-analysis,1300,24,7,Yes
+Fake Hacking,https://www.fortinet.com/resources/cyberglossary/fake-hacking,5400,51,4,No
+Pos Security,https://www.fortinet.com/resources/cyberglossary/pos-security,480,20,1,Yes
+IOT Security Best Practices,https://www.fortinet.com/resources/cyberglossary/iot-best-practices,210,37,1,No
+What Is EDR,https://www.fortinet.com/resources/cyberglossary/what-is-edr,2400,63,4,No
+Types Of Endpoint Security,https://www.fortinet.com/resources/cyberglossary/types-of-endpoint-security,110,26,1,Yes
+WAN Aggregation,https://www.fortinet.com/resources/cyberglossary/what-is-wan-aggregation,260,18,5,Yes
+UEBA,https://www.fortinet.com/resources/cyberglossary/what-is-ueba,590,44,3,No
+What Is A Pst File,https://www.fortinet.com/resources/cyberglossary/pst-file,2400,33,1,Yes
+SAML Vs OAUTH,https://www.fortinet.com/resources/cyberglossary/saml-vs-oauth,1000,31,1,Yes
+What Is Traceroute,https://www.fortinet.com/resources/cyberglossary/traceroutes,390,21,1,Yes
+Authentication Token,https://www.fortinet.com/resources/cyberglossary/authentication-token,590,51,2,Yes
+Network Traffic,https://www.fortinet.com/resources/cyberglossary/network-traffic,720,41,1,Yes
+Internet Fraud,https://www.fortinet.com/resources/cyberglossary/internet-fraud,1300,78,3,No
+802.1X Authentication,https://www.fortinet.com/resources/cyberglossary/802-1x-authentication,1300,24,1,Yes
+Network Access Control List,https://www.fortinet.com/resources/cyberglossary/network-access-control-list,480,38,1,Yes
+What Is An Open Proxy,https://www.fortinet.com/resources/cyberglossary/what-is-an-open-proxy,110,17,1,No
+What Is An API Key,https://www.fortinet.com/resources/cyberglossary/api-key,8100,44,1,Yes
+Radius Protocol,https://www.fortinet.com/resources/cyberglossary/radius-protocol,1900,44,2,Yes
+Transparent Proxy,https://www.fortinet.com/resources/cyberglossary/transparent-proxy,480,25,1,Yes
+OCSP,https://www.fortinet.com/resources/cyberglossary/ocsp,2900,49,2,No
+Centralized Management,https://www.fortinet.com/resources/cyberglossary/centralized-management,590,24,2,Yes
+Benefits Of VPN,https://www.fortinet.com/resources/cyberglossary/benefits-of-vpn,1900,62,2,No
+VPN Split Tunneling,https://www.fortinet.com/resources/cyberglossary/vpn-split-tunneling,880,42,1,Yes
+Proxy Vs VPN,https://www.fortinet.com/resources/cyberglossary/proxy-vs-vpn,4400,53,2,Yes
+AAA Security,https://www.fortinet.com/resources/cyberglossary/aaa-security,880,51,4,No
+Network EDGE,https://www.fortinet.com/resources/cyberglossary/network-edge,480,49,3,No
+Operational Security,https://www.fortinet.com/resources/cyberglossary/operational-security,1600,37,2,Yes
+Hybrid Data Center,https://www.fortinet.com/resources/cyberglossary/hybrid-data-center,170,16,1,Yes
+How To Setup A Proxy Server,https://www.fortinet.com/resources/cyberglossary/how-to-setup-a-proxy-server,590,34,5,No
+Message Authentication Code,https://www.fortinet.com/resources/cyberglossary/message-authentication-code,390,39,3,Yes
+DNS Security,https://www.fortinet.com/resources/cyberglossary/dns-security,1300,39,10,Yes
+Healthcare Data Security,https://www.fortinet.com/resources/cyberglossary/healthcare-data-security,590,20,1,Yes
+Data Center Security,https://www.fortinet.com/resources/cyberglossary/data-center-security,2400,36,1,Yes
+Cybersecurity Mesh,https://www.fortinet.com/resources/cyberglossary/what-is-cybersecurity-mesh,210,34,1,Yes
+Hacking,https://www.fortinet.com/resources/cyberglossary/what-is-hacking,18100,54,1,Yes
+How Does A VPN Work,https://www.fortinet.com/resources/cyberglossary/how-does-vpn-work,5400,64,3,Yes
+CIA Triad,https://www.fortinet.com/resources/cyberglossary/cia-triad,9900,46,1,Yes
+Security-As-A-Service,https://www.fortinet.com/resources/cyberglossary/security-as-a-service,50,23,1,Yes
+Compliance Automation,https://www.fortinet.com/resources/cyberglossary/compliance-automation,1000,31,1,No
+Data Deduplication,https://www.fortinet.com/resources/cyberglossary/data-deduplication,480,43,7,No
+Tcp Ip Model Vs Osi Model,https://www.fortinet.com/resources/cyberglossary/tcp-ip-model-vs-osi-model,880,23,1,No
+Tailgating Attack,https://www.fortinet.com/resources/cyberglossary/tailgating-attack,1600,35,1,Yes
+Data Security,https://www.fortinet.com/resources/cyberglossary/data-security,9900,70,4,No
+Phishing Email Analysis,https://www.fortinet.com/resources/cyberglossary/phishing-email-analysis,50,25,2,No
+Data Exfiltration,https://www.fortinet.com/resources/cyberglossary/data-exfiltration,1300,20,5,No
+PGP Encryption,https://www.fortinet.com/resources/cyberglossary/pgp-encryption,3600,57,2,Yes
+Unified Threat Management,https://www.fortinet.com/resources/cyberglossary/unified-threat-management,4400,32,1,Yes
+URL Phishing,https://www.fortinet.com/resources/cyberglossary/url-phishing,210,57,1,Yes
+It Security Policy,https://www.fortinet.com/resources/cyberglossary/it-security-policy,720,41,1,Yes
+DNS Hijacking,https://www.fortinet.com/resources/cyberglossary/dns-hijacking,720,40,4,Yes
+DOS Vs DDOS,https://www.fortinet.com/resources/cyberglossary/dos-vs-ddos,880,20,1,Yes
+Whaling Attack,https://www.fortinet.com/resources/cyberglossary/whaling-attack,1300,22,3,No
+Botnet,https://www.fortinet.com/resources/cyberglossary/what-is-botnet,6600,60,4,Yes
+Port Scan,https://www.fortinet.com/resources/cyberglossary/what-is-port-scan,2400,68,6,No
+Digital Certificates,https://www.fortinet.com/resources/cyberglossary/digital-certificates,1000,50,1,Yes
+Eavesdropping Attack,https://www.fortinet.com/resources/cyberglossary/eavesdropping,70,26,1,Yes
+Border Gateway Protocol,https://www.fortinet.com/resources/cyberglossary/bgp-border-gateway-protocol,2400,40,8,No
+SSPM,https://www.fortinet.com/resources/cyberglossary/saas-security-posture-management,320,33,4,Yes
+Cyber Extortion,https://www.fortinet.com/resources/cyberglossary/cyber-extortion,590,25,1,Yes
+Devops Security,https://www.fortinet.com/resources/cyberglossary/devops-security,1300,41,4,Yes
+Confidential Computing,https://www.fortinet.com/resources/cyberglossary/confidential-computing,880,66,19,No
+Scareware,https://www.fortinet.com/resources/cyberglossary/scareware,2400,44,3,Yes
+Trojan Horse Virus,https://www.fortinet.com/resources/cyberglossary/trojan-horse-virus,2900,62,1,Yes
+Canary In Cybersecurity,https://www.fortinet.com/resources/cyberglossary/what-is-canary-in-cybersecurity,40,35,1,Yes
+Email Security,https://www.fortinet.com/resources/cyberglossary/email-security,5400,50,6,No
+Cybersecurity Tools For Small Business,https://www.fortinet.com/resources/cyberglossary/smb-cybersecurity-tools,10,50,1,No
+Ransomware Settlement,https://www.fortinet.com/resources/cyberglossary/recent-ransomware-settlements,40,43,2,No
+Fileless Malware,https://www.fortinet.com/resources/cyberglossary/fileless-malware,1000,39,5,Yes
+Keyloggers,https://www.fortinet.com/resources/cyberglossary/what-is-keyloggers,1900,53,1,Yes
+Microsegmentation,https://www.fortinet.com/resources/cyberglossary/microsegmentation,1900,50,7,No
+Cybersquatting,https://www.fortinet.com/resources/cyberglossary/cybersquatting,1000,46,12,No
+What Is Firmware,https://www.fortinet.com/resources/cyberglossary/what-is-firmware,9900,47,2,Yes
+User Datagram Protocol,https://www.fortinet.com/resources/cyberglossary/user-datagram-protocol-udp,8100,64,4,No
+Certificate Management,https://www.fortinet.com/resources/cyberglossary/certificate-management,720,28,12,No
+What Is Url Filtering,https://www.fortinet.com/resources/cyberglossary/what-is-url-filtering,1000,35,2,No
+Diy Vs Managed SD WAN,https://www.fortinet.com/resources/cyberglossary/diy-vs-managed-sd-wan,70,7,1,Yes
+QOS,https://www.fortinet.com/resources/cyberglossary/qos-quality-of-service,9900,50,2,Yes
+Branch Networking,https://www.fortinet.com/resources/cyberglossary/what-is-branch-networking,50,24,4,No
+MPLS,https://www.fortinet.com/resources/cyberglossary/mpls,18100,50,8,Yes
+Failover,https://www.fortinet.com/resources/cyberglossary/failover,1600,44,4,No
+Lateral Movement,https://www.fortinet.com/resources/cyberglossary/lateral-movement,5400,45,7,No
+Site To Site VPN,https://www.fortinet.com/resources/cyberglossary/what-is-site-to-site-vpn,6600,66,3,No
+Ransomware Removal,https://www.fortinet.com/resources/cyberglossary/ransomware-removal,880,60,1,Yes
+Endpoint Security For Mobile Devices,https://www.fortinet.com/resources/cyberglossary/endpoint-security-for-mobile-devices,20,14,17,No
+Shift Left Security,https://www.fortinet.com/resources/cyberglossary/shift-left-security,880,39,1,Yes
+What Is An Ip Address,https://www.fortinet.com/resources/cyberglossary/what-is-ip-address,135000,57,1,Yes
+SPAM Filtering,https://www.fortinet.com/resources/cyberglossary/spam-filters,590,45,1,No
+IOT Device Vulnerabilities,https://www.fortinet.com/resources/cyberglossary/iot-device-vulnerabilities,70,31,1,Yes
+DDOS Mitigation,https://www.fortinet.com/resources/cyberglossary/implement-ddos-mitigation-strategy,90,33,9,No
+What Is Time To Live,https://www.fortinet.com/resources/cyberglossary/what-is-ttl,8100,63,3,No
+Malware Vs Virus Vs Worm,https://www.fortinet.com/resources/cyberglossary/malware-vs-virus-vs-worm,20,30,1,No
+Login Credentials,https://www.fortinet.com/resources/cyberglossary/login-credentials,1300,35,1,No
+Ransomware Jargon,https://www.fortinet.com/resources/cyberglossary/definitions-of-jargon-ransomware,10,39,1,No
+Pretexting,https://www.fortinet.com/resources/cyberglossary/pretexting,4400,43,3,No
+ICS Security,https://www.fortinet.com/resources/cyberglossary/ics-security,1600,63,7,No
+Fortinet DOJ,https://www.fortinet.com/resources/cyberglossary/definitions-of-jargon,20,22,2,No
+Wireless Network,https://www.fortinet.com/resources/cyberglossary/wireless-network,2400,43,2,Yes
+What Is DNS,https://www.fortinet.com/resources/cyberglossary/what-is-dns,18100,59,6,No
+What Is Https,https://www.fortinet.com/resources/cyberglossary/what-is-https,2900,54,7,No
+Ransomware As A Service,https://www.fortinet.com/resources/cyberglossary/ransomware-as-a-service-raas,720,47,5,No
+TCP/IP,https://www.fortinet.com/resources/cyberglossary/tcp-ip,8100,66,2,Yes
+What Is An Insider Threat,https://www.fortinet.com/resources/cyberglossary/insider-threats,4400,48,5,No
+Static Vs Dynamic Ip Address,https://www.fortinet.com/resources/cyberglossary/static-vs-dynamic-ip,1300,36,1,Yes
+Smurf Attack,https://www.fortinet.com/resources/cyberglossary/smurf-attack,1600,41,5,No
+Cybersecurity TIPS For Small Businesses,https://www.fortinet.com/resources/cyberglossary/10-cybersecurity-tips-small-business,390,58,3,No
+Data Loss Prevention,https://www.fortinet.com/resources/cyberglossary/dlp,1900,48,7,No
+Network Access Control,https://www.fortinet.com/resources/cyberglossary/what-is-network-access-control,390,39,4,Yes
+Dark Web Monitoring,https://www.fortinet.com/resources/cyberglossary/dark-web-monitoring,590,41,6,No
+Caching,https://www.fortinet.com/resources/cyberglossary/what-is-caching,8100,74,9,No
+What Is Spyware,https://www.fortinet.com/resources/cyberglossary/spyware,2900,63,1,No
+Code Scanning,https://www.fortinet.com/resources/cyberglossary/code-scanning,720,52,4,No
+Cybersecurity Statistics,https://www.fortinet.com/resources/cyberglossary/cybersecurity-statistics,590,61,5,No
+Pharming,https://www.fortinet.com/resources/cyberglossary/pharming,3600,56,5,No
+What Is An Exploit,https://www.fortinet.com/resources/cyberglossary/exploit,480,38,8,No
+Vulnerability Assessment,https://www.fortinet.com/resources/cyberglossary/vulnerability-assessment,9900,47,1,No
+What Is A Bot,https://www.fortinet.com/resources/cyberglossary/bot,8100,47,8,No
+DDOS Protection,https://www.fortinet.com/resources/cyberglossary/ddos-protection,2900,72,2,Yes
+What Is Openstack,https://www.fortinet.com/resources/cyberglossary/openstack,480,54,6,No
+Hybrid It,https://www.fortinet.com/resources/cyberglossary/hybrid-it,720,31,10,Yes
+Krack Attack,https://www.fortinet.com/resources/cyberglossary/krack-attack,170,28,5,No
+Thin Client,https://www.fortinet.com/resources/cyberglossary/thin-client,4400,49,4,Yes
+CIAM,https://www.fortinet.com/resources/cyberglossary/what-is-ciam,3600,55,13,No
+Spear Phishing,https://www.fortinet.com/resources/cyberglossary/spear-phishing,12100,51,5,Yes
+Advanced Threat Protection,https://www.fortinet.com/resources/cyberglossary/advanced-threat-protection-atp,1600,33,1,Yes
+Network As A Service,https://www.fortinet.com/resources/cyberglossary/network-as-a-service,1600,10,5,No
+Managed Detection And Response,https://www.fortinet.com/resources/cyberglossary/managed-detection-and-response,3600,49,28,No
+What Is SSO?,https://www.fortinet.com/resources/cyberglossary/single-sign-on,5400,61,3,No
+What Is Internet Security,https://www.fortinet.com/resources/cyberglossary/internet-security,2900,43,1,Yes
+Wireless Security TIPS,https://www.fortinet.com/resources/cyberglossary/wireless-security-tips,20,46,2,No
+What Is PCI Compliance,https://www.fortinet.com/resources/cyberglossary/what-is-pci-compliance,4400,44,1,No
+SQL Injection,https://www.fortinet.com/resources/cyberglossary/sql-injection,9900,74,10,No
+Sextortion,https://www.fortinet.com/resources/cyberglossary/sextortion,12100,76,4,No
+Web ScrAPIng,https://www.fortinet.com/resources/cyberglossary/web-scraping,1830000,64,4,No
+Network Monitoring,https://www.fortinet.com/resources/cyberglossary/network-monitoring,3600,52,5,Yes
+PKI,https://www.fortinet.com/resources/cyberglossary/public-key-infrastructure,22200,78,2,No
+PAAS,https://www.fortinet.com/resources/cyberglossary/platform-as-a-service,14800,71,11,No
+Mobile Device Management,https://www.fortinet.com/resources/cyberglossary/mobile-device-management,6600,64,5,No
+How To Prevent Ransomware,https://www.fortinet.com/resources/cyberglossary/how-to-prevent-ransomware,1300,54,2,Yes
+Remote Desktop Protocol,https://www.fortinet.com/resources/cyberglossary/remote-desktop-protocol,2900,49,4,Yes
+Cyber Glossary,https://www.fortinet.com/resources/cyberglossary,20,42,3,No
+Solarwinds Cyber Attack,https://www.fortinet.com/resources/cyberglossary/solarwinds-cyber-attack,390,61,1,Yes
+Identity Theft,https://www.fortinet.com/resources/cyberglossary/identity-theft,22200,89,28,No
+Sarbanes-Oxley Act,https://www.fortinet.com/resources/cyberglossary/sox-sarbanes-oxley-act,6600,65,-,No
+SSL Certificate,https://www.fortinet.com/resources/cyberglossary/ssl-certificate,14800,95,9,No
+Data Classification,https://www.fortinet.com/resources/cyberglossary/data-classification,2400,42,16,No
+What Is SOAR,https://www.fortinet.com/resources/cyberglossary/what-is-soar,9900,45,3,No
+What Is Mobile Security,https://www.fortinet.com/resources/cyberglossary/mobile-security,2900,61,2,Yes
+Devsecops,https://www.fortinet.com/resources/cyberglossary/devsecops,9900,59,37,No
+Dynamic DNS,https://www.fortinet.com/resources/cyberglossary/dynamic-dns,3600,57,7,No
+Infrastructure As Code,https://www.fortinet.com/resources/cyberglossary/infrastructure-as-code,880,52,22,No
+What Is A Cyber Attack?,https://www.fortinet.com/resources/cyberglossary/what-is-cyber-attack,2900,61,3,No
+Multi-Factor Authentication,https://www.fortinet.com/resources/cyberglossary/multi-factor-authentication,6600,75,20,No
+Account Takeover,https://www.fortinet.com/resources/cyberglossary/account-takeover,1900,38,5,No
+Colocation Data Center,https://www.fortinet.com/resources/cyberglossary/colocation-data-center,3600,44,1,No
+Cyber Espionage,https://www.fortinet.com/resources/cyberglossary/cyber-espionage,880,40,9,No
+Deception Technology,https://www.fortinet.com/resources/cyberglossary/what-is-deception-technology,390,25,1,Yes
+Deep Packet Inspection,https://www.fortinet.com/resources/cyberglossary/dpi-deep-packet-inspection,1600,50,1,Yes
+Network Automation,https://www.fortinet.com/resources/cyberglossary/network-automation,1900,41,7,No
+DNS Leak,https://www.fortinet.com/resources/cyberglossary/dns-leak,8100,69,6,No
+Swatting,https://www.fortinet.com/resources/cyberglossary/swatting,18100,62,9,No
+What Is A Honeypot,https://www.fortinet.com/resources/cyberglossary/what-is-honeypot,3600,57,7,No
+What Is A Data Breach,https://www.fortinet.com/resources/cyberglossary/data-breach,6600,52,5,No
+What Is Remote Access,https://www.fortinet.com/resources/cyberglossary/remote-access,210,35,1,Yes
+Incident Response,https://www.fortinet.com/resources/cyberglossary/incident-response,590,45,7,No
+Cyber Warfare,https://www.fortinet.com/resources/cyberglossary/most-notorious-attacks-in-the-history-of-cyber-warfare,2400,54,-,No
+Remote Work Cyber Security Risks,https://www.fortinet.com/resources/cyberglossary/work-from-home-cybersecurity-risks,40,40,1,No
+What Is Deepfake,https://www.fortinet.com/resources/cyberglossary/deepfake,2400,72,8,No
+Critical Infrastructure Protection,https://www.fortinet.com/resources/cyberglossary/critical-infrastructure-protection,4400,46,3,Yes
+Watering Hole Attack,https://www.fortinet.com/resources/cyberglossary/watering-hole-attack,1900,49,2,Yes
+Rootkit,https://www.fortinet.com/resources/cyberglossary/rootkit,5400,51,3,No
+OIDC,https://www.fortinet.com/resources/cyberglossary/oidc,9900,55,19,No
+Intrusion Detection System,https://www.fortinet.com/resources/cyberglossary/intrusion-detection-system,5400,57,11,No
+Heuristic Analysis,https://www.fortinet.com/resources/cyberglossary/heuristic-analysis,720,44,6,No
+Serverless Computing,https://www.fortinet.com/resources/cyberglossary/serverless-computing,4400,71,27,No
+Hacktivism,https://www.fortinet.com/resources/cyberglossary/what-is-hacktivism,1900,49,2,Yes
+Types Of Phishing Attacks,https://www.fortinet.com/resources/cyberglossary/types-of-phishing-attacks,1000,44,1,Yes
+Election Security,https://www.fortinet.com/resources/cyberglossary/election-security,880,57,9,No
+ARP,https://www.fortinet.com/resources/cyberglossary/what-is-arp,90500,63,6,Yes
+Supply Chain Attacks,https://www.fortinet.com/resources/cyberglossary/supply-chain-attacks,720,52,15,No
+Emailsecurity Best Practices,https://www.fortinet.com/resources/cyberglossary/email-security-best-practices,590,15,1,No
+White Hat Hacking,https://www.fortinet.com/resources/cyberglossary/whitehat-security,4400,48,3,No
+What Is DDOS Attack,https://www.fortinet.com/resources/cyberglossary/ddos-attack,2900,73,7,No
+Recent Cyber Attacks,https://www.fortinet.com/resources/cyberglossary/recent-cyber-attacks,3600,61,2,Yes
+Remote Access VPN,https://www.fortinet.com/resources/cyberglossary/remote-access-vpn,5400,60,3,Yes
+Fisma,https://www.fortinet.com/resources/cyberglossary/fisma-and-fisma-compliance,6600,57,5,Yes
+How To Detect Keylogger,https://www.fortinet.com/resources/cyberglossary/how-to-detect-keylogger-on-phone,320,39,8,No
+Network Segmentation,https://www.fortinet.com/resources/cyberglossary/network-segmentation,2900,45,6,No
+Intrusion Prevention System,https://www.fortinet.com/resources/cyberglossary/what-is-an-ips,9900,65,9,No
+SIEM,https://www.fortinet.com/resources/cyberglossary/what-is-siem,2900,58,27,No
+XDR,https://www.fortinet.com/resources/cyberglossary/what-is-XDR,6600,58,7,No
+VPN Routers,https://www.fortinet.com/resources/cyberglossary/vpn-routers,480,36,2,Yes
+Clickjacking,https://www.fortinet.com/resources/cyberglossary/clickjacking,1600,48,12,No
+Bring Your Own Device,https://www.fortinet.com/resources/cyberglossary/byod,2400,59,6,No
+Cross Site Scripting,https://www.fortinet.com/resources/cyberglossary/cross-site-scripting,5400,71,9,No
+Fast Flux Networks,https://www.fortinet.com/resources/cyberglossary/fast-flux-networks,20,50,2,No
+Phishing,https://www.fortinet.com/resources/cyberglossary/phishing,49500,98,7,No
+Malware,https://www.fortinet.com/resources/cyberglossary/malware,40500,84,13,No
+Unified Endpoint Management,https://www.fortinet.com/resources/cyberglossary/unified-endpoint-management-uem,1300,43,3,Yes
+Man In The Middle Attack,https://www.fortinet.com/resources/cyberglossary/man-in-the-middle-attack,5400,71,7,No
+Cyber Insurance,https://www.fortinet.com/resources/cyberglossary/cyber-insurance,9900,61,3,Yes
+Bloatware,https://www.fortinet.com/resources/cyberglossary/bloatware,4400,51,3,Yes
+What Is Two Factor Authentication,https://www.fortinet.com/resources/cyberglossary/two-factor-authentication,6600,72,10,No
+Black Hat Security,https://www.fortinet.com/resources/cyberglossary/black-hat-security,110,52,4,No
+DHCP,https://www.fortinet.com/resources/cyberglossary/dynamic-host-configuration-protocol-dhcp,8100,47,8,No
+Machine Learning,https://www.fortinet.com/resources/cyberglossary/what-is-machine-learning,60500,93,1,No
+Cyber Threat Intelligence,https://www.fortinet.com/resources/cyberglossary/cyber-threat-intelligence,3600,52,20,No
+What Is A Qr Code,https://www.fortinet.com/resources/cyberglossary/what-is-a-qr-code,5400,48,3,Yes
+Simple Network Management Protocol,https://www.fortinet.com/resources/cyberglossary/simple-network-management-protocol,4400,38,3,Yes
+Federated Identity,https://www.fortinet.com/resources/cyberglossary/federated-identity,880,49,7,No
+Ransomware,https://www.fortinet.com/resources/cyberglossary/ransomware,33100,84,9,No
+SOC,https://www.fortinet.com/resources/cyberglossary/what-is-soc,40500,73,18,No
+Wannacry,https://www.fortinet.com/resources/cyberglossary/wannacry-ransomware-attack,4400,68,12,No
+CI/CD Pipelines,https://www.fortinet.com/resources/cyberglossary/ci-cd-pipeline,3600,57,67,No
+How To Pick A Wifi Router,https://www.fortinet.com/resources/cyberglossary/how-to-pick-a-work-from-home-wi-fi-router,90,38,5,No
+Mitre ATT&CK,https://www.fortinet.com/resources/cyberglossary/mitre-attck,5400,56,27,No
+What Is 5G?,https://www.fortinet.com/resources/cyberglossary/what-is-5g,135000,68,7,No
+Virtual Desktop Infrastructure,https://www.fortinet.com/resources/cyberglossary/virtual-desktop-infrastructure-vdi,1900,40,28,No
+What Is A VPN,https://www.fortinet.com/resources/cyberglossary/what-is-a-vpn,165000,81,6,No
+Fabric Of Security,https://www.fortinet.com/resources/cyberglossary/fabric-of-security,40,31,1,No
+Network Detection And Response,https://www.fortinet.com/resources/cyberglossary/what-is-ndr,1300,33,12,No
+Cyber Physical Systems,https://www.fortinet.com/resources/cyberglossary/cyber-physical-systems,1300,50,3,Yes
+Purdue Model,https://www.fortinet.com/resources/cyberglossary/purdue-model,70,34,3,No
+What Is Air Gap,https://www.fortinet.com/resources/cyberglossary/what-is-air-gap,210,50,9,No
+Malware Protection,https://www.fortinet.com/resources/cyberglossary/malware-protection,1830000,62,13,No
+Browser Security,https://www.fortinet.com/resources/cyberglossary/browser-security,1000,50,14,No
+Types Of Malware,https://www.fortinet.com/resources/cyberglossary/types-of-malware,2900,43,3,Yes
+Identity As A Service,https://www.fortinet.com/resources/cyberglossary/identity-as-a-service,880,26,12,No
+DFIR,https://www.fortinet.com/resources/cyberglossary/dfir,2900,41,5,No
+Application Performance Monitoring,https://www.fortinet.com/resources/cyberglossary/application-performance-monitoring,6600,54,18,No
+Soc 1 Compliance,https://www.fortinet.com/resources/cyberglossary/soc1-compliance,590,21,1,Yes
+Security Audit,https://www.fortinet.com/resources/cyberglossary/security-audit,1300,36,4,Yes
+Web Application Security,https://www.fortinet.com/resources/cyberglossary/web-application-security,1900,35,28,No
+Server Virtualization,https://www.fortinet.com/resources/cyberglossary/server-virtualization,1600,37,8,Yes
+Vulnerability Assessment Tools,https://www.fortinet.com/resources/cyberglossary/vulnerability-assessment-tools,1300,42,8,No
+Neural Networks,https://www.fortinet.com/resources/cyberglossary/neural-network,9900,91,-,No
+Shor's Algorithm,https://www.fortinet.com/resources/cyberglossary/shors-grovers-algorithms,3600,67,1,No
+Dark Web Vs Deep Web,https://www.fortinet.com/resources/cyberglossary/dark-vs-deep-web,1000,33,12,No
+Signs Of Malware,https://www.fortinet.com/resources/cyberglossary/signs-of-malware,260,41,1,No
+Vulnerability Management,https://www.fortinet.com/resources/cyberglossary/vulnerability-management,5400,48,63,No
+Vulnerability Disclosure,https://www.fortinet.com/resources/cyberglossary/vulnerability-disclosure,140,28,5,Yes
+Virtual Patching,https://www.fortinet.com/resources/cyberglossary/virtual-patching,260,31,3,Yes
+NERC CIP,https://www.fortinet.com/resources/cyberglossary/nerc-cip,5400,27,6,Yes
+Cyber Security Platform,https://www.fortinet.com/resources/cyberglossary/cyber-security-platform,1000,57,2,Yes
+Compensating Controls,https://www.fortinet.com/resources/cyberglossary/compensating-controls,720,22,2,Yes
+Darkside Ransomware,https://www.fortinet.com/resources/cyberglossary/darkside-ransomware,260,35,4,No
+Rugged Hardware,https://www.fortinet.com/resources/cyberglossary/rugged-hardware,50,24,9,No
+Identity Based Attacks,https://www.fortinet.com/resources/cyberglossary/identity-based-attacks,110,25,7,No
+Enterprise VPN Solutions,https://www.fortinet.com/resources/cyberglossary/enterprise-vpn-solutions,390,50,3,No
+Waf Owasp Top 10,https://www.fortinet.com/resources/cyberglossary/owasp-web-application-firewall,110,58,3,No
+Virtual Machine,https://www.fortinet.com/resources/cyberglossary/virtual-machines,40500,69,9,No
+Agent Vs Agentless Security,https://www.fortinet.com/resources/cyberglossary/agent-vs-agentless-security,90,8,3,No
+Behavioral Analytics,https://www.fortinet.com/resources/cyberglossary/behavioral-analytics,1000,41,14,No
+CI/CD,https://www.fortinet.com/resources/cyberglossary/ci-cd,9900,63,9,No
+CSPM Vs DSPM,https://www.fortinet.com/resources/cyberglossary/cspm-vs-dspm,320,14,5,No
+CTEM,https://www.fortinet.com/resources/cyberglossary/ctem,1600,29,7,No
+Data Discovery,https://www.fortinet.com/resources/cyberglossary/data-discovery,1900,30,30,No
+Data Matching,https://www.fortinet.com/resources/cyberglossary/data-matching,1300,15,11,No
+Data Protection,https://www.fortinet.com/resources/cyberglossary/data-protection,6600,50,14,No
+DCAP,https://www.fortinet.com/resources/cyberglossary/dcap,3600,41,8,No
+Device Control,https://www.fortinet.com/resources/cyberglossary/device-control,720,30,5,No
+Digital Operational Resilience Act,https://www.fortinet.com/resources/cyberglossary/digital-operational-resilience-act-dora,140,51,19,No
+DLP Monitoring,https://www.fortinet.com/resources/cyberglossary/dlp-monitoring,110,27,1,Yes
+DLP Policy,https://www.fortinet.com/resources/cyberglossary/dlp-policy,720,21,2,No
+DLP As A Service,https://www.fortinet.com/resources/cyberglossary/dlpaas-and-dlp-as-a-managed-service,50,39,1,No
+File Sharing Security,https://www.fortinet.com/resources/cyberglossary/file-sharing-security,40,25,1,No
+GDPR,https://www.fortinet.com/resources/cyberglossary/gdpr,49500,100,44,No
+Hipaa Compliance,https://www.fortinet.com/resources/cyberglossary/hipaa-compliance,22200,76,17,No
+Identity Risk,https://www.fortinet.com/resources/cyberglossary/identity-risk-prioritization,170,16,15,No
+Living Off The Land Attack,https://www.fortinet.com/resources/cyberglossary/living-off-the-land-lotl,320,37,4,No
+National Vulnerability Database,https://www.fortinet.com/resources/cyberglossary/national-vulnerability-database-nvd,590,25,5,No
+Network DLP,https://www.fortinet.com/resources/cyberglossary/network-dlp,320,23,1,Yes
+Private 5G Warehousing,https://www.fortinet.com/resources/cyberglossary/private-5g-warehousing,0,6,1,No
+SAAS Security,https://www.fortinet.com/resources/cyberglossary/saas-security,1600,40,9,No
+Secret Management,https://www.fortinet.com/resources/cyberglossary/secret-management,590,39,24,No
+Security Misconfiguration,https://www.fortinet.com/resources/cyberglossary/security-misconfiguration,720,30,6,No
+Software Defined Perimeter,https://www.fortinet.com/resources/cyberglossary/what-is-a-software-defined-perimeter,590,27,5,Yes
+Threat Detection And Response,https://www.fortinet.com/resources/cyberglossary/threat-detection-and-response,1300,31,12,No
+Remote Code Execution,https://www.fortinet.com/resources/cyberglossary/remote-code-execution,4400,84,3,Yes
+Data Poisoning,https://www.fortinet.com/resources/cyberglossary/data-poisoning,590,39,26,No
+Data Privacy,https://www.fortinet.com/resources/cyberglossary/data-privacy,6600,88,-,No
+Cloud Migration,https://www.fortinet.com/resources/cyberglossary/cloud-migration,480,40,74,No
+Cloud Workload Security,https://www.fortinet.com/resources/cyberglossary/cloud-workload-security,480,23,10,No
+Rise Of Cybersecurity Mesh,https://www.fortinet.com/resources/cyberglossary/rise-of-cybersecurity-mesh,170,27,1,No
+SAML,https://www.fortinet.com/resources/cyberglossary/saml,18100,66,17,No
+NGFW Vs UTM,https://www.fortinet.com/resources/cyberglossary/ngfw-vs-utm,170,7,1,Yes
+Cybersecurity Trends,https://www.fortinet.com/resources/cyberglossary/cybersecurity-trends-2026,1300,58,1,Yes
+Cybersecurity Best Practices,https://www.fortinet.com/resources/cyberglossary/cybersecurity-best-practices,40500,67,6,No
+Mlsecops,https://www.fortinet.com/resources/cyberglossary/what-is-mlsecops,100,9,-,No
+Quantum Cryptanalysis,https://www.fortinet.com/resources/cyberglossary/quantum-cryptanalysis,20,30,1,No
+Cybersecurity Risks,https://www.fortinet.com/resources/cyberglossary/cybersecurity-risk,590,54,6,No
+Quantum Cryptography,https://www.fortinet.com/resources/cyberglossary/quantum-cryptography,18100,70,5,No
+Red Teaming,https://www.fortinet.com/resources/cyberglossary/red-teaming,6600,60,17,No
+Prompt Injection Attack,https://www.fortinet.com/resources/cyberglossary/prompt-injection,1000,75,17,No
+AI Risk Management,https://www.fortinet.com/resources/cyberglossary/ai-risk-management,2800,59,-,No
+SASE Firewall,https://www.fortinet.com/resources/cyberglossary/sase,40,65,2,Yes

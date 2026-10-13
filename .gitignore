@@ -12,3 +12,6 @@ logs/
 *.log
 .claude-replay.*
 .tmp-*
+
+.env
+*.env

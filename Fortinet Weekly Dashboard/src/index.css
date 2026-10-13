@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 @import 'tailwindcss';
 
 @theme {
-  --font-sans: 'Inter', -apple-system, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', 'Courier New', monospace;
 }
 
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  background: #f3f5fb;
-  color: #0d1117;
+  background: #f4f3ec;
+  color: #0d1f1a;
   font-family: var(--font-sans);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -22,3 +22,8 @@ body {
 .scanline { display: none; }
 .status-dot { animation: pulse 2s ease-in-out infinite; }
 .section-anim { animation: fadeIn 0.35s ease both; }
+
+.donut-legend-scroll { scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: #cbd5e1 transparent; }
+.donut-legend-scroll::-webkit-scrollbar { width: 6px; }
+.donut-legend-scroll::-webkit-scrollbar-track { background: transparent; }
+.donut-legend-scroll::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
